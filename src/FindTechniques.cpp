@@ -22,8 +22,11 @@ find(const Pattern& pattern, unsigned int score) const {
         if(!result.empty() && chain.size() > result.front().size())
             break;
 
+        if(!checkPatten(pattern, chain))
+            continue;
+
         int current_score = calcScore(chain);
-        if(current_score != score || !checkPatten(pattern, chain))
+        if(current_score != score)
             continue;
 
         result.push_back(chain);
