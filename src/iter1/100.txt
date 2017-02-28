@@ -1,0 +1,5063 @@
+score: 0
+g1 g2 r3 
+g1 g3 r4 
+g2 g1 r3 
+g3 g1 r4 
+score: 1
+g2 r2 
+g4 r4 
+score: 2
+g1 
+score: 3
+g1 g2 r2 
+g1 g4 r4 
+g2 r2 g1 
+g2 g1 r2 
+g4 r4 g1 
+g4 g1 r4 
+score: 4
+g1 g1 
+g2 r1 
+g3 r3 
+score: 5
+g2 g2 r3 
+g2 g3 r4 
+g3 g2 r4 
+score: 6
+g1 g1 g1 
+g1 g2 r1 
+g1 g3 r3 
+g2 r1 g1 
+g2 g1 r1 
+g3 r3 g1 
+g3 g1 r3 
+score: 7
+g2 
+score: 8
+g2 r2 g2 
+g2 g2 r2 
+g2 g4 r4 
+g4 r4 g2 
+g4 g2 r4 
+score: 9
+g1 g2 
+g2 g1 
+score: 10
+g3 r1 
+g4 r2 
+score: 11
+g1 g1 g2 
+g1 g2 g1 
+g2 r1 g2 
+g2 g1 g1 
+g2 g2 r1 
+g2 g3 r3 
+g3 r3 g2 
+g3 g2 r3 
+g3 g3 r4 
+score: 12
+g1 g3 r1 
+g1 g4 r2 
+g3 r1 g1 
+g3 g1 r1 
+g4 r2 g1 
+g4 g1 r2 
+score: 13
+g3 
+score: 14
+g2 g2 
+score: 15
+g1 g3 
+g3 g1 
+score: 16
+g4 
+score: 17
+g1 g1 g3 
+g1 g3 g1 
+g2 r1 g3 
+g2 r2 g4 
+g2 g3 r1 
+g2 g4 r2 
+g3 r1 g2 
+g3 r3 g3 
+g3 g1 g1 
+g3 g2 r1 
+g3 g3 r3 
+g4 r2 g2 
+g4 r4 g4 
+g4 g2 r2 
+g4 g4 r4 
+score: 18
+g1 g4 
+g4 g1 
+score: 19
+g1 g1 g1 g3 
+g1 g1 g3 g1 
+g1 g2 r1 g3 
+g1 g2 r2 g4 
+g1 g2 g3 r1 
+g1 g2 g4 r2 
+g1 g3 r1 g2 
+g1 g3 r3 g3 
+g1 g3 g1 g1 
+g1 g3 g2 r1 
+g1 g3 g3 r3 
+g1 g4 r2 g2 
+g1 g4 r4 g4 
+g1 g4 g2 r2 
+g1 g4 g4 r4 
+g2 r1 g1 g3 
+g2 r1 g3 g1 
+g2 r2 g1 g4 
+g2 r2 g4 g1 
+g2 g1 r1 g3 
+g2 g1 r2 g4 
+g2 g1 g3 r1 
+g2 g1 g4 r2 
+g2 g3 r1 g1 
+g2 g3 g1 r1 
+g2 g4 r2 g1 
+g2 g4 g1 r2 
+g3 r1 g1 g2 
+g3 r1 g2 g1 
+g3 r3 g1 g3 
+g3 r3 g3 g1 
+g3 g1 r1 g2 
+g3 g1 r3 g3 
+g3 g1 g1 g1 
+g3 g1 g2 r1 
+g3 g1 g3 r3 
+g3 g2 r1 g1 
+g3 g2 g1 r1 
+g3 g3 r3 g1 
+g3 g3 g1 r3 
+g4 r2 g1 g2 
+g4 r2 g2 g1 
+g4 r4 g1 g4 
+g4 r4 g4 g1 
+g4 g1 r2 g2 
+g4 g1 r4 g4 
+g4 g1 g2 r2 
+g4 g1 g4 r4 
+g4 g2 r2 g1 
+g4 g2 g1 r2 
+g4 g4 r4 g1 
+g4 g4 g1 r4 
+score: 20
+g2 g3 
+g3 g2 
+score: 21
+g2 g2 g2 
+score: 22
+g1 g2 g3 
+g1 g3 g2 
+g2 g1 g3 
+g2 g3 g1 
+g3 g1 g2 
+g3 g2 g1 
+score: 23
+g2 g4 
+g4 g2 
+score: 24
+g1 g1 g2 g3 
+g1 g1 g3 g2 
+g1 g2 g1 g3 
+g1 g2 g3 g1 
+g1 g3 g1 g2 
+g1 g3 g2 g1 
+g2 r1 g2 g3 
+g2 r1 g3 g2 
+g2 r2 g2 g4 
+g2 r2 g4 g2 
+g2 g1 g1 g3 
+g2 g1 g3 g1 
+g2 g2 r1 g3 
+g2 g2 r2 g4 
+g2 g2 g3 r1 
+g2 g2 g4 r2 
+g2 g3 r1 g2 
+g2 g3 r3 g3 
+g2 g3 g1 g1 
+g2 g3 g2 r1 
+g2 g3 g3 r3 
+g2 g4 r2 g2 
+g2 g4 r4 g4 
+g2 g4 g2 r2 
+g2 g4 g4 r4 
+g3 r1 g2 g2 
+g3 r3 g2 g3 
+g3 r3 g3 g2 
+g3 g1 g1 g2 
+g3 g1 g2 g1 
+g3 g2 r1 g2 
+g3 g2 r3 g3 
+g3 g2 g1 g1 
+g3 g2 g2 r1 
+g3 g2 g3 r3 
+g3 g3 r3 g2 
+g3 g3 r4 g3 
+g3 g3 g2 r3 
+g3 g3 g3 r4 
+g4 r2 g2 g2 
+g4 r4 g2 g4 
+g4 r4 g4 g2 
+g4 g2 r2 g2 
+g4 g2 r4 g4 
+g4 g2 g2 r2 
+g4 g2 g4 r4 
+g4 g4 r4 g2 
+g4 g4 g2 r4 
+score: 25
+g1 g2 g4 
+g1 g4 g2 
+g2 g1 g4 
+g2 g4 g1 
+g4 g1 g2 
+g4 g2 g1 
+score: 26
+g3 g3 
+score: 27
+g2 g2 g3 
+g2 g3 g2 
+g3 g2 g2 
+score: 28
+g1 g3 g3 
+g3 g1 g3 
+g3 g3 g1 
+score: 29
+g3 g4 
+g4 g3 
+score: 30
+g2 g2 g4 
+g2 g4 g2 
+g4 g2 g2 
+score: 31
+g1 g3 g4 
+g1 g4 g3 
+g3 g1 g4 
+g3 g4 g1 
+g4 g1 g3 
+g4 g3 g1 
+score: 32
+g4 g4 
+score: 33
+g2 g3 g3 
+g3 g2 g3 
+g3 g3 g2 
+score: 34
+g1 g4 g4 
+g4 g1 g4 
+g4 g4 g1 
+score: 35
+g1 g2 g3 g3 
+g1 g3 g2 g3 
+g1 g3 g3 g2 
+g2 g1 g3 g3 
+g2 g3 g1 g3 
+g2 g3 g3 g1 
+g3 g1 g2 g3 
+g3 g1 g3 g2 
+g3 g2 g1 g3 
+g3 g2 g3 g1 
+g3 g3 g1 g2 
+g3 g3 g2 g1 
+score: 36
+g2 g3 g4 
+g2 g4 g3 
+g3 g2 g4 
+g3 g4 g2 
+g4 g2 g3 
+g4 g3 g2 
+score: 37
+g2 g2 g2 g4 
+g2 g2 g4 g2 
+g2 g4 g2 g2 
+g4 g2 g2 g2 
+score: 38
+g1 g2 g3 g4 
+g1 g2 g4 g3 
+g1 g3 g2 g4 
+g1 g3 g4 g2 
+g1 g4 g2 g3 
+g1 g4 g3 g2 
+g2 g1 g3 g4 
+g2 g1 g4 g3 
+g2 g3 g1 g4 
+g2 g3 g4 g1 
+g2 g4 g1 g3 
+g2 g4 g3 g1 
+g3 g1 g2 g4 
+g3 g1 g4 g2 
+g3 g2 g1 g4 
+g3 g2 g4 g1 
+g3 g4 g1 g2 
+g3 g4 g2 g1 
+g4 g1 g2 g3 
+g4 g1 g3 g2 
+g4 g2 g1 g3 
+g4 g2 g3 g1 
+g4 g3 g1 g2 
+g4 g3 g2 g1 
+score: 39
+g2 g4 g4 
+g3 g3 g3 
+g4 g2 g4 
+g4 g4 g2 
+score: 40
+g2 g2 g3 g3 
+g2 g3 g2 g3 
+g2 g3 g3 g2 
+g3 g2 g2 g3 
+g3 g2 g3 g2 
+g3 g3 g2 g2 
+score: 41
+g1 g2 g4 g4 
+g1 g3 g3 g3 
+g1 g4 g2 g4 
+g1 g4 g4 g2 
+g2 g1 g4 g4 
+g2 g4 g1 g4 
+g2 g4 g4 g1 
+g3 g1 g3 g3 
+g3 g3 g1 g3 
+g3 g3 g3 g1 
+g4 g1 g2 g4 
+g4 g1 g4 g2 
+g4 g2 g1 g4 
+g4 g2 g4 g1 
+g4 g4 g1 g2 
+g4 g4 g2 g1 
+score: 42
+g3 g3 g4 
+g3 g4 g3 
+g4 g3 g3 
+score: 43
+g2 g2 g3 g4 
+g2 g2 g4 g3 
+g2 g3 g2 g4 
+g2 g3 g4 g2 
+g2 g4 g2 g3 
+g2 g4 g3 g2 
+g3 g2 g2 g4 
+g3 g2 g4 g2 
+g3 g4 g2 g2 
+g4 g2 g2 g3 
+g4 g2 g3 g2 
+g4 g3 g2 g2 
+score: 44
+g1 g3 g3 g4 
+g1 g3 g4 g3 
+g1 g4 g3 g3 
+g3 g1 g3 g4 
+g3 g1 g4 g3 
+g3 g3 g1 g4 
+g3 g3 g4 g1 
+g3 g4 g1 g3 
+g3 g4 g3 g1 
+g4 g1 g3 g3 
+g4 g3 g1 g3 
+g4 g3 g3 g1 
+score: 45
+g3 g4 g4 
+g4 g3 g4 
+g4 g4 g3 
+score: 46
+g2 g2 g4 g4 
+g2 g3 g3 g3 
+g2 g4 g2 g4 
+g2 g4 g4 g2 
+g3 g2 g3 g3 
+g3 g3 g2 g3 
+g3 g3 g3 g2 
+g4 g2 g2 g4 
+g4 g2 g4 g2 
+g4 g4 g2 g2 
+score: 47
+g1 g3 g4 g4 
+g1 g4 g3 g4 
+g1 g4 g4 g3 
+g3 g1 g4 g4 
+g3 g4 g1 g4 
+g3 g4 g4 g1 
+g4 g1 g3 g4 
+g4 g1 g4 g3 
+g4 g3 g1 g4 
+g4 g3 g4 g1 
+g4 g4 g1 g3 
+g4 g4 g3 g1 
+score: 48
+g4 g4 g4 
+score: 49
+g2 g3 g3 g4 
+g2 g3 g4 g3 
+g2 g4 g3 g3 
+g3 g2 g3 g4 
+g3 g2 g4 g3 
+g3 g3 g2 g4 
+g3 g3 g4 g2 
+g3 g4 g2 g3 
+g3 g4 g3 g2 
+g4 g2 g3 g3 
+g4 g3 g2 g3 
+g4 g3 g3 g2 
+score: 50
+g1 g4 g4 g4 
+g4 g1 g4 g4 
+g4 g4 g1 g4 
+g4 g4 g4 g1 
+score: 51
+g1 g2 g3 g3 g4 
+g1 g2 g3 g4 g3 
+g1 g2 g4 g3 g3 
+g1 g3 g2 g3 g4 
+g1 g3 g2 g4 g3 
+g1 g3 g3 g2 g4 
+g1 g3 g3 g4 g2 
+g1 g3 g4 g2 g3 
+g1 g3 g4 g3 g2 
+g1 g4 g2 g3 g3 
+g1 g4 g3 g2 g3 
+g1 g4 g3 g3 g2 
+g2 g1 g3 g3 g4 
+g2 g1 g3 g4 g3 
+g2 g1 g4 g3 g3 
+g2 g3 g1 g3 g4 
+g2 g3 g1 g4 g3 
+g2 g3 g3 g1 g4 
+g2 g3 g3 g4 g1 
+g2 g3 g4 g1 g3 
+g2 g3 g4 g3 g1 
+g2 g4 g1 g3 g3 
+g2 g4 g3 g1 g3 
+g2 g4 g3 g3 g1 
+g3 g1 g2 g3 g4 
+g3 g1 g2 g4 g3 
+g3 g1 g3 g2 g4 
+g3 g1 g3 g4 g2 
+g3 g1 g4 g2 g3 
+g3 g1 g4 g3 g2 
+g3 g2 g1 g3 g4 
+g3 g2 g1 g4 g3 
+g3 g2 g3 g1 g4 
+g3 g2 g3 g4 g1 
+g3 g2 g4 g1 g3 
+g3 g2 g4 g3 g1 
+g3 g3 g1 g2 g4 
+g3 g3 g1 g4 g2 
+g3 g3 g2 g1 g4 
+g3 g3 g2 g4 g1 
+g3 g3 g4 g1 g2 
+g3 g3 g4 g2 g1 
+g3 g4 g1 g2 g3 
+g3 g4 g1 g3 g2 
+g3 g4 g2 g1 g3 
+g3 g4 g2 g3 g1 
+g3 g4 g3 g1 g2 
+g3 g4 g3 g2 g1 
+g4 g1 g2 g3 g3 
+g4 g1 g3 g2 g3 
+g4 g1 g3 g3 g2 
+g4 g2 g1 g3 g3 
+g4 g2 g3 g1 g3 
+g4 g2 g3 g3 g1 
+g4 g3 g1 g2 g3 
+g4 g3 g1 g3 g2 
+g4 g3 g2 g1 g3 
+g4 g3 g2 g3 g1 
+g4 g3 g3 g1 g2 
+g4 g3 g3 g2 g1 
+score: 52
+g2 g3 g4 g4 
+g2 g4 g3 g4 
+g2 g4 g4 g3 
+g3 g2 g4 g4 
+g3 g3 g3 g3 
+g3 g4 g2 g4 
+g3 g4 g4 g2 
+g4 g2 g3 g4 
+g4 g2 g4 g3 
+g4 g3 g2 g4 
+g4 g3 g4 g2 
+g4 g4 g2 g3 
+g4 g4 g3 g2 
+score: 53
+g2 g2 g2 g4 g4 
+g2 g2 g3 g3 g3 
+g2 g2 g4 g2 g4 
+g2 g2 g4 g4 g2 
+g2 g3 g2 g3 g3 
+g2 g3 g3 g2 g3 
+g2 g3 g3 g3 g2 
+g2 g4 g2 g2 g4 
+g2 g4 g2 g4 g2 
+g2 g4 g4 g2 g2 
+g3 g2 g2 g3 g3 
+g3 g2 g3 g2 g3 
+g3 g2 g3 g3 g2 
+g3 g3 g2 g2 g3 
+g3 g3 g2 g3 g2 
+g3 g3 g3 g2 g2 
+g4 g2 g2 g2 g4 
+g4 g2 g2 g4 g2 
+g4 g2 g4 g2 g2 
+g4 g4 g2 g2 g2 
+score: 54
+g1 g2 g3 g4 g4 
+g1 g2 g4 g3 g4 
+g1 g2 g4 g4 g3 
+g1 g3 g2 g4 g4 
+g1 g3 g3 g3 g3 
+g1 g3 g4 g2 g4 
+g1 g3 g4 g4 g2 
+g1 g4 g2 g3 g4 
+g1 g4 g2 g4 g3 
+g1 g4 g3 g2 g4 
+g1 g4 g3 g4 g2 
+g1 g4 g4 g2 g3 
+g1 g4 g4 g3 g2 
+g2 g1 g3 g4 g4 
+g2 g1 g4 g3 g4 
+g2 g1 g4 g4 g3 
+g2 g3 g1 g4 g4 
+g2 g3 g4 g1 g4 
+g2 g3 g4 g4 g1 
+g2 g4 g1 g3 g4 
+g2 g4 g1 g4 g3 
+g2 g4 g3 g1 g4 
+g2 g4 g3 g4 g1 
+g2 g4 g4 g1 g3 
+g2 g4 g4 g3 g1 
+g3 g1 g2 g4 g4 
+g3 g1 g3 g3 g3 
+g3 g1 g4 g2 g4 
+g3 g1 g4 g4 g2 
+g3 g2 g1 g4 g4 
+g3 g2 g4 g1 g4 
+g3 g2 g4 g4 g1 
+g3 g3 g1 g3 g3 
+g3 g3 g3 g1 g3 
+g3 g3 g3 g3 g1 
+g3 g4 g1 g2 g4 
+g3 g4 g1 g4 g2 
+g3 g4 g2 g1 g4 
+g3 g4 g2 g4 g1 
+g3 g4 g4 g1 g2 
+g3 g4 g4 g2 g1 
+g4 g1 g2 g3 g4 
+g4 g1 g2 g4 g3 
+g4 g1 g3 g2 g4 
+g4 g1 g3 g4 g2 
+g4 g1 g4 g2 g3 
+g4 g1 g4 g3 g2 
+g4 g2 g1 g3 g4 
+g4 g2 g1 g4 g3 
+g4 g2 g3 g1 g4 
+g4 g2 g3 g4 g1 
+g4 g2 g4 g1 g3 
+g4 g2 g4 g3 g1 
+g4 g3 g1 g2 g4 
+g4 g3 g1 g4 g2 
+g4 g3 g2 g1 g4 
+g4 g3 g2 g4 g1 
+g4 g3 g4 g1 g2 
+g4 g3 g4 g2 g1 
+g4 g4 g1 g2 g3 
+g4 g4 g1 g3 g2 
+g4 g4 g2 g1 g3 
+g4 g4 g2 g3 g1 
+g4 g4 g3 g1 g2 
+g4 g4 g3 g2 g1 
+score: 55
+g2 g4 g4 g4 
+g3 g3 g3 g4 
+g3 g3 g4 g3 
+g3 g4 g3 g3 
+g4 g2 g4 g4 
+g4 g3 g3 g3 
+g4 g4 g2 g4 
+g4 g4 g4 g2 
+score: 56
+g2 g2 g3 g3 g4 
+g2 g2 g3 g4 g3 
+g2 g2 g4 g3 g3 
+g2 g3 g2 g3 g4 
+g2 g3 g2 g4 g3 
+g2 g3 g3 g2 g4 
+g2 g3 g3 g4 g2 
+g2 g3 g4 g2 g3 
+g2 g3 g4 g3 g2 
+g2 g4 g2 g3 g3 
+g2 g4 g3 g2 g3 
+g2 g4 g3 g3 g2 
+g3 g2 g2 g3 g4 
+g3 g2 g2 g4 g3 
+g3 g2 g3 g2 g4 
+g3 g2 g3 g4 g2 
+g3 g2 g4 g2 g3 
+g3 g2 g4 g3 g2 
+g3 g3 g2 g2 g4 
+g3 g3 g2 g4 g2 
+g3 g3 g4 g2 g2 
+g3 g4 g2 g2 g3 
+g3 g4 g2 g3 g2 
+g3 g4 g3 g2 g2 
+g4 g2 g2 g3 g3 
+g4 g2 g3 g2 g3 
+g4 g2 g3 g3 g2 
+g4 g3 g2 g2 g3 
+g4 g3 g2 g3 g2 
+g4 g3 g3 g2 g2 
+score: 57
+g1 g2 g4 g4 g4 
+g1 g3 g3 g3 g4 
+g1 g3 g3 g4 g3 
+g1 g3 g4 g3 g3 
+g1 g4 g2 g4 g4 
+g1 g4 g3 g3 g3 
+g1 g4 g4 g2 g4 
+g1 g4 g4 g4 g2 
+g2 g1 g4 g4 g4 
+g2 g4 g1 g4 g4 
+g2 g4 g4 g1 g4 
+g2 g4 g4 g4 g1 
+g3 g1 g3 g3 g4 
+g3 g1 g3 g4 g3 
+g3 g1 g4 g3 g3 
+g3 g3 g1 g3 g4 
+g3 g3 g1 g4 g3 
+g3 g3 g3 g1 g4 
+g3 g3 g3 g4 g1 
+g3 g3 g4 g1 g3 
+g3 g3 g4 g3 g1 
+g3 g4 g1 g3 g3 
+g3 g4 g3 g1 g3 
+g3 g4 g3 g3 g1 
+g4 g1 g2 g4 g4 
+g4 g1 g3 g3 g3 
+g4 g1 g4 g2 g4 
+g4 g1 g4 g4 g2 
+g4 g2 g1 g4 g4 
+g4 g2 g4 g1 g4 
+g4 g2 g4 g4 g1 
+g4 g3 g1 g3 g3 
+g4 g3 g3 g1 g3 
+g4 g3 g3 g3 g1 
+g4 g4 g1 g2 g4 
+g4 g4 g1 g4 g2 
+g4 g4 g2 g1 g4 
+g4 g4 g2 g4 g1 
+g4 g4 g4 g1 g2 
+g4 g4 g4 g2 g1 
+score: 58
+g3 g3 g4 g4 
+g3 g4 g3 g4 
+g3 g4 g4 g3 
+g4 g3 g3 g4 
+g4 g3 g4 g3 
+g4 g4 g3 g3 
+score: 59
+g2 g2 g3 g4 g4 
+g2 g2 g4 g3 g4 
+g2 g2 g4 g4 g3 
+g2 g3 g2 g4 g4 
+g2 g3 g3 g3 g3 
+g2 g3 g4 g2 g4 
+g2 g3 g4 g4 g2 
+g2 g4 g2 g3 g4 
+g2 g4 g2 g4 g3 
+g2 g4 g3 g2 g4 
+g2 g4 g3 g4 g2 
+g2 g4 g4 g2 g3 
+g2 g4 g4 g3 g2 
+g3 g2 g2 g4 g4 
+g3 g2 g3 g3 g3 
+g3 g2 g4 g2 g4 
+g3 g2 g4 g4 g2 
+g3 g3 g2 g3 g3 
+g3 g3 g3 g2 g3 
+g3 g3 g3 g3 g2 
+g3 g4 g2 g2 g4 
+g3 g4 g2 g4 g2 
+g3 g4 g4 g2 g2 
+g4 g2 g2 g3 g4 
+g4 g2 g2 g4 g3 
+g4 g2 g3 g2 g4 
+g4 g2 g3 g4 g2 
+g4 g2 g4 g2 g3 
+g4 g2 g4 g3 g2 
+g4 g3 g2 g2 g4 
+g4 g3 g2 g4 g2 
+g4 g3 g4 g2 g2 
+g4 g4 g2 g2 g3 
+g4 g4 g2 g3 g2 
+g4 g4 g3 g2 g2 
+score: 60
+g1 g3 g3 g4 g4 
+g1 g3 g4 g3 g4 
+g1 g3 g4 g4 g3 
+g1 g4 g3 g3 g4 
+g1 g4 g3 g4 g3 
+g1 g4 g4 g3 g3 
+g3 g1 g3 g4 g4 
+g3 g1 g4 g3 g4 
+g3 g1 g4 g4 g3 
+g3 g3 g1 g4 g4 
+g3 g3 g4 g1 g4 
+g3 g3 g4 g4 g1 
+g3 g4 g1 g3 g4 
+g3 g4 g1 g4 g3 
+g3 g4 g3 g1 g4 
+g3 g4 g3 g4 g1 
+g3 g4 g4 g1 g3 
+g3 g4 g4 g3 g1 
+g4 g1 g3 g3 g4 
+g4 g1 g3 g4 g3 
+g4 g1 g4 g3 g3 
+g4 g3 g1 g3 g4 
+g4 g3 g1 g4 g3 
+g4 g3 g3 g1 g4 
+g4 g3 g3 g4 g1 
+g4 g3 g4 g1 g3 
+g4 g3 g4 g3 g1 
+g4 g4 g1 g3 g3 
+g4 g4 g3 g1 g3 
+g4 g4 g3 g3 g1 
+score: 61
+g3 g4 g4 g4 
+g4 g3 g4 g4 
+g4 g4 g3 g4 
+g4 g4 g4 g3 
+score: 62
+g2 g2 g4 g4 g4 
+g2 g3 g3 g3 g4 
+g2 g3 g3 g4 g3 
+g2 g3 g4 g3 g3 
+g2 g4 g2 g4 g4 
+g2 g4 g3 g3 g3 
+g2 g4 g4 g2 g4 
+g2 g4 g4 g4 g2 
+g3 g2 g3 g3 g4 
+g3 g2 g3 g4 g3 
+g3 g2 g4 g3 g3 
+g3 g3 g2 g3 g4 
+g3 g3 g2 g4 g3 
+g3 g3 g3 g2 g4 
+g3 g3 g3 g4 g2 
+g3 g3 g4 g2 g3 
+g3 g3 g4 g3 g2 
+g3 g4 g2 g3 g3 
+g3 g4 g3 g2 g3 
+g3 g4 g3 g3 g2 
+g4 g2 g2 g4 g4 
+g4 g2 g3 g3 g3 
+g4 g2 g4 g2 g4 
+g4 g2 g4 g4 g2 
+g4 g3 g2 g3 g3 
+g4 g3 g3 g2 g3 
+g4 g3 g3 g3 g2 
+g4 g4 g2 g2 g4 
+g4 g4 g2 g4 g2 
+g4 g4 g4 g2 g2 
+score: 63
+g1 g3 g4 g4 g4 
+g1 g4 g3 g4 g4 
+g1 g4 g4 g3 g4 
+g1 g4 g4 g4 g3 
+g3 g1 g4 g4 g4 
+g3 g4 g1 g4 g4 
+g3 g4 g4 g1 g4 
+g3 g4 g4 g4 g1 
+g4 g1 g3 g4 g4 
+g4 g1 g4 g3 g4 
+g4 g1 g4 g4 g3 
+g4 g3 g1 g4 g4 
+g4 g3 g4 g1 g4 
+g4 g3 g4 g4 g1 
+g4 g4 g1 g3 g4 
+g4 g4 g1 g4 g3 
+g4 g4 g3 g1 g4 
+g4 g4 g3 g4 g1 
+g4 g4 g4 g1 g3 
+g4 g4 g4 g3 g1 
+score: 64
+g4 g4 g4 g4 
+score: 65
+g2 g3 g3 g4 g4 
+g2 g3 g4 g3 g4 
+g2 g3 g4 g4 g3 
+g2 g4 g3 g3 g4 
+g2 g4 g3 g4 g3 
+g2 g4 g4 g3 g3 
+g3 g2 g3 g4 g4 
+g3 g2 g4 g3 g4 
+g3 g2 g4 g4 g3 
+g3 g3 g2 g4 g4 
+g3 g3 g3 g3 g3 
+g3 g3 g4 g2 g4 
+g3 g3 g4 g4 g2 
+g3 g4 g2 g3 g4 
+g3 g4 g2 g4 g3 
+g3 g4 g3 g2 g4 
+g3 g4 g3 g4 g2 
+g3 g4 g4 g2 g3 
+g3 g4 g4 g3 g2 
+g4 g2 g3 g3 g4 
+g4 g2 g3 g4 g3 
+g4 g2 g4 g3 g3 
+g4 g3 g2 g3 g4 
+g4 g3 g2 g4 g3 
+g4 g3 g3 g2 g4 
+g4 g3 g3 g4 g2 
+g4 g3 g4 g2 g3 
+g4 g3 g4 g3 g2 
+g4 g4 g2 g3 g3 
+g4 g4 g3 g2 g3 
+g4 g4 g3 g3 g2 
+score: 66
+g1 g4 g4 g4 g4 
+g4 g1 g4 g4 g4 
+g4 g4 g1 g4 g4 
+g4 g4 g4 g1 g4 
+g4 g4 g4 g4 g1 
+score: 67
+g1 g2 g3 g3 g4 g4 
+g1 g2 g3 g4 g3 g4 
+g1 g2 g3 g4 g4 g3 
+g1 g2 g4 g3 g3 g4 
+g1 g2 g4 g3 g4 g3 
+g1 g2 g4 g4 g3 g3 
+g1 g3 g2 g3 g4 g4 
+g1 g3 g2 g4 g3 g4 
+g1 g3 g2 g4 g4 g3 
+g1 g3 g3 g2 g4 g4 
+g1 g3 g3 g3 g3 g3 
+g1 g3 g3 g4 g2 g4 
+g1 g3 g3 g4 g4 g2 
+g1 g3 g4 g2 g3 g4 
+g1 g3 g4 g2 g4 g3 
+g1 g3 g4 g3 g2 g4 
+g1 g3 g4 g3 g4 g2 
+g1 g3 g4 g4 g2 g3 
+g1 g3 g4 g4 g3 g2 
+g1 g4 g2 g3 g3 g4 
+g1 g4 g2 g3 g4 g3 
+g1 g4 g2 g4 g3 g3 
+g1 g4 g3 g2 g3 g4 
+g1 g4 g3 g2 g4 g3 
+g1 g4 g3 g3 g2 g4 
+g1 g4 g3 g3 g4 g2 
+g1 g4 g3 g4 g2 g3 
+g1 g4 g3 g4 g3 g2 
+g1 g4 g4 g2 g3 g3 
+g1 g4 g4 g3 g2 g3 
+g1 g4 g4 g3 g3 g2 
+g2 g1 g3 g3 g4 g4 
+g2 g1 g3 g4 g3 g4 
+g2 g1 g3 g4 g4 g3 
+g2 g1 g4 g3 g3 g4 
+g2 g1 g4 g3 g4 g3 
+g2 g1 g4 g4 g3 g3 
+g2 g3 g1 g3 g4 g4 
+g2 g3 g1 g4 g3 g4 
+g2 g3 g1 g4 g4 g3 
+g2 g3 g3 g1 g4 g4 
+g2 g3 g3 g4 g1 g4 
+g2 g3 g3 g4 g4 g1 
+g2 g3 g4 g1 g3 g4 
+g2 g3 g4 g1 g4 g3 
+g2 g3 g4 g3 g1 g4 
+g2 g3 g4 g3 g4 g1 
+g2 g3 g4 g4 g1 g3 
+g2 g3 g4 g4 g3 g1 
+g2 g4 g1 g3 g3 g4 
+g2 g4 g1 g3 g4 g3 
+g2 g4 g1 g4 g3 g3 
+g2 g4 g3 g1 g3 g4 
+g2 g4 g3 g1 g4 g3 
+g2 g4 g3 g3 g1 g4 
+g2 g4 g3 g3 g4 g1 
+g2 g4 g3 g4 g1 g3 
+g2 g4 g3 g4 g3 g1 
+g2 g4 g4 g1 g3 g3 
+g2 g4 g4 g3 g1 g3 
+g2 g4 g4 g3 g3 g1 
+g3 g1 g2 g3 g4 g4 
+g3 g1 g2 g4 g3 g4 
+g3 g1 g2 g4 g4 g3 
+g3 g1 g3 g2 g4 g4 
+g3 g1 g3 g3 g3 g3 
+g3 g1 g3 g4 g2 g4 
+g3 g1 g3 g4 g4 g2 
+g3 g1 g4 g2 g3 g4 
+g3 g1 g4 g2 g4 g3 
+g3 g1 g4 g3 g2 g4 
+g3 g1 g4 g3 g4 g2 
+g3 g1 g4 g4 g2 g3 
+g3 g1 g4 g4 g3 g2 
+g3 g2 g1 g3 g4 g4 
+g3 g2 g1 g4 g3 g4 
+g3 g2 g1 g4 g4 g3 
+g3 g2 g3 g1 g4 g4 
+g3 g2 g3 g4 g1 g4 
+g3 g2 g3 g4 g4 g1 
+g3 g2 g4 g1 g3 g4 
+g3 g2 g4 g1 g4 g3 
+g3 g2 g4 g3 g1 g4 
+g3 g2 g4 g3 g4 g1 
+g3 g2 g4 g4 g1 g3 
+g3 g2 g4 g4 g3 g1 
+g3 g3 g1 g2 g4 g4 
+g3 g3 g1 g3 g3 g3 
+g3 g3 g1 g4 g2 g4 
+g3 g3 g1 g4 g4 g2 
+g3 g3 g2 g1 g4 g4 
+g3 g3 g2 g4 g1 g4 
+g3 g3 g2 g4 g4 g1 
+g3 g3 g3 g1 g3 g3 
+g3 g3 g3 g3 g1 g3 
+g3 g3 g3 g3 g3 g1 
+g3 g3 g4 g1 g2 g4 
+g3 g3 g4 g1 g4 g2 
+g3 g3 g4 g2 g1 g4 
+g3 g3 g4 g2 g4 g1 
+g3 g3 g4 g4 g1 g2 
+g3 g3 g4 g4 g2 g1 
+g3 g4 g1 g2 g3 g4 
+g3 g4 g1 g2 g4 g3 
+g3 g4 g1 g3 g2 g4 
+g3 g4 g1 g3 g4 g2 
+g3 g4 g1 g4 g2 g3 
+g3 g4 g1 g4 g3 g2 
+g3 g4 g2 g1 g3 g4 
+g3 g4 g2 g1 g4 g3 
+g3 g4 g2 g3 g1 g4 
+g3 g4 g2 g3 g4 g1 
+g3 g4 g2 g4 g1 g3 
+g3 g4 g2 g4 g3 g1 
+g3 g4 g3 g1 g2 g4 
+g3 g4 g3 g1 g4 g2 
+g3 g4 g3 g2 g1 g4 
+g3 g4 g3 g2 g4 g1 
+g3 g4 g3 g4 g1 g2 
+g3 g4 g3 g4 g2 g1 
+g3 g4 g4 g1 g2 g3 
+g3 g4 g4 g1 g3 g2 
+g3 g4 g4 g2 g1 g3 
+g3 g4 g4 g2 g3 g1 
+g3 g4 g4 g3 g1 g2 
+g3 g4 g4 g3 g2 g1 
+g4 g1 g2 g3 g3 g4 
+g4 g1 g2 g3 g4 g3 
+g4 g1 g2 g4 g3 g3 
+g4 g1 g3 g2 g3 g4 
+g4 g1 g3 g2 g4 g3 
+g4 g1 g3 g3 g2 g4 
+g4 g1 g3 g3 g4 g2 
+g4 g1 g3 g4 g2 g3 
+g4 g1 g3 g4 g3 g2 
+g4 g1 g4 g2 g3 g3 
+g4 g1 g4 g3 g2 g3 
+g4 g1 g4 g3 g3 g2 
+g4 g2 g1 g3 g3 g4 
+g4 g2 g1 g3 g4 g3 
+g4 g2 g1 g4 g3 g3 
+g4 g2 g3 g1 g3 g4 
+g4 g2 g3 g1 g4 g3 
+g4 g2 g3 g3 g1 g4 
+g4 g2 g3 g3 g4 g1 
+g4 g2 g3 g4 g1 g3 
+g4 g2 g3 g4 g3 g1 
+g4 g2 g4 g1 g3 g3 
+g4 g2 g4 g3 g1 g3 
+g4 g2 g4 g3 g3 g1 
+g4 g3 g1 g2 g3 g4 
+g4 g3 g1 g2 g4 g3 
+g4 g3 g1 g3 g2 g4 
+g4 g3 g1 g3 g4 g2 
+g4 g3 g1 g4 g2 g3 
+g4 g3 g1 g4 g3 g2 
+g4 g3 g2 g1 g3 g4 
+g4 g3 g2 g1 g4 g3 
+g4 g3 g2 g3 g1 g4 
+g4 g3 g2 g3 g4 g1 
+g4 g3 g2 g4 g1 g3 
+g4 g3 g2 g4 g3 g1 
+g4 g3 g3 g1 g2 g4 
+g4 g3 g3 g1 g4 g2 
+g4 g3 g3 g2 g1 g4 
+g4 g3 g3 g2 g4 g1 
+g4 g3 g3 g4 g1 g2 
+g4 g3 g3 g4 g2 g1 
+g4 g3 g4 g1 g2 g3 
+g4 g3 g4 g1 g3 g2 
+g4 g3 g4 g2 g1 g3 
+g4 g3 g4 g2 g3 g1 
+g4 g3 g4 g3 g1 g2 
+g4 g3 g4 g3 g2 g1 
+g4 g4 g1 g2 g3 g3 
+g4 g4 g1 g3 g2 g3 
+g4 g4 g1 g3 g3 g2 
+g4 g4 g2 g1 g3 g3 
+g4 g4 g2 g3 g1 g3 
+g4 g4 g2 g3 g3 g1 
+g4 g4 g3 g1 g2 g3 
+g4 g4 g3 g1 g3 g2 
+g4 g4 g3 g2 g1 g3 
+g4 g4 g3 g2 g3 g1 
+g4 g4 g3 g3 g1 g2 
+g4 g4 g3 g3 g2 g1 
+score: 68
+g2 g3 g4 g4 g4 
+g2 g4 g3 g4 g4 
+g2 g4 g4 g3 g4 
+g2 g4 g4 g4 g3 
+g3 g2 g4 g4 g4 
+g3 g3 g3 g3 g4 
+g3 g3 g3 g4 g3 
+g3 g3 g4 g3 g3 
+g3 g4 g2 g4 g4 
+g3 g4 g3 g3 g3 
+g3 g4 g4 g2 g4 
+g3 g4 g4 g4 g2 
+g4 g2 g3 g4 g4 
+g4 g2 g4 g3 g4 
+g4 g2 g4 g4 g3 
+g4 g3 g2 g4 g4 
+g4 g3 g3 g3 g3 
+g4 g3 g4 g2 g4 
+g4 g3 g4 g4 g2 
+g4 g4 g2 g3 g4 
+g4 g4 g2 g4 g3 
+g4 g4 g3 g2 g4 
+g4 g4 g3 g4 g2 
+g4 g4 g4 g2 g3 
+g4 g4 g4 g3 g2 
+score: 69
+g2 g2 g2 g4 g4 g4 
+g2 g2 g3 g3 g3 g4 
+g2 g2 g3 g3 g4 g3 
+g2 g2 g3 g4 g3 g3 
+g2 g2 g4 g2 g4 g4 
+g2 g2 g4 g3 g3 g3 
+g2 g2 g4 g4 g2 g4 
+g2 g2 g4 g4 g4 g2 
+g2 g3 g2 g3 g3 g4 
+g2 g3 g2 g3 g4 g3 
+g2 g3 g2 g4 g3 g3 
+g2 g3 g3 g2 g3 g4 
+g2 g3 g3 g2 g4 g3 
+g2 g3 g3 g3 g2 g4 
+g2 g3 g3 g3 g4 g2 
+g2 g3 g3 g4 g2 g3 
+g2 g3 g3 g4 g3 g2 
+g2 g3 g4 g2 g3 g3 
+g2 g3 g4 g3 g2 g3 
+g2 g3 g4 g3 g3 g2 
+g2 g4 g2 g2 g4 g4 
+g2 g4 g2 g3 g3 g3 
+g2 g4 g2 g4 g2 g4 
+g2 g4 g2 g4 g4 g2 
+g2 g4 g3 g2 g3 g3 
+g2 g4 g3 g3 g2 g3 
+g2 g4 g3 g3 g3 g2 
+g2 g4 g4 g2 g2 g4 
+g2 g4 g4 g2 g4 g2 
+g2 g4 g4 g4 g2 g2 
+g3 g2 g2 g3 g3 g4 
+g3 g2 g2 g3 g4 g3 
+g3 g2 g2 g4 g3 g3 
+g3 g2 g3 g2 g3 g4 
+g3 g2 g3 g2 g4 g3 
+g3 g2 g3 g3 g2 g4 
+g3 g2 g3 g3 g4 g2 
+g3 g2 g3 g4 g2 g3 
+g3 g2 g3 g4 g3 g2 
+g3 g2 g4 g2 g3 g3 
+g3 g2 g4 g3 g2 g3 
+g3 g2 g4 g3 g3 g2 
+g3 g3 g2 g2 g3 g4 
+g3 g3 g2 g2 g4 g3 
+g3 g3 g2 g3 g2 g4 
+g3 g3 g2 g3 g4 g2 
+g3 g3 g2 g4 g2 g3 
+g3 g3 g2 g4 g3 g2 
+g3 g3 g3 g2 g2 g4 
+g3 g3 g3 g2 g4 g2 
+g3 g3 g3 g4 g2 g2 
+g3 g3 g4 g2 g2 g3 
+g3 g3 g4 g2 g3 g2 
+g3 g3 g4 g3 g2 g2 
+g3 g4 g2 g2 g3 g3 
+g3 g4 g2 g3 g2 g3 
+g3 g4 g2 g3 g3 g2 
+g3 g4 g3 g2 g2 g3 
+g3 g4 g3 g2 g3 g2 
+g3 g4 g3 g3 g2 g2 
+g4 g2 g2 g2 g4 g4 
+g4 g2 g2 g3 g3 g3 
+g4 g2 g2 g4 g2 g4 
+g4 g2 g2 g4 g4 g2 
+g4 g2 g3 g2 g3 g3 
+g4 g2 g3 g3 g2 g3 
+g4 g2 g3 g3 g3 g2 
+g4 g2 g4 g2 g2 g4 
+g4 g2 g4 g2 g4 g2 
+g4 g2 g4 g4 g2 g2 
+g4 g3 g2 g2 g3 g3 
+g4 g3 g2 g3 g2 g3 
+g4 g3 g2 g3 g3 g2 
+g4 g3 g3 g2 g2 g3 
+g4 g3 g3 g2 g3 g2 
+g4 g3 g3 g3 g2 g2 
+g4 g4 g2 g2 g2 g4 
+g4 g4 g2 g2 g4 g2 
+g4 g4 g2 g4 g2 g2 
+g4 g4 g4 g2 g2 g2 
+score: 70
+g1 g2 g3 g4 g4 g4 
+g1 g2 g4 g3 g4 g4 
+g1 g2 g4 g4 g3 g4 
+g1 g2 g4 g4 g4 g3 
+g1 g3 g2 g4 g4 g4 
+g1 g3 g3 g3 g3 g4 
+g1 g3 g3 g3 g4 g3 
+g1 g3 g3 g4 g3 g3 
+g1 g3 g4 g2 g4 g4 
+g1 g3 g4 g3 g3 g3 
+g1 g3 g4 g4 g2 g4 
+g1 g3 g4 g4 g4 g2 
+g1 g4 g2 g3 g4 g4 
+g1 g4 g2 g4 g3 g4 
+g1 g4 g2 g4 g4 g3 
+g1 g4 g3 g2 g4 g4 
+g1 g4 g3 g3 g3 g3 
+g1 g4 g3 g4 g2 g4 
+g1 g4 g3 g4 g4 g2 
+g1 g4 g4 g2 g3 g4 
+g1 g4 g4 g2 g4 g3 
+g1 g4 g4 g3 g2 g4 
+g1 g4 g4 g3 g4 g2 
+g1 g4 g4 g4 g2 g3 
+g1 g4 g4 g4 g3 g2 
+g2 g1 g3 g4 g4 g4 
+g2 g1 g4 g3 g4 g4 
+g2 g1 g4 g4 g3 g4 
+g2 g1 g4 g4 g4 g3 
+g2 g3 g1 g4 g4 g4 
+g2 g3 g4 g1 g4 g4 
+g2 g3 g4 g4 g1 g4 
+g2 g3 g4 g4 g4 g1 
+g2 g4 g1 g3 g4 g4 
+g2 g4 g1 g4 g3 g4 
+g2 g4 g1 g4 g4 g3 
+g2 g4 g3 g1 g4 g4 
+g2 g4 g3 g4 g1 g4 
+g2 g4 g3 g4 g4 g1 
+g2 g4 g4 g1 g3 g4 
+g2 g4 g4 g1 g4 g3 
+g2 g4 g4 g3 g1 g4 
+g2 g4 g4 g3 g4 g1 
+g2 g4 g4 g4 g1 g3 
+g2 g4 g4 g4 g3 g1 
+g3 g1 g2 g4 g4 g4 
+g3 g1 g3 g3 g3 g4 
+g3 g1 g3 g3 g4 g3 
+g3 g1 g3 g4 g3 g3 
+g3 g1 g4 g2 g4 g4 
+g3 g1 g4 g3 g3 g3 
+g3 g1 g4 g4 g2 g4 
+g3 g1 g4 g4 g4 g2 
+g3 g2 g1 g4 g4 g4 
+g3 g2 g4 g1 g4 g4 
+g3 g2 g4 g4 g1 g4 
+g3 g2 g4 g4 g4 g1 
+g3 g3 g1 g3 g3 g4 
+g3 g3 g1 g3 g4 g3 
+g3 g3 g1 g4 g3 g3 
+g3 g3 g3 g1 g3 g4 
+g3 g3 g3 g1 g4 g3 
+g3 g3 g3 g3 g1 g4 
+g3 g3 g3 g3 g4 g1 
+g3 g3 g3 g4 g1 g3 
+g3 g3 g3 g4 g3 g1 
+g3 g3 g4 g1 g3 g3 
+g3 g3 g4 g3 g1 g3 
+g3 g3 g4 g3 g3 g1 
+g3 g4 g1 g2 g4 g4 
+g3 g4 g1 g3 g3 g3 
+g3 g4 g1 g4 g2 g4 
+g3 g4 g1 g4 g4 g2 
+g3 g4 g2 g1 g4 g4 
+g3 g4 g2 g4 g1 g4 
+g3 g4 g2 g4 g4 g1 
+g3 g4 g3 g1 g3 g3 
+g3 g4 g3 g3 g1 g3 
+g3 g4 g3 g3 g3 g1 
+g3 g4 g4 g1 g2 g4 
+g3 g4 g4 g1 g4 g2 
+g3 g4 g4 g2 g1 g4 
+g3 g4 g4 g2 g4 g1 
+g3 g4 g4 g4 g1 g2 
+g3 g4 g4 g4 g2 g1 
+g4 g1 g2 g3 g4 g4 
+g4 g1 g2 g4 g3 g4 
+g4 g1 g2 g4 g4 g3 
+g4 g1 g3 g2 g4 g4 
+g4 g1 g3 g3 g3 g3 
+g4 g1 g3 g4 g2 g4 
+g4 g1 g3 g4 g4 g2 
+g4 g1 g4 g2 g3 g4 
+g4 g1 g4 g2 g4 g3 
+g4 g1 g4 g3 g2 g4 
+g4 g1 g4 g3 g4 g2 
+g4 g1 g4 g4 g2 g3 
+g4 g1 g4 g4 g3 g2 
+g4 g2 g1 g3 g4 g4 
+g4 g2 g1 g4 g3 g4 
+g4 g2 g1 g4 g4 g3 
+g4 g2 g3 g1 g4 g4 
+g4 g2 g3 g4 g1 g4 
+g4 g2 g3 g4 g4 g1 
+g4 g2 g4 g1 g3 g4 
+g4 g2 g4 g1 g4 g3 
+g4 g2 g4 g3 g1 g4 
+g4 g2 g4 g3 g4 g1 
+g4 g2 g4 g4 g1 g3 
+g4 g2 g4 g4 g3 g1 
+g4 g3 g1 g2 g4 g4 
+g4 g3 g1 g3 g3 g3 
+g4 g3 g1 g4 g2 g4 
+g4 g3 g1 g4 g4 g2 
+g4 g3 g2 g1 g4 g4 
+g4 g3 g2 g4 g1 g4 
+g4 g3 g2 g4 g4 g1 
+g4 g3 g3 g1 g3 g3 
+g4 g3 g3 g3 g1 g3 
+g4 g3 g3 g3 g3 g1 
+g4 g3 g4 g1 g2 g4 
+g4 g3 g4 g1 g4 g2 
+g4 g3 g4 g2 g1 g4 
+g4 g3 g4 g2 g4 g1 
+g4 g3 g4 g4 g1 g2 
+g4 g3 g4 g4 g2 g1 
+g4 g4 g1 g2 g3 g4 
+g4 g4 g1 g2 g4 g3 
+g4 g4 g1 g3 g2 g4 
+g4 g4 g1 g3 g4 g2 
+g4 g4 g1 g4 g2 g3 
+g4 g4 g1 g4 g3 g2 
+g4 g4 g2 g1 g3 g4 
+g4 g4 g2 g1 g4 g3 
+g4 g4 g2 g3 g1 g4 
+g4 g4 g2 g3 g4 g1 
+g4 g4 g2 g4 g1 g3 
+g4 g4 g2 g4 g3 g1 
+g4 g4 g3 g1 g2 g4 
+g4 g4 g3 g1 g4 g2 
+g4 g4 g3 g2 g1 g4 
+g4 g4 g3 g2 g4 g1 
+g4 g4 g3 g4 g1 g2 
+g4 g4 g3 g4 g2 g1 
+g4 g4 g4 g1 g2 g3 
+g4 g4 g4 g1 g3 g2 
+g4 g4 g4 g2 g1 g3 
+g4 g4 g4 g2 g3 g1 
+g4 g4 g4 g3 g1 g2 
+g4 g4 g4 g3 g2 g1 
+score: 71
+g2 g4 g4 g4 g4 
+g3 g3 g3 g4 g4 
+g3 g3 g4 g3 g4 
+g3 g3 g4 g4 g3 
+g3 g4 g3 g3 g4 
+g3 g4 g3 g4 g3 
+g3 g4 g4 g3 g3 
+g4 g2 g4 g4 g4 
+g4 g3 g3 g3 g4 
+g4 g3 g3 g4 g3 
+g4 g3 g4 g3 g3 
+g4 g4 g2 g4 g4 
+g4 g4 g3 g3 g3 
+g4 g4 g4 g2 g4 
+g4 g4 g4 g4 g2 
+score: 72
+g2 g2 g3 g3 g4 g4 
+g2 g2 g3 g4 g3 g4 
+g2 g2 g3 g4 g4 g3 
+g2 g2 g4 g3 g3 g4 
+g2 g2 g4 g3 g4 g3 
+g2 g2 g4 g4 g3 g3 
+g2 g3 g2 g3 g4 g4 
+g2 g3 g2 g4 g3 g4 
+g2 g3 g2 g4 g4 g3 
+g2 g3 g3 g2 g4 g4 
+g2 g3 g3 g3 g3 g3 
+g2 g3 g3 g4 g2 g4 
+g2 g3 g3 g4 g4 g2 
+g2 g3 g4 g2 g3 g4 
+g2 g3 g4 g2 g4 g3 
+g2 g3 g4 g3 g2 g4 
+g2 g3 g4 g3 g4 g2 
+g2 g3 g4 g4 g2 g3 
+g2 g3 g4 g4 g3 g2 
+g2 g4 g2 g3 g3 g4 
+g2 g4 g2 g3 g4 g3 
+g2 g4 g2 g4 g3 g3 
+g2 g4 g3 g2 g3 g4 
+g2 g4 g3 g2 g4 g3 
+g2 g4 g3 g3 g2 g4 
+g2 g4 g3 g3 g4 g2 
+g2 g4 g3 g4 g2 g3 
+g2 g4 g3 g4 g3 g2 
+g2 g4 g4 g2 g3 g3 
+g2 g4 g4 g3 g2 g3 
+g2 g4 g4 g3 g3 g2 
+g3 g2 g2 g3 g4 g4 
+g3 g2 g2 g4 g3 g4 
+g3 g2 g2 g4 g4 g3 
+g3 g2 g3 g2 g4 g4 
+g3 g2 g3 g3 g3 g3 
+g3 g2 g3 g4 g2 g4 
+g3 g2 g3 g4 g4 g2 
+g3 g2 g4 g2 g3 g4 
+g3 g2 g4 g2 g4 g3 
+g3 g2 g4 g3 g2 g4 
+g3 g2 g4 g3 g4 g2 
+g3 g2 g4 g4 g2 g3 
+g3 g2 g4 g4 g3 g2 
+g3 g3 g2 g2 g4 g4 
+g3 g3 g2 g3 g3 g3 
+g3 g3 g2 g4 g2 g4 
+g3 g3 g2 g4 g4 g2 
+g3 g3 g3 g2 g3 g3 
+g3 g3 g3 g3 g2 g3 
+g3 g3 g3 g3 g3 g2 
+g3 g3 g4 g2 g2 g4 
+g3 g3 g4 g2 g4 g2 
+g3 g3 g4 g4 g2 g2 
+g3 g4 g2 g2 g3 g4 
+g3 g4 g2 g2 g4 g3 
+g3 g4 g2 g3 g2 g4 
+g3 g4 g2 g3 g4 g2 
+g3 g4 g2 g4 g2 g3 
+g3 g4 g2 g4 g3 g2 
+g3 g4 g3 g2 g2 g4 
+g3 g4 g3 g2 g4 g2 
+g3 g4 g3 g4 g2 g2 
+g3 g4 g4 g2 g2 g3 
+g3 g4 g4 g2 g3 g2 
+g3 g4 g4 g3 g2 g2 
+g4 g2 g2 g3 g3 g4 
+g4 g2 g2 g3 g4 g3 
+g4 g2 g2 g4 g3 g3 
+g4 g2 g3 g2 g3 g4 
+g4 g2 g3 g2 g4 g3 
+g4 g2 g3 g3 g2 g4 
+g4 g2 g3 g3 g4 g2 
+g4 g2 g3 g4 g2 g3 
+g4 g2 g3 g4 g3 g2 
+g4 g2 g4 g2 g3 g3 
+g4 g2 g4 g3 g2 g3 
+g4 g2 g4 g3 g3 g2 
+g4 g3 g2 g2 g3 g4 
+g4 g3 g2 g2 g4 g3 
+g4 g3 g2 g3 g2 g4 
+g4 g3 g2 g3 g4 g2 
+g4 g3 g2 g4 g2 g3 
+g4 g3 g2 g4 g3 g2 
+g4 g3 g3 g2 g2 g4 
+g4 g3 g3 g2 g4 g2 
+g4 g3 g3 g4 g2 g2 
+g4 g3 g4 g2 g2 g3 
+g4 g3 g4 g2 g3 g2 
+g4 g3 g4 g3 g2 g2 
+g4 g4 g2 g2 g3 g3 
+g4 g4 g2 g3 g2 g3 
+g4 g4 g2 g3 g3 g2 
+g4 g4 g3 g2 g2 g3 
+g4 g4 g3 g2 g3 g2 
+g4 g4 g3 g3 g2 g2 
+score: 73
+g1 g2 g4 g4 g4 g4 
+g1 g3 g3 g3 g4 g4 
+g1 g3 g3 g4 g3 g4 
+g1 g3 g3 g4 g4 g3 
+g1 g3 g4 g3 g3 g4 
+g1 g3 g4 g3 g4 g3 
+g1 g3 g4 g4 g3 g3 
+g1 g4 g2 g4 g4 g4 
+g1 g4 g3 g3 g3 g4 
+g1 g4 g3 g3 g4 g3 
+g1 g4 g3 g4 g3 g3 
+g1 g4 g4 g2 g4 g4 
+g1 g4 g4 g3 g3 g3 
+g1 g4 g4 g4 g2 g4 
+g1 g4 g4 g4 g4 g2 
+g2 g1 g4 g4 g4 g4 
+g2 g4 g1 g4 g4 g4 
+g2 g4 g4 g1 g4 g4 
+g2 g4 g4 g4 g1 g4 
+g2 g4 g4 g4 g4 g1 
+g3 g1 g3 g3 g4 g4 
+g3 g1 g3 g4 g3 g4 
+g3 g1 g3 g4 g4 g3 
+g3 g1 g4 g3 g3 g4 
+g3 g1 g4 g3 g4 g3 
+g3 g1 g4 g4 g3 g3 
+g3 g3 g1 g3 g4 g4 
+g3 g3 g1 g4 g3 g4 
+g3 g3 g1 g4 g4 g3 
+g3 g3 g3 g1 g4 g4 
+g3 g3 g3 g4 g1 g4 
+g3 g3 g3 g4 g4 g1 
+g3 g3 g4 g1 g3 g4 
+g3 g3 g4 g1 g4 g3 
+g3 g3 g4 g3 g1 g4 
+g3 g3 g4 g3 g4 g1 
+g3 g3 g4 g4 g1 g3 
+g3 g3 g4 g4 g3 g1 
+g3 g4 g1 g3 g3 g4 
+g3 g4 g1 g3 g4 g3 
+g3 g4 g1 g4 g3 g3 
+g3 g4 g3 g1 g3 g4 
+g3 g4 g3 g1 g4 g3 
+g3 g4 g3 g3 g1 g4 
+g3 g4 g3 g3 g4 g1 
+g3 g4 g3 g4 g1 g3 
+g3 g4 g3 g4 g3 g1 
+g3 g4 g4 g1 g3 g3 
+g3 g4 g4 g3 g1 g3 
+g3 g4 g4 g3 g3 g1 
+g4 g1 g2 g4 g4 g4 
+g4 g1 g3 g3 g3 g4 
+g4 g1 g3 g3 g4 g3 
+g4 g1 g3 g4 g3 g3 
+g4 g1 g4 g2 g4 g4 
+g4 g1 g4 g3 g3 g3 
+g4 g1 g4 g4 g2 g4 
+g4 g1 g4 g4 g4 g2 
+g4 g2 g1 g4 g4 g4 
+g4 g2 g4 g1 g4 g4 
+g4 g2 g4 g4 g1 g4 
+g4 g2 g4 g4 g4 g1 
+g4 g3 g1 g3 g3 g4 
+g4 g3 g1 g3 g4 g3 
+g4 g3 g1 g4 g3 g3 
+g4 g3 g3 g1 g3 g4 
+g4 g3 g3 g1 g4 g3 
+g4 g3 g3 g3 g1 g4 
+g4 g3 g3 g3 g4 g1 
+g4 g3 g3 g4 g1 g3 
+g4 g3 g3 g4 g3 g1 
+g4 g3 g4 g1 g3 g3 
+g4 g3 g4 g3 g1 g3 
+g4 g3 g4 g3 g3 g1 
+g4 g4 g1 g2 g4 g4 
+g4 g4 g1 g3 g3 g3 
+g4 g4 g1 g4 g2 g4 
+g4 g4 g1 g4 g4 g2 
+g4 g4 g2 g1 g4 g4 
+g4 g4 g2 g4 g1 g4 
+g4 g4 g2 g4 g4 g1 
+g4 g4 g3 g1 g3 g3 
+g4 g4 g3 g3 g1 g3 
+g4 g4 g3 g3 g3 g1 
+g4 g4 g4 g1 g2 g4 
+g4 g4 g4 g1 g4 g2 
+g4 g4 g4 g2 g1 g4 
+g4 g4 g4 g2 g4 g1 
+g4 g4 g4 g4 g1 g2 
+g4 g4 g4 g4 g2 g1 
+score: 74
+g3 g3 g4 g4 g4 
+g3 g4 g3 g4 g4 
+g3 g4 g4 g3 g4 
+g3 g4 g4 g4 g3 
+g4 g3 g3 g4 g4 
+g4 g3 g4 g3 g4 
+g4 g3 g4 g4 g3 
+g4 g4 g3 g3 g4 
+g4 g4 g3 g4 g3 
+g4 g4 g4 g3 g3 
+score: 75
+g2 g2 g3 g4 g4 g4 
+g2 g2 g4 g3 g4 g4 
+g2 g2 g4 g4 g3 g4 
+g2 g2 g4 g4 g4 g3 
+g2 g3 g2 g4 g4 g4 
+g2 g3 g3 g3 g3 g4 
+g2 g3 g3 g3 g4 g3 
+g2 g3 g3 g4 g3 g3 
+g2 g3 g4 g2 g4 g4 
+g2 g3 g4 g3 g3 g3 
+g2 g3 g4 g4 g2 g4 
+g2 g3 g4 g4 g4 g2 
+g2 g4 g2 g3 g4 g4 
+g2 g4 g2 g4 g3 g4 
+g2 g4 g2 g4 g4 g3 
+g2 g4 g3 g2 g4 g4 
+g2 g4 g3 g3 g3 g3 
+g2 g4 g3 g4 g2 g4 
+g2 g4 g3 g4 g4 g2 
+g2 g4 g4 g2 g3 g4 
+g2 g4 g4 g2 g4 g3 
+g2 g4 g4 g3 g2 g4 
+g2 g4 g4 g3 g4 g2 
+g2 g4 g4 g4 g2 g3 
+g2 g4 g4 g4 g3 g2 
+g3 g2 g2 g4 g4 g4 
+g3 g2 g3 g3 g3 g4 
+g3 g2 g3 g3 g4 g3 
+g3 g2 g3 g4 g3 g3 
+g3 g2 g4 g2 g4 g4 
+g3 g2 g4 g3 g3 g3 
+g3 g2 g4 g4 g2 g4 
+g3 g2 g4 g4 g4 g2 
+g3 g3 g2 g3 g3 g4 
+g3 g3 g2 g3 g4 g3 
+g3 g3 g2 g4 g3 g3 
+g3 g3 g3 g2 g3 g4 
+g3 g3 g3 g2 g4 g3 
+g3 g3 g3 g3 g2 g4 
+g3 g3 g3 g3 g4 g2 
+g3 g3 g3 g4 g2 g3 
+g3 g3 g3 g4 g3 g2 
+g3 g3 g4 g2 g3 g3 
+g3 g3 g4 g3 g2 g3 
+g3 g3 g4 g3 g3 g2 
+g3 g4 g2 g2 g4 g4 
+g3 g4 g2 g3 g3 g3 
+g3 g4 g2 g4 g2 g4 
+g3 g4 g2 g4 g4 g2 
+g3 g4 g3 g2 g3 g3 
+g3 g4 g3 g3 g2 g3 
+g3 g4 g3 g3 g3 g2 
+g3 g4 g4 g2 g2 g4 
+g3 g4 g4 g2 g4 g2 
+g3 g4 g4 g4 g2 g2 
+g4 g2 g2 g3 g4 g4 
+g4 g2 g2 g4 g3 g4 
+g4 g2 g2 g4 g4 g3 
+g4 g2 g3 g2 g4 g4 
+g4 g2 g3 g3 g3 g3 
+g4 g2 g3 g4 g2 g4 
+g4 g2 g3 g4 g4 g2 
+g4 g2 g4 g2 g3 g4 
+g4 g2 g4 g2 g4 g3 
+g4 g2 g4 g3 g2 g4 
+g4 g2 g4 g3 g4 g2 
+g4 g2 g4 g4 g2 g3 
+g4 g2 g4 g4 g3 g2 
+g4 g3 g2 g2 g4 g4 
+g4 g3 g2 g3 g3 g3 
+g4 g3 g2 g4 g2 g4 
+g4 g3 g2 g4 g4 g2 
+g4 g3 g3 g2 g3 g3 
+g4 g3 g3 g3 g2 g3 
+g4 g3 g3 g3 g3 g2 
+g4 g3 g4 g2 g2 g4 
+g4 g3 g4 g2 g4 g2 
+g4 g3 g4 g4 g2 g2 
+g4 g4 g2 g2 g3 g4 
+g4 g4 g2 g2 g4 g3 
+g4 g4 g2 g3 g2 g4 
+g4 g4 g2 g3 g4 g2 
+g4 g4 g2 g4 g2 g3 
+g4 g4 g2 g4 g3 g2 
+g4 g4 g3 g2 g2 g4 
+g4 g4 g3 g2 g4 g2 
+g4 g4 g3 g4 g2 g2 
+g4 g4 g4 g2 g2 g3 
+g4 g4 g4 g2 g3 g2 
+g4 g4 g4 g3 g2 g2 
+score: 76
+g1 g3 g3 g4 g4 g4 
+g1 g3 g4 g3 g4 g4 
+g1 g3 g4 g4 g3 g4 
+g1 g3 g4 g4 g4 g3 
+g1 g4 g3 g3 g4 g4 
+g1 g4 g3 g4 g3 g4 
+g1 g4 g3 g4 g4 g3 
+g1 g4 g4 g3 g3 g4 
+g1 g4 g4 g3 g4 g3 
+g1 g4 g4 g4 g3 g3 
+g3 g1 g3 g4 g4 g4 
+g3 g1 g4 g3 g4 g4 
+g3 g1 g4 g4 g3 g4 
+g3 g1 g4 g4 g4 g3 
+g3 g3 g1 g4 g4 g4 
+g3 g3 g4 g1 g4 g4 
+g3 g3 g4 g4 g1 g4 
+g3 g3 g4 g4 g4 g1 
+g3 g4 g1 g3 g4 g4 
+g3 g4 g1 g4 g3 g4 
+g3 g4 g1 g4 g4 g3 
+g3 g4 g3 g1 g4 g4 
+g3 g4 g3 g4 g1 g4 
+g3 g4 g3 g4 g4 g1 
+g3 g4 g4 g1 g3 g4 
+g3 g4 g4 g1 g4 g3 
+g3 g4 g4 g3 g1 g4 
+g3 g4 g4 g3 g4 g1 
+g3 g4 g4 g4 g1 g3 
+g3 g4 g4 g4 g3 g1 
+g4 g1 g3 g3 g4 g4 
+g4 g1 g3 g4 g3 g4 
+g4 g1 g3 g4 g4 g3 
+g4 g1 g4 g3 g3 g4 
+g4 g1 g4 g3 g4 g3 
+g4 g1 g4 g4 g3 g3 
+g4 g3 g1 g3 g4 g4 
+g4 g3 g1 g4 g3 g4 
+g4 g3 g1 g4 g4 g3 
+g4 g3 g3 g1 g4 g4 
+g4 g3 g3 g4 g1 g4 
+g4 g3 g3 g4 g4 g1 
+g4 g3 g4 g1 g3 g4 
+g4 g3 g4 g1 g4 g3 
+g4 g3 g4 g3 g1 g4 
+g4 g3 g4 g3 g4 g1 
+g4 g3 g4 g4 g1 g3 
+g4 g3 g4 g4 g3 g1 
+g4 g4 g1 g3 g3 g4 
+g4 g4 g1 g3 g4 g3 
+g4 g4 g1 g4 g3 g3 
+g4 g4 g3 g1 g3 g4 
+g4 g4 g3 g1 g4 g3 
+g4 g4 g3 g3 g1 g4 
+g4 g4 g3 g3 g4 g1 
+g4 g4 g3 g4 g1 g3 
+g4 g4 g3 g4 g3 g1 
+g4 g4 g4 g1 g3 g3 
+g4 g4 g4 g3 g1 g3 
+g4 g4 g4 g3 g3 g1 
+score: 77
+g3 g4 g4 g4 g4 
+g4 g3 g4 g4 g4 
+g4 g4 g3 g4 g4 
+g4 g4 g4 g3 g4 
+g4 g4 g4 g4 g3 
+score: 78
+g2 g2 g4 g4 g4 g4 
+g2 g3 g3 g3 g4 g4 
+g2 g3 g3 g4 g3 g4 
+g2 g3 g3 g4 g4 g3 
+g2 g3 g4 g3 g3 g4 
+g2 g3 g4 g3 g4 g3 
+g2 g3 g4 g4 g3 g3 
+g2 g4 g2 g4 g4 g4 
+g2 g4 g3 g3 g3 g4 
+g2 g4 g3 g3 g4 g3 
+g2 g4 g3 g4 g3 g3 
+g2 g4 g4 g2 g4 g4 
+g2 g4 g4 g3 g3 g3 
+g2 g4 g4 g4 g2 g4 
+g2 g4 g4 g4 g4 g2 
+g3 g2 g3 g3 g4 g4 
+g3 g2 g3 g4 g3 g4 
+g3 g2 g3 g4 g4 g3 
+g3 g2 g4 g3 g3 g4 
+g3 g2 g4 g3 g4 g3 
+g3 g2 g4 g4 g3 g3 
+g3 g3 g2 g3 g4 g4 
+g3 g3 g2 g4 g3 g4 
+g3 g3 g2 g4 g4 g3 
+g3 g3 g3 g2 g4 g4 
+g3 g3 g3 g3 g3 g3 
+g3 g3 g3 g4 g2 g4 
+g3 g3 g3 g4 g4 g2 
+g3 g3 g4 g2 g3 g4 
+g3 g3 g4 g2 g4 g3 
+g3 g3 g4 g3 g2 g4 
+g3 g3 g4 g3 g4 g2 
+g3 g3 g4 g4 g2 g3 
+g3 g3 g4 g4 g3 g2 
+g3 g4 g2 g3 g3 g4 
+g3 g4 g2 g3 g4 g3 
+g3 g4 g2 g4 g3 g3 
+g3 g4 g3 g2 g3 g4 
+g3 g4 g3 g2 g4 g3 
+g3 g4 g3 g3 g2 g4 
+g3 g4 g3 g3 g4 g2 
+g3 g4 g3 g4 g2 g3 
+g3 g4 g3 g4 g3 g2 
+g3 g4 g4 g2 g3 g3 
+g3 g4 g4 g3 g2 g3 
+g3 g4 g4 g3 g3 g2 
+g4 g2 g2 g4 g4 g4 
+g4 g2 g3 g3 g3 g4 
+g4 g2 g3 g3 g4 g3 
+g4 g2 g3 g4 g3 g3 
+g4 g2 g4 g2 g4 g4 
+g4 g2 g4 g3 g3 g3 
+g4 g2 g4 g4 g2 g4 
+g4 g2 g4 g4 g4 g2 
+g4 g3 g2 g3 g3 g4 
+g4 g3 g2 g3 g4 g3 
+g4 g3 g2 g4 g3 g3 
+g4 g3 g3 g2 g3 g4 
+g4 g3 g3 g2 g4 g3 
+g4 g3 g3 g3 g2 g4 
+g4 g3 g3 g3 g4 g2 
+g4 g3 g3 g4 g2 g3 
+g4 g3 g3 g4 g3 g2 
+g4 g3 g4 g2 g3 g3 
+g4 g3 g4 g3 g2 g3 
+g4 g3 g4 g3 g3 g2 
+g4 g4 g2 g2 g4 g4 
+g4 g4 g2 g3 g3 g3 
+g4 g4 g2 g4 g2 g4 
+g4 g4 g2 g4 g4 g2 
+g4 g4 g3 g2 g3 g3 
+g4 g4 g3 g3 g2 g3 
+g4 g4 g3 g3 g3 g2 
+g4 g4 g4 g2 g2 g4 
+g4 g4 g4 g2 g4 g2 
+g4 g4 g4 g4 g2 g2 
+score: 79
+g1 g3 g4 g4 g4 g4 
+g1 g4 g3 g4 g4 g4 
+g1 g4 g4 g3 g4 g4 
+g1 g4 g4 g4 g3 g4 
+g1 g4 g4 g4 g4 g3 
+g3 g1 g4 g4 g4 g4 
+g3 g4 g1 g4 g4 g4 
+g3 g4 g4 g1 g4 g4 
+g3 g4 g4 g4 g1 g4 
+g3 g4 g4 g4 g4 g1 
+g4 g1 g3 g4 g4 g4 
+g4 g1 g4 g3 g4 g4 
+g4 g1 g4 g4 g3 g4 
+g4 g1 g4 g4 g4 g3 
+g4 g3 g1 g4 g4 g4 
+g4 g3 g4 g1 g4 g4 
+g4 g3 g4 g4 g1 g4 
+g4 g3 g4 g4 g4 g1 
+g4 g4 g1 g3 g4 g4 
+g4 g4 g1 g4 g3 g4 
+g4 g4 g1 g4 g4 g3 
+g4 g4 g3 g1 g4 g4 
+g4 g4 g3 g4 g1 g4 
+g4 g4 g3 g4 g4 g1 
+g4 g4 g4 g1 g3 g4 
+g4 g4 g4 g1 g4 g3 
+g4 g4 g4 g3 g1 g4 
+g4 g4 g4 g3 g4 g1 
+g4 g4 g4 g4 g1 g3 
+g4 g4 g4 g4 g3 g1 
+score: 80
+g4 g4 g4 g4 g4 
+score: 81
+g2 g3 g3 g4 g4 g4 
+g2 g3 g4 g3 g4 g4 
+g2 g3 g4 g4 g3 g4 
+g2 g3 g4 g4 g4 g3 
+g2 g4 g3 g3 g4 g4 
+g2 g4 g3 g4 g3 g4 
+g2 g4 g3 g4 g4 g3 
+g2 g4 g4 g3 g3 g4 
+g2 g4 g4 g3 g4 g3 
+g2 g4 g4 g4 g3 g3 
+g3 g2 g3 g4 g4 g4 
+g3 g2 g4 g3 g4 g4 
+g3 g2 g4 g4 g3 g4 
+g3 g2 g4 g4 g4 g3 
+g3 g3 g2 g4 g4 g4 
+g3 g3 g3 g3 g3 g4 
+g3 g3 g3 g3 g4 g3 
+g3 g3 g3 g4 g3 g3 
+g3 g3 g4 g2 g4 g4 
+g3 g3 g4 g3 g3 g3 
+g3 g3 g4 g4 g2 g4 
+g3 g3 g4 g4 g4 g2 
+g3 g4 g2 g3 g4 g4 
+g3 g4 g2 g4 g3 g4 
+g3 g4 g2 g4 g4 g3 
+g3 g4 g3 g2 g4 g4 
+g3 g4 g3 g3 g3 g3 
+g3 g4 g3 g4 g2 g4 
+g3 g4 g3 g4 g4 g2 
+g3 g4 g4 g2 g3 g4 
+g3 g4 g4 g2 g4 g3 
+g3 g4 g4 g3 g2 g4 
+g3 g4 g4 g3 g4 g2 
+g3 g4 g4 g4 g2 g3 
+g3 g4 g4 g4 g3 g2 
+g4 g2 g3 g3 g4 g4 
+g4 g2 g3 g4 g3 g4 
+g4 g2 g3 g4 g4 g3 
+g4 g2 g4 g3 g3 g4 
+g4 g2 g4 g3 g4 g3 
+g4 g2 g4 g4 g3 g3 
+g4 g3 g2 g3 g4 g4 
+g4 g3 g2 g4 g3 g4 
+g4 g3 g2 g4 g4 g3 
+g4 g3 g3 g2 g4 g4 
+g4 g3 g3 g3 g3 g3 
+g4 g3 g3 g4 g2 g4 
+g4 g3 g3 g4 g4 g2 
+g4 g3 g4 g2 g3 g4 
+g4 g3 g4 g2 g4 g3 
+g4 g3 g4 g3 g2 g4 
+g4 g3 g4 g3 g4 g2 
+g4 g3 g4 g4 g2 g3 
+g4 g3 g4 g4 g3 g2 
+g4 g4 g2 g3 g3 g4 
+g4 g4 g2 g3 g4 g3 
+g4 g4 g2 g4 g3 g3 
+g4 g4 g3 g2 g3 g4 
+g4 g4 g3 g2 g4 g3 
+g4 g4 g3 g3 g2 g4 
+g4 g4 g3 g3 g4 g2 
+g4 g4 g3 g4 g2 g3 
+g4 g4 g3 g4 g3 g2 
+g4 g4 g4 g2 g3 g3 
+g4 g4 g4 g3 g2 g3 
+g4 g4 g4 g3 g3 g2 
+score: 82
+g1 g4 g4 g4 g4 g4 
+g4 g1 g4 g4 g4 g4 
+g4 g4 g1 g4 g4 g4 
+g4 g4 g4 g1 g4 g4 
+g4 g4 g4 g4 g1 g4 
+g4 g4 g4 g4 g4 g1 
+score: 83
+g1 g2 g3 g3 g4 g4 g4 
+g1 g2 g3 g4 g3 g4 g4 
+g1 g2 g3 g4 g4 g3 g4 
+g1 g2 g3 g4 g4 g4 g3 
+g1 g2 g4 g3 g3 g4 g4 
+g1 g2 g4 g3 g4 g3 g4 
+g1 g2 g4 g3 g4 g4 g3 
+g1 g2 g4 g4 g3 g3 g4 
+g1 g2 g4 g4 g3 g4 g3 
+g1 g2 g4 g4 g4 g3 g3 
+g1 g3 g2 g3 g4 g4 g4 
+g1 g3 g2 g4 g3 g4 g4 
+g1 g3 g2 g4 g4 g3 g4 
+g1 g3 g2 g4 g4 g4 g3 
+g1 g3 g3 g2 g4 g4 g4 
+g1 g3 g3 g3 g3 g3 g4 
+g1 g3 g3 g3 g3 g4 g3 
+g1 g3 g3 g3 g4 g3 g3 
+g1 g3 g3 g4 g2 g4 g4 
+g1 g3 g3 g4 g3 g3 g3 
+g1 g3 g3 g4 g4 g2 g4 
+g1 g3 g3 g4 g4 g4 g2 
+g1 g3 g4 g2 g3 g4 g4 
+g1 g3 g4 g2 g4 g3 g4 
+g1 g3 g4 g2 g4 g4 g3 
+g1 g3 g4 g3 g2 g4 g4 
+g1 g3 g4 g3 g3 g3 g3 
+g1 g3 g4 g3 g4 g2 g4 
+g1 g3 g4 g3 g4 g4 g2 
+g1 g3 g4 g4 g2 g3 g4 
+g1 g3 g4 g4 g2 g4 g3 
+g1 g3 g4 g4 g3 g2 g4 
+g1 g3 g4 g4 g3 g4 g2 
+g1 g3 g4 g4 g4 g2 g3 
+g1 g3 g4 g4 g4 g3 g2 
+g1 g4 g2 g3 g3 g4 g4 
+g1 g4 g2 g3 g4 g3 g4 
+g1 g4 g2 g3 g4 g4 g3 
+g1 g4 g2 g4 g3 g3 g4 
+g1 g4 g2 g4 g3 g4 g3 
+g1 g4 g2 g4 g4 g3 g3 
+g1 g4 g3 g2 g3 g4 g4 
+g1 g4 g3 g2 g4 g3 g4 
+g1 g4 g3 g2 g4 g4 g3 
+g1 g4 g3 g3 g2 g4 g4 
+g1 g4 g3 g3 g3 g3 g3 
+g1 g4 g3 g3 g4 g2 g4 
+g1 g4 g3 g3 g4 g4 g2 
+g1 g4 g3 g4 g2 g3 g4 
+g1 g4 g3 g4 g2 g4 g3 
+g1 g4 g3 g4 g3 g2 g4 
+g1 g4 g3 g4 g3 g4 g2 
+g1 g4 g3 g4 g4 g2 g3 
+g1 g4 g3 g4 g4 g3 g2 
+g1 g4 g4 g2 g3 g3 g4 
+g1 g4 g4 g2 g3 g4 g3 
+g1 g4 g4 g2 g4 g3 g3 
+g1 g4 g4 g3 g2 g3 g4 
+g1 g4 g4 g3 g2 g4 g3 
+g1 g4 g4 g3 g3 g2 g4 
+g1 g4 g4 g3 g3 g4 g2 
+g1 g4 g4 g3 g4 g2 g3 
+g1 g4 g4 g3 g4 g3 g2 
+g1 g4 g4 g4 g2 g3 g3 
+g1 g4 g4 g4 g3 g2 g3 
+g1 g4 g4 g4 g3 g3 g2 
+g2 g1 g3 g3 g4 g4 g4 
+g2 g1 g3 g4 g3 g4 g4 
+g2 g1 g3 g4 g4 g3 g4 
+g2 g1 g3 g4 g4 g4 g3 
+g2 g1 g4 g3 g3 g4 g4 
+g2 g1 g4 g3 g4 g3 g4 
+g2 g1 g4 g3 g4 g4 g3 
+g2 g1 g4 g4 g3 g3 g4 
+g2 g1 g4 g4 g3 g4 g3 
+g2 g1 g4 g4 g4 g3 g3 
+g2 g3 g1 g3 g4 g4 g4 
+g2 g3 g1 g4 g3 g4 g4 
+g2 g3 g1 g4 g4 g3 g4 
+g2 g3 g1 g4 g4 g4 g3 
+g2 g3 g3 g1 g4 g4 g4 
+g2 g3 g3 g4 g1 g4 g4 
+g2 g3 g3 g4 g4 g1 g4 
+g2 g3 g3 g4 g4 g4 g1 
+g2 g3 g4 g1 g3 g4 g4 
+g2 g3 g4 g1 g4 g3 g4 
+g2 g3 g4 g1 g4 g4 g3 
+g2 g3 g4 g3 g1 g4 g4 
+g2 g3 g4 g3 g4 g1 g4 
+g2 g3 g4 g3 g4 g4 g1 
+g2 g3 g4 g4 g1 g3 g4 
+g2 g3 g4 g4 g1 g4 g3 
+g2 g3 g4 g4 g3 g1 g4 
+g2 g3 g4 g4 g3 g4 g1 
+g2 g3 g4 g4 g4 g1 g3 
+g2 g3 g4 g4 g4 g3 g1 
+g2 g4 g1 g3 g3 g4 g4 
+g2 g4 g1 g3 g4 g3 g4 
+g2 g4 g1 g3 g4 g4 g3 
+g2 g4 g1 g4 g3 g3 g4 
+g2 g4 g1 g4 g3 g4 g3 
+g2 g4 g1 g4 g4 g3 g3 
+g2 g4 g3 g1 g3 g4 g4 
+g2 g4 g3 g1 g4 g3 g4 
+g2 g4 g3 g1 g4 g4 g3 
+g2 g4 g3 g3 g1 g4 g4 
+g2 g4 g3 g3 g4 g1 g4 
+g2 g4 g3 g3 g4 g4 g1 
+g2 g4 g3 g4 g1 g3 g4 
+g2 g4 g3 g4 g1 g4 g3 
+g2 g4 g3 g4 g3 g1 g4 
+g2 g4 g3 g4 g3 g4 g1 
+g2 g4 g3 g4 g4 g1 g3 
+g2 g4 g3 g4 g4 g3 g1 
+g2 g4 g4 g1 g3 g3 g4 
+g2 g4 g4 g1 g3 g4 g3 
+g2 g4 g4 g1 g4 g3 g3 
+g2 g4 g4 g3 g1 g3 g4 
+g2 g4 g4 g3 g1 g4 g3 
+g2 g4 g4 g3 g3 g1 g4 
+g2 g4 g4 g3 g3 g4 g1 
+g2 g4 g4 g3 g4 g1 g3 
+g2 g4 g4 g3 g4 g3 g1 
+g2 g4 g4 g4 g1 g3 g3 
+g2 g4 g4 g4 g3 g1 g3 
+g2 g4 g4 g4 g3 g3 g1 
+g3 g1 g2 g3 g4 g4 g4 
+g3 g1 g2 g4 g3 g4 g4 
+g3 g1 g2 g4 g4 g3 g4 
+g3 g1 g2 g4 g4 g4 g3 
+g3 g1 g3 g2 g4 g4 g4 
+g3 g1 g3 g3 g3 g3 g4 
+g3 g1 g3 g3 g3 g4 g3 
+g3 g1 g3 g3 g4 g3 g3 
+g3 g1 g3 g4 g2 g4 g4 
+g3 g1 g3 g4 g3 g3 g3 
+g3 g1 g3 g4 g4 g2 g4 
+g3 g1 g3 g4 g4 g4 g2 
+g3 g1 g4 g2 g3 g4 g4 
+g3 g1 g4 g2 g4 g3 g4 
+g3 g1 g4 g2 g4 g4 g3 
+g3 g1 g4 g3 g2 g4 g4 
+g3 g1 g4 g3 g3 g3 g3 
+g3 g1 g4 g3 g4 g2 g4 
+g3 g1 g4 g3 g4 g4 g2 
+g3 g1 g4 g4 g2 g3 g4 
+g3 g1 g4 g4 g2 g4 g3 
+g3 g1 g4 g4 g3 g2 g4 
+g3 g1 g4 g4 g3 g4 g2 
+g3 g1 g4 g4 g4 g2 g3 
+g3 g1 g4 g4 g4 g3 g2 
+g3 g2 g1 g3 g4 g4 g4 
+g3 g2 g1 g4 g3 g4 g4 
+g3 g2 g1 g4 g4 g3 g4 
+g3 g2 g1 g4 g4 g4 g3 
+g3 g2 g3 g1 g4 g4 g4 
+g3 g2 g3 g4 g1 g4 g4 
+g3 g2 g3 g4 g4 g1 g4 
+g3 g2 g3 g4 g4 g4 g1 
+g3 g2 g4 g1 g3 g4 g4 
+g3 g2 g4 g1 g4 g3 g4 
+g3 g2 g4 g1 g4 g4 g3 
+g3 g2 g4 g3 g1 g4 g4 
+g3 g2 g4 g3 g4 g1 g4 
+g3 g2 g4 g3 g4 g4 g1 
+g3 g2 g4 g4 g1 g3 g4 
+g3 g2 g4 g4 g1 g4 g3 
+g3 g2 g4 g4 g3 g1 g4 
+g3 g2 g4 g4 g3 g4 g1 
+g3 g2 g4 g4 g4 g1 g3 
+g3 g2 g4 g4 g4 g3 g1 
+g3 g3 g1 g2 g4 g4 g4 
+g3 g3 g1 g3 g3 g3 g4 
+g3 g3 g1 g3 g3 g4 g3 
+g3 g3 g1 g3 g4 g3 g3 
+g3 g3 g1 g4 g2 g4 g4 
+g3 g3 g1 g4 g3 g3 g3 
+g3 g3 g1 g4 g4 g2 g4 
+g3 g3 g1 g4 g4 g4 g2 
+g3 g3 g2 g1 g4 g4 g4 
+g3 g3 g2 g4 g1 g4 g4 
+g3 g3 g2 g4 g4 g1 g4 
+g3 g3 g2 g4 g4 g4 g1 
+g3 g3 g3 g1 g3 g3 g4 
+g3 g3 g3 g1 g3 g4 g3 
+g3 g3 g3 g1 g4 g3 g3 
+g3 g3 g3 g3 g1 g3 g4 
+g3 g3 g3 g3 g1 g4 g3 
+g3 g3 g3 g3 g3 g1 g4 
+g3 g3 g3 g3 g3 g4 g1 
+g3 g3 g3 g3 g4 g1 g3 
+g3 g3 g3 g3 g4 g3 g1 
+g3 g3 g3 g4 g1 g3 g3 
+g3 g3 g3 g4 g3 g1 g3 
+g3 g3 g3 g4 g3 g3 g1 
+g3 g3 g4 g1 g2 g4 g4 
+g3 g3 g4 g1 g3 g3 g3 
+g3 g3 g4 g1 g4 g2 g4 
+g3 g3 g4 g1 g4 g4 g2 
+g3 g3 g4 g2 g1 g4 g4 
+g3 g3 g4 g2 g4 g1 g4 
+g3 g3 g4 g2 g4 g4 g1 
+g3 g3 g4 g3 g1 g3 g3 
+g3 g3 g4 g3 g3 g1 g3 
+g3 g3 g4 g3 g3 g3 g1 
+g3 g3 g4 g4 g1 g2 g4 
+g3 g3 g4 g4 g1 g4 g2 
+g3 g3 g4 g4 g2 g1 g4 
+g3 g3 g4 g4 g2 g4 g1 
+g3 g3 g4 g4 g4 g1 g2 
+g3 g3 g4 g4 g4 g2 g1 
+g3 g4 g1 g2 g3 g4 g4 
+g3 g4 g1 g2 g4 g3 g4 
+g3 g4 g1 g2 g4 g4 g3 
+g3 g4 g1 g3 g2 g4 g4 
+g3 g4 g1 g3 g3 g3 g3 
+g3 g4 g1 g3 g4 g2 g4 
+g3 g4 g1 g3 g4 g4 g2 
+g3 g4 g1 g4 g2 g3 g4 
+g3 g4 g1 g4 g2 g4 g3 
+g3 g4 g1 g4 g3 g2 g4 
+g3 g4 g1 g4 g3 g4 g2 
+g3 g4 g1 g4 g4 g2 g3 
+g3 g4 g1 g4 g4 g3 g2 
+g3 g4 g2 g1 g3 g4 g4 
+g3 g4 g2 g1 g4 g3 g4 
+g3 g4 g2 g1 g4 g4 g3 
+g3 g4 g2 g3 g1 g4 g4 
+g3 g4 g2 g3 g4 g1 g4 
+g3 g4 g2 g3 g4 g4 g1 
+g3 g4 g2 g4 g1 g3 g4 
+g3 g4 g2 g4 g1 g4 g3 
+g3 g4 g2 g4 g3 g1 g4 
+g3 g4 g2 g4 g3 g4 g1 
+g3 g4 g2 g4 g4 g1 g3 
+g3 g4 g2 g4 g4 g3 g1 
+g3 g4 g3 g1 g2 g4 g4 
+g3 g4 g3 g1 g3 g3 g3 
+g3 g4 g3 g1 g4 g2 g4 
+g3 g4 g3 g1 g4 g4 g2 
+g3 g4 g3 g2 g1 g4 g4 
+g3 g4 g3 g2 g4 g1 g4 
+g3 g4 g3 g2 g4 g4 g1 
+g3 g4 g3 g3 g1 g3 g3 
+g3 g4 g3 g3 g3 g1 g3 
+g3 g4 g3 g3 g3 g3 g1 
+g3 g4 g3 g4 g1 g2 g4 
+g3 g4 g3 g4 g1 g4 g2 
+g3 g4 g3 g4 g2 g1 g4 
+g3 g4 g3 g4 g2 g4 g1 
+g3 g4 g3 g4 g4 g1 g2 
+g3 g4 g3 g4 g4 g2 g1 
+g3 g4 g4 g1 g2 g3 g4 
+g3 g4 g4 g1 g2 g4 g3 
+g3 g4 g4 g1 g3 g2 g4 
+g3 g4 g4 g1 g3 g4 g2 
+g3 g4 g4 g1 g4 g2 g3 
+g3 g4 g4 g1 g4 g3 g2 
+g3 g4 g4 g2 g1 g3 g4 
+g3 g4 g4 g2 g1 g4 g3 
+g3 g4 g4 g2 g3 g1 g4 
+g3 g4 g4 g2 g3 g4 g1 
+g3 g4 g4 g2 g4 g1 g3 
+g3 g4 g4 g2 g4 g3 g1 
+g3 g4 g4 g3 g1 g2 g4 
+g3 g4 g4 g3 g1 g4 g2 
+g3 g4 g4 g3 g2 g1 g4 
+g3 g4 g4 g3 g2 g4 g1 
+g3 g4 g4 g3 g4 g1 g2 
+g3 g4 g4 g3 g4 g2 g1 
+g3 g4 g4 g4 g1 g2 g3 
+g3 g4 g4 g4 g1 g3 g2 
+g3 g4 g4 g4 g2 g1 g3 
+g3 g4 g4 g4 g2 g3 g1 
+g3 g4 g4 g4 g3 g1 g2 
+g3 g4 g4 g4 g3 g2 g1 
+g4 g1 g2 g3 g3 g4 g4 
+g4 g1 g2 g3 g4 g3 g4 
+g4 g1 g2 g3 g4 g4 g3 
+g4 g1 g2 g4 g3 g3 g4 
+g4 g1 g2 g4 g3 g4 g3 
+g4 g1 g2 g4 g4 g3 g3 
+g4 g1 g3 g2 g3 g4 g4 
+g4 g1 g3 g2 g4 g3 g4 
+g4 g1 g3 g2 g4 g4 g3 
+g4 g1 g3 g3 g2 g4 g4 
+g4 g1 g3 g3 g3 g3 g3 
+g4 g1 g3 g3 g4 g2 g4 
+g4 g1 g3 g3 g4 g4 g2 
+g4 g1 g3 g4 g2 g3 g4 
+g4 g1 g3 g4 g2 g4 g3 
+g4 g1 g3 g4 g3 g2 g4 
+g4 g1 g3 g4 g3 g4 g2 
+g4 g1 g3 g4 g4 g2 g3 
+g4 g1 g3 g4 g4 g3 g2 
+g4 g1 g4 g2 g3 g3 g4 
+g4 g1 g4 g2 g3 g4 g3 
+g4 g1 g4 g2 g4 g3 g3 
+g4 g1 g4 g3 g2 g3 g4 
+g4 g1 g4 g3 g2 g4 g3 
+g4 g1 g4 g3 g3 g2 g4 
+g4 g1 g4 g3 g3 g4 g2 
+g4 g1 g4 g3 g4 g2 g3 
+g4 g1 g4 g3 g4 g3 g2 
+g4 g1 g4 g4 g2 g3 g3 
+g4 g1 g4 g4 g3 g2 g3 
+g4 g1 g4 g4 g3 g3 g2 
+g4 g2 g1 g3 g3 g4 g4 
+g4 g2 g1 g3 g4 g3 g4 
+g4 g2 g1 g3 g4 g4 g3 
+g4 g2 g1 g4 g3 g3 g4 
+g4 g2 g1 g4 g3 g4 g3 
+g4 g2 g1 g4 g4 g3 g3 
+g4 g2 g3 g1 g3 g4 g4 
+g4 g2 g3 g1 g4 g3 g4 
+g4 g2 g3 g1 g4 g4 g3 
+g4 g2 g3 g3 g1 g4 g4 
+g4 g2 g3 g3 g4 g1 g4 
+g4 g2 g3 g3 g4 g4 g1 
+g4 g2 g3 g4 g1 g3 g4 
+g4 g2 g3 g4 g1 g4 g3 
+g4 g2 g3 g4 g3 g1 g4 
+g4 g2 g3 g4 g3 g4 g1 
+g4 g2 g3 g4 g4 g1 g3 
+g4 g2 g3 g4 g4 g3 g1 
+g4 g2 g4 g1 g3 g3 g4 
+g4 g2 g4 g1 g3 g4 g3 
+g4 g2 g4 g1 g4 g3 g3 
+g4 g2 g4 g3 g1 g3 g4 
+g4 g2 g4 g3 g1 g4 g3 
+g4 g2 g4 g3 g3 g1 g4 
+g4 g2 g4 g3 g3 g4 g1 
+g4 g2 g4 g3 g4 g1 g3 
+g4 g2 g4 g3 g4 g3 g1 
+g4 g2 g4 g4 g1 g3 g3 
+g4 g2 g4 g4 g3 g1 g3 
+g4 g2 g4 g4 g3 g3 g1 
+g4 g3 g1 g2 g3 g4 g4 
+g4 g3 g1 g2 g4 g3 g4 
+g4 g3 g1 g2 g4 g4 g3 
+g4 g3 g1 g3 g2 g4 g4 
+g4 g3 g1 g3 g3 g3 g3 
+g4 g3 g1 g3 g4 g2 g4 
+g4 g3 g1 g3 g4 g4 g2 
+g4 g3 g1 g4 g2 g3 g4 
+g4 g3 g1 g4 g2 g4 g3 
+g4 g3 g1 g4 g3 g2 g4 
+g4 g3 g1 g4 g3 g4 g2 
+g4 g3 g1 g4 g4 g2 g3 
+g4 g3 g1 g4 g4 g3 g2 
+g4 g3 g2 g1 g3 g4 g4 
+g4 g3 g2 g1 g4 g3 g4 
+g4 g3 g2 g1 g4 g4 g3 
+g4 g3 g2 g3 g1 g4 g4 
+g4 g3 g2 g3 g4 g1 g4 
+g4 g3 g2 g3 g4 g4 g1 
+g4 g3 g2 g4 g1 g3 g4 
+g4 g3 g2 g4 g1 g4 g3 
+g4 g3 g2 g4 g3 g1 g4 
+g4 g3 g2 g4 g3 g4 g1 
+g4 g3 g2 g4 g4 g1 g3 
+g4 g3 g2 g4 g4 g3 g1 
+g4 g3 g3 g1 g2 g4 g4 
+g4 g3 g3 g1 g3 g3 g3 
+g4 g3 g3 g1 g4 g2 g4 
+g4 g3 g3 g1 g4 g4 g2 
+g4 g3 g3 g2 g1 g4 g4 
+g4 g3 g3 g2 g4 g1 g4 
+g4 g3 g3 g2 g4 g4 g1 
+g4 g3 g3 g3 g1 g3 g3 
+g4 g3 g3 g3 g3 g1 g3 
+g4 g3 g3 g3 g3 g3 g1 
+g4 g3 g3 g4 g1 g2 g4 
+g4 g3 g3 g4 g1 g4 g2 
+g4 g3 g3 g4 g2 g1 g4 
+g4 g3 g3 g4 g2 g4 g1 
+g4 g3 g3 g4 g4 g1 g2 
+g4 g3 g3 g4 g4 g2 g1 
+g4 g3 g4 g1 g2 g3 g4 
+g4 g3 g4 g1 g2 g4 g3 
+g4 g3 g4 g1 g3 g2 g4 
+g4 g3 g4 g1 g3 g4 g2 
+g4 g3 g4 g1 g4 g2 g3 
+g4 g3 g4 g1 g4 g3 g2 
+g4 g3 g4 g2 g1 g3 g4 
+g4 g3 g4 g2 g1 g4 g3 
+g4 g3 g4 g2 g3 g1 g4 
+g4 g3 g4 g2 g3 g4 g1 
+g4 g3 g4 g2 g4 g1 g3 
+g4 g3 g4 g2 g4 g3 g1 
+g4 g3 g4 g3 g1 g2 g4 
+g4 g3 g4 g3 g1 g4 g2 
+g4 g3 g4 g3 g2 g1 g4 
+g4 g3 g4 g3 g2 g4 g1 
+g4 g3 g4 g3 g4 g1 g2 
+g4 g3 g4 g3 g4 g2 g1 
+g4 g3 g4 g4 g1 g2 g3 
+g4 g3 g4 g4 g1 g3 g2 
+g4 g3 g4 g4 g2 g1 g3 
+g4 g3 g4 g4 g2 g3 g1 
+g4 g3 g4 g4 g3 g1 g2 
+g4 g3 g4 g4 g3 g2 g1 
+g4 g4 g1 g2 g3 g3 g4 
+g4 g4 g1 g2 g3 g4 g3 
+g4 g4 g1 g2 g4 g3 g3 
+g4 g4 g1 g3 g2 g3 g4 
+g4 g4 g1 g3 g2 g4 g3 
+g4 g4 g1 g3 g3 g2 g4 
+g4 g4 g1 g3 g3 g4 g2 
+g4 g4 g1 g3 g4 g2 g3 
+g4 g4 g1 g3 g4 g3 g2 
+g4 g4 g1 g4 g2 g3 g3 
+g4 g4 g1 g4 g3 g2 g3 
+g4 g4 g1 g4 g3 g3 g2 
+g4 g4 g2 g1 g3 g3 g4 
+g4 g4 g2 g1 g3 g4 g3 
+g4 g4 g2 g1 g4 g3 g3 
+g4 g4 g2 g3 g1 g3 g4 
+g4 g4 g2 g3 g1 g4 g3 
+g4 g4 g2 g3 g3 g1 g4 
+g4 g4 g2 g3 g3 g4 g1 
+g4 g4 g2 g3 g4 g1 g3 
+g4 g4 g2 g3 g4 g3 g1 
+g4 g4 g2 g4 g1 g3 g3 
+g4 g4 g2 g4 g3 g1 g3 
+g4 g4 g2 g4 g3 g3 g1 
+g4 g4 g3 g1 g2 g3 g4 
+g4 g4 g3 g1 g2 g4 g3 
+g4 g4 g3 g1 g3 g2 g4 
+g4 g4 g3 g1 g3 g4 g2 
+g4 g4 g3 g1 g4 g2 g3 
+g4 g4 g3 g1 g4 g3 g2 
+g4 g4 g3 g2 g1 g3 g4 
+g4 g4 g3 g2 g1 g4 g3 
+g4 g4 g3 g2 g3 g1 g4 
+g4 g4 g3 g2 g3 g4 g1 
+g4 g4 g3 g2 g4 g1 g3 
+g4 g4 g3 g2 g4 g3 g1 
+g4 g4 g3 g3 g1 g2 g4 
+g4 g4 g3 g3 g1 g4 g2 
+g4 g4 g3 g3 g2 g1 g4 
+g4 g4 g3 g3 g2 g4 g1 
+g4 g4 g3 g3 g4 g1 g2 
+g4 g4 g3 g3 g4 g2 g1 
+g4 g4 g3 g4 g1 g2 g3 
+g4 g4 g3 g4 g1 g3 g2 
+g4 g4 g3 g4 g2 g1 g3 
+g4 g4 g3 g4 g2 g3 g1 
+g4 g4 g3 g4 g3 g1 g2 
+g4 g4 g3 g4 g3 g2 g1 
+g4 g4 g4 g1 g2 g3 g3 
+g4 g4 g4 g1 g3 g2 g3 
+g4 g4 g4 g1 g3 g3 g2 
+g4 g4 g4 g2 g1 g3 g3 
+g4 g4 g4 g2 g3 g1 g3 
+g4 g4 g4 g2 g3 g3 g1 
+g4 g4 g4 g3 g1 g2 g3 
+g4 g4 g4 g3 g1 g3 g2 
+g4 g4 g4 g3 g2 g1 g3 
+g4 g4 g4 g3 g2 g3 g1 
+g4 g4 g4 g3 g3 g1 g2 
+g4 g4 g4 g3 g3 g2 g1 
+score: 84
+g2 g3 g4 g4 g4 g4 
+g2 g4 g3 g4 g4 g4 
+g2 g4 g4 g3 g4 g4 
+g2 g4 g4 g4 g3 g4 
+g2 g4 g4 g4 g4 g3 
+g3 g2 g4 g4 g4 g4 
+g3 g3 g3 g3 g4 g4 
+g3 g3 g3 g4 g3 g4 
+g3 g3 g3 g4 g4 g3 
+g3 g3 g4 g3 g3 g4 
+g3 g3 g4 g3 g4 g3 
+g3 g3 g4 g4 g3 g3 
+g3 g4 g2 g4 g4 g4 
+g3 g4 g3 g3 g3 g4 
+g3 g4 g3 g3 g4 g3 
+g3 g4 g3 g4 g3 g3 
+g3 g4 g4 g2 g4 g4 
+g3 g4 g4 g3 g3 g3 
+g3 g4 g4 g4 g2 g4 
+g3 g4 g4 g4 g4 g2 
+g4 g2 g3 g4 g4 g4 
+g4 g2 g4 g3 g4 g4 
+g4 g2 g4 g4 g3 g4 
+g4 g2 g4 g4 g4 g3 
+g4 g3 g2 g4 g4 g4 
+g4 g3 g3 g3 g3 g4 
+g4 g3 g3 g3 g4 g3 
+g4 g3 g3 g4 g3 g3 
+g4 g3 g4 g2 g4 g4 
+g4 g3 g4 g3 g3 g3 
+g4 g3 g4 g4 g2 g4 
+g4 g3 g4 g4 g4 g2 
+g4 g4 g2 g3 g4 g4 
+g4 g4 g2 g4 g3 g4 
+g4 g4 g2 g4 g4 g3 
+g4 g4 g3 g2 g4 g4 
+g4 g4 g3 g3 g3 g3 
+g4 g4 g3 g4 g2 g4 
+g4 g4 g3 g4 g4 g2 
+g4 g4 g4 g2 g3 g4 
+g4 g4 g4 g2 g4 g3 
+g4 g4 g4 g3 g2 g4 
+g4 g4 g4 g3 g4 g2 
+g4 g4 g4 g4 g2 g3 
+g4 g4 g4 g4 g3 g2 
+score: 85
+g2 g2 g2 g4 g4 g4 g4 
+g2 g2 g3 g3 g3 g4 g4 
+g2 g2 g3 g3 g4 g3 g4 
+g2 g2 g3 g3 g4 g4 g3 
+g2 g2 g3 g4 g3 g3 g4 
+g2 g2 g3 g4 g3 g4 g3 
+g2 g2 g3 g4 g4 g3 g3 
+g2 g2 g4 g2 g4 g4 g4 
+g2 g2 g4 g3 g3 g3 g4 
+g2 g2 g4 g3 g3 g4 g3 
+g2 g2 g4 g3 g4 g3 g3 
+g2 g2 g4 g4 g2 g4 g4 
+g2 g2 g4 g4 g3 g3 g3 
+g2 g2 g4 g4 g4 g2 g4 
+g2 g2 g4 g4 g4 g4 g2 
+g2 g3 g2 g3 g3 g4 g4 
+g2 g3 g2 g3 g4 g3 g4 
+g2 g3 g2 g3 g4 g4 g3 
+g2 g3 g2 g4 g3 g3 g4 
+g2 g3 g2 g4 g3 g4 g3 
+g2 g3 g2 g4 g4 g3 g3 
+g2 g3 g3 g2 g3 g4 g4 
+g2 g3 g3 g2 g4 g3 g4 
+g2 g3 g3 g2 g4 g4 g3 
+g2 g3 g3 g3 g2 g4 g4 
+g2 g3 g3 g3 g3 g3 g3 
+g2 g3 g3 g3 g4 g2 g4 
+g2 g3 g3 g3 g4 g4 g2 
+g2 g3 g3 g4 g2 g3 g4 
+g2 g3 g3 g4 g2 g4 g3 
+g2 g3 g3 g4 g3 g2 g4 
+g2 g3 g3 g4 g3 g4 g2 
+g2 g3 g3 g4 g4 g2 g3 
+g2 g3 g3 g4 g4 g3 g2 
+g2 g3 g4 g2 g3 g3 g4 
+g2 g3 g4 g2 g3 g4 g3 
+g2 g3 g4 g2 g4 g3 g3 
+g2 g3 g4 g3 g2 g3 g4 
+g2 g3 g4 g3 g2 g4 g3 
+g2 g3 g4 g3 g3 g2 g4 
+g2 g3 g4 g3 g3 g4 g2 
+g2 g3 g4 g3 g4 g2 g3 
+g2 g3 g4 g3 g4 g3 g2 
+g2 g3 g4 g4 g2 g3 g3 
+g2 g3 g4 g4 g3 g2 g3 
+g2 g3 g4 g4 g3 g3 g2 
+g2 g4 g2 g2 g4 g4 g4 
+g2 g4 g2 g3 g3 g3 g4 
+g2 g4 g2 g3 g3 g4 g3 
+g2 g4 g2 g3 g4 g3 g3 
+g2 g4 g2 g4 g2 g4 g4 
+g2 g4 g2 g4 g3 g3 g3 
+g2 g4 g2 g4 g4 g2 g4 
+g2 g4 g2 g4 g4 g4 g2 
+g2 g4 g3 g2 g3 g3 g4 
+g2 g4 g3 g2 g3 g4 g3 
+g2 g4 g3 g2 g4 g3 g3 
+g2 g4 g3 g3 g2 g3 g4 
+g2 g4 g3 g3 g2 g4 g3 
+g2 g4 g3 g3 g3 g2 g4 
+g2 g4 g3 g3 g3 g4 g2 
+g2 g4 g3 g3 g4 g2 g3 
+g2 g4 g3 g3 g4 g3 g2 
+g2 g4 g3 g4 g2 g3 g3 
+g2 g4 g3 g4 g3 g2 g3 
+g2 g4 g3 g4 g3 g3 g2 
+g2 g4 g4 g2 g2 g4 g4 
+g2 g4 g4 g2 g3 g3 g3 
+g2 g4 g4 g2 g4 g2 g4 
+g2 g4 g4 g2 g4 g4 g2 
+g2 g4 g4 g3 g2 g3 g3 
+g2 g4 g4 g3 g3 g2 g3 
+g2 g4 g4 g3 g3 g3 g2 
+g2 g4 g4 g4 g2 g2 g4 
+g2 g4 g4 g4 g2 g4 g2 
+g2 g4 g4 g4 g4 g2 g2 
+g3 g2 g2 g3 g3 g4 g4 
+g3 g2 g2 g3 g4 g3 g4 
+g3 g2 g2 g3 g4 g4 g3 
+g3 g2 g2 g4 g3 g3 g4 
+g3 g2 g2 g4 g3 g4 g3 
+g3 g2 g2 g4 g4 g3 g3 
+g3 g2 g3 g2 g3 g4 g4 
+g3 g2 g3 g2 g4 g3 g4 
+g3 g2 g3 g2 g4 g4 g3 
+g3 g2 g3 g3 g2 g4 g4 
+g3 g2 g3 g3 g3 g3 g3 
+g3 g2 g3 g3 g4 g2 g4 
+g3 g2 g3 g3 g4 g4 g2 
+g3 g2 g3 g4 g2 g3 g4 
+g3 g2 g3 g4 g2 g4 g3 
+g3 g2 g3 g4 g3 g2 g4 
+g3 g2 g3 g4 g3 g4 g2 
+g3 g2 g3 g4 g4 g2 g3 
+g3 g2 g3 g4 g4 g3 g2 
+g3 g2 g4 g2 g3 g3 g4 
+g3 g2 g4 g2 g3 g4 g3 
+g3 g2 g4 g2 g4 g3 g3 
+g3 g2 g4 g3 g2 g3 g4 
+g3 g2 g4 g3 g2 g4 g3 
+g3 g2 g4 g3 g3 g2 g4 
+g3 g2 g4 g3 g3 g4 g2 
+g3 g2 g4 g3 g4 g2 g3 
+g3 g2 g4 g3 g4 g3 g2 
+g3 g2 g4 g4 g2 g3 g3 
+g3 g2 g4 g4 g3 g2 g3 
+g3 g2 g4 g4 g3 g3 g2 
+g3 g3 g2 g2 g3 g4 g4 
+g3 g3 g2 g2 g4 g3 g4 
+g3 g3 g2 g2 g4 g4 g3 
+g3 g3 g2 g3 g2 g4 g4 
+g3 g3 g2 g3 g3 g3 g3 
+g3 g3 g2 g3 g4 g2 g4 
+g3 g3 g2 g3 g4 g4 g2 
+g3 g3 g2 g4 g2 g3 g4 
+g3 g3 g2 g4 g2 g4 g3 
+g3 g3 g2 g4 g3 g2 g4 
+g3 g3 g2 g4 g3 g4 g2 
+g3 g3 g2 g4 g4 g2 g3 
+g3 g3 g2 g4 g4 g3 g2 
+g3 g3 g3 g2 g2 g4 g4 
+g3 g3 g3 g2 g3 g3 g3 
+g3 g3 g3 g2 g4 g2 g4 
+g3 g3 g3 g2 g4 g4 g2 
+g3 g3 g3 g3 g2 g3 g3 
+g3 g3 g3 g3 g3 g2 g3 
+g3 g3 g3 g3 g3 g3 g2 
+g3 g3 g3 g4 g2 g2 g4 
+g3 g3 g3 g4 g2 g4 g2 
+g3 g3 g3 g4 g4 g2 g2 
+g3 g3 g4 g2 g2 g3 g4 
+g3 g3 g4 g2 g2 g4 g3 
+g3 g3 g4 g2 g3 g2 g4 
+g3 g3 g4 g2 g3 g4 g2 
+g3 g3 g4 g2 g4 g2 g3 
+g3 g3 g4 g2 g4 g3 g2 
+g3 g3 g4 g3 g2 g2 g4 
+g3 g3 g4 g3 g2 g4 g2 
+g3 g3 g4 g3 g4 g2 g2 
+g3 g3 g4 g4 g2 g2 g3 
+g3 g3 g4 g4 g2 g3 g2 
+g3 g3 g4 g4 g3 g2 g2 
+g3 g4 g2 g2 g3 g3 g4 
+g3 g4 g2 g2 g3 g4 g3 
+g3 g4 g2 g2 g4 g3 g3 
+g3 g4 g2 g3 g2 g3 g4 
+g3 g4 g2 g3 g2 g4 g3 
+g3 g4 g2 g3 g3 g2 g4 
+g3 g4 g2 g3 g3 g4 g2 
+g3 g4 g2 g3 g4 g2 g3 
+g3 g4 g2 g3 g4 g3 g2 
+g3 g4 g2 g4 g2 g3 g3 
+g3 g4 g2 g4 g3 g2 g3 
+g3 g4 g2 g4 g3 g3 g2 
+g3 g4 g3 g2 g2 g3 g4 
+g3 g4 g3 g2 g2 g4 g3 
+g3 g4 g3 g2 g3 g2 g4 
+g3 g4 g3 g2 g3 g4 g2 
+g3 g4 g3 g2 g4 g2 g3 
+g3 g4 g3 g2 g4 g3 g2 
+g3 g4 g3 g3 g2 g2 g4 
+g3 g4 g3 g3 g2 g4 g2 
+g3 g4 g3 g3 g4 g2 g2 
+g3 g4 g3 g4 g2 g2 g3 
+g3 g4 g3 g4 g2 g3 g2 
+g3 g4 g3 g4 g3 g2 g2 
+g3 g4 g4 g2 g2 g3 g3 
+g3 g4 g4 g2 g3 g2 g3 
+g3 g4 g4 g2 g3 g3 g2 
+g3 g4 g4 g3 g2 g2 g3 
+g3 g4 g4 g3 g2 g3 g2 
+g3 g4 g4 g3 g3 g2 g2 
+g4 g2 g2 g2 g4 g4 g4 
+g4 g2 g2 g3 g3 g3 g4 
+g4 g2 g2 g3 g3 g4 g3 
+g4 g2 g2 g3 g4 g3 g3 
+g4 g2 g2 g4 g2 g4 g4 
+g4 g2 g2 g4 g3 g3 g3 
+g4 g2 g2 g4 g4 g2 g4 
+g4 g2 g2 g4 g4 g4 g2 
+g4 g2 g3 g2 g3 g3 g4 
+g4 g2 g3 g2 g3 g4 g3 
+g4 g2 g3 g2 g4 g3 g3 
+g4 g2 g3 g3 g2 g3 g4 
+g4 g2 g3 g3 g2 g4 g3 
+g4 g2 g3 g3 g3 g2 g4 
+g4 g2 g3 g3 g3 g4 g2 
+g4 g2 g3 g3 g4 g2 g3 
+g4 g2 g3 g3 g4 g3 g2 
+g4 g2 g3 g4 g2 g3 g3 
+g4 g2 g3 g4 g3 g2 g3 
+g4 g2 g3 g4 g3 g3 g2 
+g4 g2 g4 g2 g2 g4 g4 
+g4 g2 g4 g2 g3 g3 g3 
+g4 g2 g4 g2 g4 g2 g4 
+g4 g2 g4 g2 g4 g4 g2 
+g4 g2 g4 g3 g2 g3 g3 
+g4 g2 g4 g3 g3 g2 g3 
+g4 g2 g4 g3 g3 g3 g2 
+g4 g2 g4 g4 g2 g2 g4 
+g4 g2 g4 g4 g2 g4 g2 
+g4 g2 g4 g4 g4 g2 g2 
+g4 g3 g2 g2 g3 g3 g4 
+g4 g3 g2 g2 g3 g4 g3 
+g4 g3 g2 g2 g4 g3 g3 
+g4 g3 g2 g3 g2 g3 g4 
+g4 g3 g2 g3 g2 g4 g3 
+g4 g3 g2 g3 g3 g2 g4 
+g4 g3 g2 g3 g3 g4 g2 
+g4 g3 g2 g3 g4 g2 g3 
+g4 g3 g2 g3 g4 g3 g2 
+g4 g3 g2 g4 g2 g3 g3 
+g4 g3 g2 g4 g3 g2 g3 
+g4 g3 g2 g4 g3 g3 g2 
+g4 g3 g3 g2 g2 g3 g4 
+g4 g3 g3 g2 g2 g4 g3 
+g4 g3 g3 g2 g3 g2 g4 
+g4 g3 g3 g2 g3 g4 g2 
+g4 g3 g3 g2 g4 g2 g3 
+g4 g3 g3 g2 g4 g3 g2 
+g4 g3 g3 g3 g2 g2 g4 
+g4 g3 g3 g3 g2 g4 g2 
+g4 g3 g3 g3 g4 g2 g2 
+g4 g3 g3 g4 g2 g2 g3 
+g4 g3 g3 g4 g2 g3 g2 
+g4 g3 g3 g4 g3 g2 g2 
+g4 g3 g4 g2 g2 g3 g3 
+g4 g3 g4 g2 g3 g2 g3 
+g4 g3 g4 g2 g3 g3 g2 
+g4 g3 g4 g3 g2 g2 g3 
+g4 g3 g4 g3 g2 g3 g2 
+g4 g3 g4 g3 g3 g2 g2 
+g4 g4 g2 g2 g2 g4 g4 
+g4 g4 g2 g2 g3 g3 g3 
+g4 g4 g2 g2 g4 g2 g4 
+g4 g4 g2 g2 g4 g4 g2 
+g4 g4 g2 g3 g2 g3 g3 
+g4 g4 g2 g3 g3 g2 g3 
+g4 g4 g2 g3 g3 g3 g2 
+g4 g4 g2 g4 g2 g2 g4 
+g4 g4 g2 g4 g2 g4 g2 
+g4 g4 g2 g4 g4 g2 g2 
+g4 g4 g3 g2 g2 g3 g3 
+g4 g4 g3 g2 g3 g2 g3 
+g4 g4 g3 g2 g3 g3 g2 
+g4 g4 g3 g3 g2 g2 g3 
+g4 g4 g3 g3 g2 g3 g2 
+g4 g4 g3 g3 g3 g2 g2 
+g4 g4 g4 g2 g2 g2 g4 
+g4 g4 g4 g2 g2 g4 g2 
+g4 g4 g4 g2 g4 g2 g2 
+g4 g4 g4 g4 g2 g2 g2 
+score: 86
+g1 g2 g3 g4 g4 g4 g4 
+g1 g2 g4 g3 g4 g4 g4 
+g1 g2 g4 g4 g3 g4 g4 
+g1 g2 g4 g4 g4 g3 g4 
+g1 g2 g4 g4 g4 g4 g3 
+g1 g3 g2 g4 g4 g4 g4 
+g1 g3 g3 g3 g3 g4 g4 
+g1 g3 g3 g3 g4 g3 g4 
+g1 g3 g3 g3 g4 g4 g3 
+g1 g3 g3 g4 g3 g3 g4 
+g1 g3 g3 g4 g3 g4 g3 
+g1 g3 g3 g4 g4 g3 g3 
+g1 g3 g4 g2 g4 g4 g4 
+g1 g3 g4 g3 g3 g3 g4 
+g1 g3 g4 g3 g3 g4 g3 
+g1 g3 g4 g3 g4 g3 g3 
+g1 g3 g4 g4 g2 g4 g4 
+g1 g3 g4 g4 g3 g3 g3 
+g1 g3 g4 g4 g4 g2 g4 
+g1 g3 g4 g4 g4 g4 g2 
+g1 g4 g2 g3 g4 g4 g4 
+g1 g4 g2 g4 g3 g4 g4 
+g1 g4 g2 g4 g4 g3 g4 
+g1 g4 g2 g4 g4 g4 g3 
+g1 g4 g3 g2 g4 g4 g4 
+g1 g4 g3 g3 g3 g3 g4 
+g1 g4 g3 g3 g3 g4 g3 
+g1 g4 g3 g3 g4 g3 g3 
+g1 g4 g3 g4 g2 g4 g4 
+g1 g4 g3 g4 g3 g3 g3 
+g1 g4 g3 g4 g4 g2 g4 
+g1 g4 g3 g4 g4 g4 g2 
+g1 g4 g4 g2 g3 g4 g4 
+g1 g4 g4 g2 g4 g3 g4 
+g1 g4 g4 g2 g4 g4 g3 
+g1 g4 g4 g3 g2 g4 g4 
+g1 g4 g4 g3 g3 g3 g3 
+g1 g4 g4 g3 g4 g2 g4 
+g1 g4 g4 g3 g4 g4 g2 
+g1 g4 g4 g4 g2 g3 g4 
+g1 g4 g4 g4 g2 g4 g3 
+g1 g4 g4 g4 g3 g2 g4 
+g1 g4 g4 g4 g3 g4 g2 
+g1 g4 g4 g4 g4 g2 g3 
+g1 g4 g4 g4 g4 g3 g2 
+g2 g1 g3 g4 g4 g4 g4 
+g2 g1 g4 g3 g4 g4 g4 
+g2 g1 g4 g4 g3 g4 g4 
+g2 g1 g4 g4 g4 g3 g4 
+g2 g1 g4 g4 g4 g4 g3 
+g2 g3 g1 g4 g4 g4 g4 
+g2 g3 g4 g1 g4 g4 g4 
+g2 g3 g4 g4 g1 g4 g4 
+g2 g3 g4 g4 g4 g1 g4 
+g2 g3 g4 g4 g4 g4 g1 
+g2 g4 g1 g3 g4 g4 g4 
+g2 g4 g1 g4 g3 g4 g4 
+g2 g4 g1 g4 g4 g3 g4 
+g2 g4 g1 g4 g4 g4 g3 
+g2 g4 g3 g1 g4 g4 g4 
+g2 g4 g3 g4 g1 g4 g4 
+g2 g4 g3 g4 g4 g1 g4 
+g2 g4 g3 g4 g4 g4 g1 
+g2 g4 g4 g1 g3 g4 g4 
+g2 g4 g4 g1 g4 g3 g4 
+g2 g4 g4 g1 g4 g4 g3 
+g2 g4 g4 g3 g1 g4 g4 
+g2 g4 g4 g3 g4 g1 g4 
+g2 g4 g4 g3 g4 g4 g1 
+g2 g4 g4 g4 g1 g3 g4 
+g2 g4 g4 g4 g1 g4 g3 
+g2 g4 g4 g4 g3 g1 g4 
+g2 g4 g4 g4 g3 g4 g1 
+g2 g4 g4 g4 g4 g1 g3 
+g2 g4 g4 g4 g4 g3 g1 
+g3 g1 g2 g4 g4 g4 g4 
+g3 g1 g3 g3 g3 g4 g4 
+g3 g1 g3 g3 g4 g3 g4 
+g3 g1 g3 g3 g4 g4 g3 
+g3 g1 g3 g4 g3 g3 g4 
+g3 g1 g3 g4 g3 g4 g3 
+g3 g1 g3 g4 g4 g3 g3 
+g3 g1 g4 g2 g4 g4 g4 
+g3 g1 g4 g3 g3 g3 g4 
+g3 g1 g4 g3 g3 g4 g3 
+g3 g1 g4 g3 g4 g3 g3 
+g3 g1 g4 g4 g2 g4 g4 
+g3 g1 g4 g4 g3 g3 g3 
+g3 g1 g4 g4 g4 g2 g4 
+g3 g1 g4 g4 g4 g4 g2 
+g3 g2 g1 g4 g4 g4 g4 
+g3 g2 g4 g1 g4 g4 g4 
+g3 g2 g4 g4 g1 g4 g4 
+g3 g2 g4 g4 g4 g1 g4 
+g3 g2 g4 g4 g4 g4 g1 
+g3 g3 g1 g3 g3 g4 g4 
+g3 g3 g1 g3 g4 g3 g4 
+g3 g3 g1 g3 g4 g4 g3 
+g3 g3 g1 g4 g3 g3 g4 
+g3 g3 g1 g4 g3 g4 g3 
+g3 g3 g1 g4 g4 g3 g3 
+g3 g3 g3 g1 g3 g4 g4 
+g3 g3 g3 g1 g4 g3 g4 
+g3 g3 g3 g1 g4 g4 g3 
+g3 g3 g3 g3 g1 g4 g4 
+g3 g3 g3 g3 g4 g1 g4 
+g3 g3 g3 g3 g4 g4 g1 
+g3 g3 g3 g4 g1 g3 g4 
+g3 g3 g3 g4 g1 g4 g3 
+g3 g3 g3 g4 g3 g1 g4 
+g3 g3 g3 g4 g3 g4 g1 
+g3 g3 g3 g4 g4 g1 g3 
+g3 g3 g3 g4 g4 g3 g1 
+g3 g3 g4 g1 g3 g3 g4 
+g3 g3 g4 g1 g3 g4 g3 
+g3 g3 g4 g1 g4 g3 g3 
+g3 g3 g4 g3 g1 g3 g4 
+g3 g3 g4 g3 g1 g4 g3 
+g3 g3 g4 g3 g3 g1 g4 
+g3 g3 g4 g3 g3 g4 g1 
+g3 g3 g4 g3 g4 g1 g3 
+g3 g3 g4 g3 g4 g3 g1 
+g3 g3 g4 g4 g1 g3 g3 
+g3 g3 g4 g4 g3 g1 g3 
+g3 g3 g4 g4 g3 g3 g1 
+g3 g4 g1 g2 g4 g4 g4 
+g3 g4 g1 g3 g3 g3 g4 
+g3 g4 g1 g3 g3 g4 g3 
+g3 g4 g1 g3 g4 g3 g3 
+g3 g4 g1 g4 g2 g4 g4 
+g3 g4 g1 g4 g3 g3 g3 
+g3 g4 g1 g4 g4 g2 g4 
+g3 g4 g1 g4 g4 g4 g2 
+g3 g4 g2 g1 g4 g4 g4 
+g3 g4 g2 g4 g1 g4 g4 
+g3 g4 g2 g4 g4 g1 g4 
+g3 g4 g2 g4 g4 g4 g1 
+g3 g4 g3 g1 g3 g3 g4 
+g3 g4 g3 g1 g3 g4 g3 
+g3 g4 g3 g1 g4 g3 g3 
+g3 g4 g3 g3 g1 g3 g4 
+g3 g4 g3 g3 g1 g4 g3 
+g3 g4 g3 g3 g3 g1 g4 
+g3 g4 g3 g3 g3 g4 g1 
+g3 g4 g3 g3 g4 g1 g3 
+g3 g4 g3 g3 g4 g3 g1 
+g3 g4 g3 g4 g1 g3 g3 
+g3 g4 g3 g4 g3 g1 g3 
+g3 g4 g3 g4 g3 g3 g1 
+g3 g4 g4 g1 g2 g4 g4 
+g3 g4 g4 g1 g3 g3 g3 
+g3 g4 g4 g1 g4 g2 g4 
+g3 g4 g4 g1 g4 g4 g2 
+g3 g4 g4 g2 g1 g4 g4 
+g3 g4 g4 g2 g4 g1 g4 
+g3 g4 g4 g2 g4 g4 g1 
+g3 g4 g4 g3 g1 g3 g3 
+g3 g4 g4 g3 g3 g1 g3 
+g3 g4 g4 g3 g3 g3 g1 
+g3 g4 g4 g4 g1 g2 g4 
+g3 g4 g4 g4 g1 g4 g2 
+g3 g4 g4 g4 g2 g1 g4 
+g3 g4 g4 g4 g2 g4 g1 
+g3 g4 g4 g4 g4 g1 g2 
+g3 g4 g4 g4 g4 g2 g1 
+g4 g1 g2 g3 g4 g4 g4 
+g4 g1 g2 g4 g3 g4 g4 
+g4 g1 g2 g4 g4 g3 g4 
+g4 g1 g2 g4 g4 g4 g3 
+g4 g1 g3 g2 g4 g4 g4 
+g4 g1 g3 g3 g3 g3 g4 
+g4 g1 g3 g3 g3 g4 g3 
+g4 g1 g3 g3 g4 g3 g3 
+g4 g1 g3 g4 g2 g4 g4 
+g4 g1 g3 g4 g3 g3 g3 
+g4 g1 g3 g4 g4 g2 g4 
+g4 g1 g3 g4 g4 g4 g2 
+g4 g1 g4 g2 g3 g4 g4 
+g4 g1 g4 g2 g4 g3 g4 
+g4 g1 g4 g2 g4 g4 g3 
+g4 g1 g4 g3 g2 g4 g4 
+g4 g1 g4 g3 g3 g3 g3 
+g4 g1 g4 g3 g4 g2 g4 
+g4 g1 g4 g3 g4 g4 g2 
+g4 g1 g4 g4 g2 g3 g4 
+g4 g1 g4 g4 g2 g4 g3 
+g4 g1 g4 g4 g3 g2 g4 
+g4 g1 g4 g4 g3 g4 g2 
+g4 g1 g4 g4 g4 g2 g3 
+g4 g1 g4 g4 g4 g3 g2 
+g4 g2 g1 g3 g4 g4 g4 
+g4 g2 g1 g4 g3 g4 g4 
+g4 g2 g1 g4 g4 g3 g4 
+g4 g2 g1 g4 g4 g4 g3 
+g4 g2 g3 g1 g4 g4 g4 
+g4 g2 g3 g4 g1 g4 g4 
+g4 g2 g3 g4 g4 g1 g4 
+g4 g2 g3 g4 g4 g4 g1 
+g4 g2 g4 g1 g3 g4 g4 
+g4 g2 g4 g1 g4 g3 g4 
+g4 g2 g4 g1 g4 g4 g3 
+g4 g2 g4 g3 g1 g4 g4 
+g4 g2 g4 g3 g4 g1 g4 
+g4 g2 g4 g3 g4 g4 g1 
+g4 g2 g4 g4 g1 g3 g4 
+g4 g2 g4 g4 g1 g4 g3 
+g4 g2 g4 g4 g3 g1 g4 
+g4 g2 g4 g4 g3 g4 g1 
+g4 g2 g4 g4 g4 g1 g3 
+g4 g2 g4 g4 g4 g3 g1 
+g4 g3 g1 g2 g4 g4 g4 
+g4 g3 g1 g3 g3 g3 g4 
+g4 g3 g1 g3 g3 g4 g3 
+g4 g3 g1 g3 g4 g3 g3 
+g4 g3 g1 g4 g2 g4 g4 
+g4 g3 g1 g4 g3 g3 g3 
+g4 g3 g1 g4 g4 g2 g4 
+g4 g3 g1 g4 g4 g4 g2 
+g4 g3 g2 g1 g4 g4 g4 
+g4 g3 g2 g4 g1 g4 g4 
+g4 g3 g2 g4 g4 g1 g4 
+g4 g3 g2 g4 g4 g4 g1 
+g4 g3 g3 g1 g3 g3 g4 
+g4 g3 g3 g1 g3 g4 g3 
+g4 g3 g3 g1 g4 g3 g3 
+g4 g3 g3 g3 g1 g3 g4 
+g4 g3 g3 g3 g1 g4 g3 
+g4 g3 g3 g3 g3 g1 g4 
+g4 g3 g3 g3 g3 g4 g1 
+g4 g3 g3 g3 g4 g1 g3 
+g4 g3 g3 g3 g4 g3 g1 
+g4 g3 g3 g4 g1 g3 g3 
+g4 g3 g3 g4 g3 g1 g3 
+g4 g3 g3 g4 g3 g3 g1 
+g4 g3 g4 g1 g2 g4 g4 
+g4 g3 g4 g1 g3 g3 g3 
+g4 g3 g4 g1 g4 g2 g4 
+g4 g3 g4 g1 g4 g4 g2 
+g4 g3 g4 g2 g1 g4 g4 
+g4 g3 g4 g2 g4 g1 g4 
+g4 g3 g4 g2 g4 g4 g1 
+g4 g3 g4 g3 g1 g3 g3 
+g4 g3 g4 g3 g3 g1 g3 
+g4 g3 g4 g3 g3 g3 g1 
+g4 g3 g4 g4 g1 g2 g4 
+g4 g3 g4 g4 g1 g4 g2 
+g4 g3 g4 g4 g2 g1 g4 
+g4 g3 g4 g4 g2 g4 g1 
+g4 g3 g4 g4 g4 g1 g2 
+g4 g3 g4 g4 g4 g2 g1 
+g4 g4 g1 g2 g3 g4 g4 
+g4 g4 g1 g2 g4 g3 g4 
+g4 g4 g1 g2 g4 g4 g3 
+g4 g4 g1 g3 g2 g4 g4 
+g4 g4 g1 g3 g3 g3 g3 
+g4 g4 g1 g3 g4 g2 g4 
+g4 g4 g1 g3 g4 g4 g2 
+g4 g4 g1 g4 g2 g3 g4 
+g4 g4 g1 g4 g2 g4 g3 
+g4 g4 g1 g4 g3 g2 g4 
+g4 g4 g1 g4 g3 g4 g2 
+g4 g4 g1 g4 g4 g2 g3 
+g4 g4 g1 g4 g4 g3 g2 
+g4 g4 g2 g1 g3 g4 g4 
+g4 g4 g2 g1 g4 g3 g4 
+g4 g4 g2 g1 g4 g4 g3 
+g4 g4 g2 g3 g1 g4 g4 
+g4 g4 g2 g3 g4 g1 g4 
+g4 g4 g2 g3 g4 g4 g1 
+g4 g4 g2 g4 g1 g3 g4 
+g4 g4 g2 g4 g1 g4 g3 
+g4 g4 g2 g4 g3 g1 g4 
+g4 g4 g2 g4 g3 g4 g1 
+g4 g4 g2 g4 g4 g1 g3 
+g4 g4 g2 g4 g4 g3 g1 
+g4 g4 g3 g1 g2 g4 g4 
+g4 g4 g3 g1 g3 g3 g3 
+g4 g4 g3 g1 g4 g2 g4 
+g4 g4 g3 g1 g4 g4 g2 
+g4 g4 g3 g2 g1 g4 g4 
+g4 g4 g3 g2 g4 g1 g4 
+g4 g4 g3 g2 g4 g4 g1 
+g4 g4 g3 g3 g1 g3 g3 
+g4 g4 g3 g3 g3 g1 g3 
+g4 g4 g3 g3 g3 g3 g1 
+g4 g4 g3 g4 g1 g2 g4 
+g4 g4 g3 g4 g1 g4 g2 
+g4 g4 g3 g4 g2 g1 g4 
+g4 g4 g3 g4 g2 g4 g1 
+g4 g4 g3 g4 g4 g1 g2 
+g4 g4 g3 g4 g4 g2 g1 
+g4 g4 g4 g1 g2 g3 g4 
+g4 g4 g4 g1 g2 g4 g3 
+g4 g4 g4 g1 g3 g2 g4 
+g4 g4 g4 g1 g3 g4 g2 
+g4 g4 g4 g1 g4 g2 g3 
+g4 g4 g4 g1 g4 g3 g2 
+g4 g4 g4 g2 g1 g3 g4 
+g4 g4 g4 g2 g1 g4 g3 
+g4 g4 g4 g2 g3 g1 g4 
+g4 g4 g4 g2 g3 g4 g1 
+g4 g4 g4 g2 g4 g1 g3 
+g4 g4 g4 g2 g4 g3 g1 
+g4 g4 g4 g3 g1 g2 g4 
+g4 g4 g4 g3 g1 g4 g2 
+g4 g4 g4 g3 g2 g1 g4 
+g4 g4 g4 g3 g2 g4 g1 
+g4 g4 g4 g3 g4 g1 g2 
+g4 g4 g4 g3 g4 g2 g1 
+g4 g4 g4 g4 g1 g2 g3 
+g4 g4 g4 g4 g1 g3 g2 
+g4 g4 g4 g4 g2 g1 g3 
+g4 g4 g4 g4 g2 g3 g1 
+g4 g4 g4 g4 g3 g1 g2 
+g4 g4 g4 g4 g3 g2 g1 
+score: 87
+g2 g4 g4 g4 g4 g4 
+g3 g3 g3 g4 g4 g4 
+g3 g3 g4 g3 g4 g4 
+g3 g3 g4 g4 g3 g4 
+g3 g3 g4 g4 g4 g3 
+g3 g4 g3 g3 g4 g4 
+g3 g4 g3 g4 g3 g4 
+g3 g4 g3 g4 g4 g3 
+g3 g4 g4 g3 g3 g4 
+g3 g4 g4 g3 g4 g3 
+g3 g4 g4 g4 g3 g3 
+g4 g2 g4 g4 g4 g4 
+g4 g3 g3 g3 g4 g4 
+g4 g3 g3 g4 g3 g4 
+g4 g3 g3 g4 g4 g3 
+g4 g3 g4 g3 g3 g4 
+g4 g3 g4 g3 g4 g3 
+g4 g3 g4 g4 g3 g3 
+g4 g4 g2 g4 g4 g4 
+g4 g4 g3 g3 g3 g4 
+g4 g4 g3 g3 g4 g3 
+g4 g4 g3 g4 g3 g3 
+g4 g4 g4 g2 g4 g4 
+g4 g4 g4 g3 g3 g3 
+g4 g4 g4 g4 g2 g4 
+g4 g4 g4 g4 g4 g2 
+score: 88
+g2 g2 g3 g3 g4 g4 g4 
+g2 g2 g3 g4 g3 g4 g4 
+g2 g2 g3 g4 g4 g3 g4 
+g2 g2 g3 g4 g4 g4 g3 
+g2 g2 g4 g3 g3 g4 g4 
+g2 g2 g4 g3 g4 g3 g4 
+g2 g2 g4 g3 g4 g4 g3 
+g2 g2 g4 g4 g3 g3 g4 
+g2 g2 g4 g4 g3 g4 g3 
+g2 g2 g4 g4 g4 g3 g3 
+g2 g3 g2 g3 g4 g4 g4 
+g2 g3 g2 g4 g3 g4 g4 
+g2 g3 g2 g4 g4 g3 g4 
+g2 g3 g2 g4 g4 g4 g3 
+g2 g3 g3 g2 g4 g4 g4 
+g2 g3 g3 g3 g3 g3 g4 
+g2 g3 g3 g3 g3 g4 g3 
+g2 g3 g3 g3 g4 g3 g3 
+g2 g3 g3 g4 g2 g4 g4 
+g2 g3 g3 g4 g3 g3 g3 
+g2 g3 g3 g4 g4 g2 g4 
+g2 g3 g3 g4 g4 g4 g2 
+g2 g3 g4 g2 g3 g4 g4 
+g2 g3 g4 g2 g4 g3 g4 
+g2 g3 g4 g2 g4 g4 g3 
+g2 g3 g4 g3 g2 g4 g4 
+g2 g3 g4 g3 g3 g3 g3 
+g2 g3 g4 g3 g4 g2 g4 
+g2 g3 g4 g3 g4 g4 g2 
+g2 g3 g4 g4 g2 g3 g4 
+g2 g3 g4 g4 g2 g4 g3 
+g2 g3 g4 g4 g3 g2 g4 
+g2 g3 g4 g4 g3 g4 g2 
+g2 g3 g4 g4 g4 g2 g3 
+g2 g3 g4 g4 g4 g3 g2 
+g2 g4 g2 g3 g3 g4 g4 
+g2 g4 g2 g3 g4 g3 g4 
+g2 g4 g2 g3 g4 g4 g3 
+g2 g4 g2 g4 g3 g3 g4 
+g2 g4 g2 g4 g3 g4 g3 
+g2 g4 g2 g4 g4 g3 g3 
+g2 g4 g3 g2 g3 g4 g4 
+g2 g4 g3 g2 g4 g3 g4 
+g2 g4 g3 g2 g4 g4 g3 
+g2 g4 g3 g3 g2 g4 g4 
+g2 g4 g3 g3 g3 g3 g3 
+g2 g4 g3 g3 g4 g2 g4 
+g2 g4 g3 g3 g4 g4 g2 
+g2 g4 g3 g4 g2 g3 g4 
+g2 g4 g3 g4 g2 g4 g3 
+g2 g4 g3 g4 g3 g2 g4 
+g2 g4 g3 g4 g3 g4 g2 
+g2 g4 g3 g4 g4 g2 g3 
+g2 g4 g3 g4 g4 g3 g2 
+g2 g4 g4 g2 g3 g3 g4 
+g2 g4 g4 g2 g3 g4 g3 
+g2 g4 g4 g2 g4 g3 g3 
+g2 g4 g4 g3 g2 g3 g4 
+g2 g4 g4 g3 g2 g4 g3 
+g2 g4 g4 g3 g3 g2 g4 
+g2 g4 g4 g3 g3 g4 g2 
+g2 g4 g4 g3 g4 g2 g3 
+g2 g4 g4 g3 g4 g3 g2 
+g2 g4 g4 g4 g2 g3 g3 
+g2 g4 g4 g4 g3 g2 g3 
+g2 g4 g4 g4 g3 g3 g2 
+g3 g2 g2 g3 g4 g4 g4 
+g3 g2 g2 g4 g3 g4 g4 
+g3 g2 g2 g4 g4 g3 g4 
+g3 g2 g2 g4 g4 g4 g3 
+g3 g2 g3 g2 g4 g4 g4 
+g3 g2 g3 g3 g3 g3 g4 
+g3 g2 g3 g3 g3 g4 g3 
+g3 g2 g3 g3 g4 g3 g3 
+g3 g2 g3 g4 g2 g4 g4 
+g3 g2 g3 g4 g3 g3 g3 
+g3 g2 g3 g4 g4 g2 g4 
+g3 g2 g3 g4 g4 g4 g2 
+g3 g2 g4 g2 g3 g4 g4 
+g3 g2 g4 g2 g4 g3 g4 
+g3 g2 g4 g2 g4 g4 g3 
+g3 g2 g4 g3 g2 g4 g4 
+g3 g2 g4 g3 g3 g3 g3 
+g3 g2 g4 g3 g4 g2 g4 
+g3 g2 g4 g3 g4 g4 g2 
+g3 g2 g4 g4 g2 g3 g4 
+g3 g2 g4 g4 g2 g4 g3 
+g3 g2 g4 g4 g3 g2 g4 
+g3 g2 g4 g4 g3 g4 g2 
+g3 g2 g4 g4 g4 g2 g3 
+g3 g2 g4 g4 g4 g3 g2 
+g3 g3 g2 g2 g4 g4 g4 
+g3 g3 g2 g3 g3 g3 g4 
+g3 g3 g2 g3 g3 g4 g3 
+g3 g3 g2 g3 g4 g3 g3 
+g3 g3 g2 g4 g2 g4 g4 
+g3 g3 g2 g4 g3 g3 g3 
+g3 g3 g2 g4 g4 g2 g4 
+g3 g3 g2 g4 g4 g4 g2 
+g3 g3 g3 g2 g3 g3 g4 
+g3 g3 g3 g2 g3 g4 g3 
+g3 g3 g3 g2 g4 g3 g3 
+g3 g3 g3 g3 g2 g3 g4 
+g3 g3 g3 g3 g2 g4 g3 
+g3 g3 g3 g3 g3 g2 g4 
+g3 g3 g3 g3 g3 g4 g2 
+g3 g3 g3 g3 g4 g2 g3 
+g3 g3 g3 g3 g4 g3 g2 
+g3 g3 g3 g4 g2 g3 g3 
+g3 g3 g3 g4 g3 g2 g3 
+g3 g3 g3 g4 g3 g3 g2 
+g3 g3 g4 g2 g2 g4 g4 
+g3 g3 g4 g2 g3 g3 g3 
+g3 g3 g4 g2 g4 g2 g4 
+g3 g3 g4 g2 g4 g4 g2 
+g3 g3 g4 g3 g2 g3 g3 
+g3 g3 g4 g3 g3 g2 g3 
+g3 g3 g4 g3 g3 g3 g2 
+g3 g3 g4 g4 g2 g2 g4 
+g3 g3 g4 g4 g2 g4 g2 
+g3 g3 g4 g4 g4 g2 g2 
+g3 g4 g2 g2 g3 g4 g4 
+g3 g4 g2 g2 g4 g3 g4 
+g3 g4 g2 g2 g4 g4 g3 
+g3 g4 g2 g3 g2 g4 g4 
+g3 g4 g2 g3 g3 g3 g3 
+g3 g4 g2 g3 g4 g2 g4 
+g3 g4 g2 g3 g4 g4 g2 
+g3 g4 g2 g4 g2 g3 g4 
+g3 g4 g2 g4 g2 g4 g3 
+g3 g4 g2 g4 g3 g2 g4 
+g3 g4 g2 g4 g3 g4 g2 
+g3 g4 g2 g4 g4 g2 g3 
+g3 g4 g2 g4 g4 g3 g2 
+g3 g4 g3 g2 g2 g4 g4 
+g3 g4 g3 g2 g3 g3 g3 
+g3 g4 g3 g2 g4 g2 g4 
+g3 g4 g3 g2 g4 g4 g2 
+g3 g4 g3 g3 g2 g3 g3 
+g3 g4 g3 g3 g3 g2 g3 
+g3 g4 g3 g3 g3 g3 g2 
+g3 g4 g3 g4 g2 g2 g4 
+g3 g4 g3 g4 g2 g4 g2 
+g3 g4 g3 g4 g4 g2 g2 
+g3 g4 g4 g2 g2 g3 g4 
+g3 g4 g4 g2 g2 g4 g3 
+g3 g4 g4 g2 g3 g2 g4 
+g3 g4 g4 g2 g3 g4 g2 
+g3 g4 g4 g2 g4 g2 g3 
+g3 g4 g4 g2 g4 g3 g2 
+g3 g4 g4 g3 g2 g2 g4 
+g3 g4 g4 g3 g2 g4 g2 
+g3 g4 g4 g3 g4 g2 g2 
+g3 g4 g4 g4 g2 g2 g3 
+g3 g4 g4 g4 g2 g3 g2 
+g3 g4 g4 g4 g3 g2 g2 
+g4 g2 g2 g3 g3 g4 g4 
+g4 g2 g2 g3 g4 g3 g4 
+g4 g2 g2 g3 g4 g4 g3 
+g4 g2 g2 g4 g3 g3 g4 
+g4 g2 g2 g4 g3 g4 g3 
+g4 g2 g2 g4 g4 g3 g3 
+g4 g2 g3 g2 g3 g4 g4 
+g4 g2 g3 g2 g4 g3 g4 
+g4 g2 g3 g2 g4 g4 g3 
+g4 g2 g3 g3 g2 g4 g4 
+g4 g2 g3 g3 g3 g3 g3 
+g4 g2 g3 g3 g4 g2 g4 
+g4 g2 g3 g3 g4 g4 g2 
+g4 g2 g3 g4 g2 g3 g4 
+g4 g2 g3 g4 g2 g4 g3 
+g4 g2 g3 g4 g3 g2 g4 
+g4 g2 g3 g4 g3 g4 g2 
+g4 g2 g3 g4 g4 g2 g3 
+g4 g2 g3 g4 g4 g3 g2 
+g4 g2 g4 g2 g3 g3 g4 
+g4 g2 g4 g2 g3 g4 g3 
+g4 g2 g4 g2 g4 g3 g3 
+g4 g2 g4 g3 g2 g3 g4 
+g4 g2 g4 g3 g2 g4 g3 
+g4 g2 g4 g3 g3 g2 g4 
+g4 g2 g4 g3 g3 g4 g2 
+g4 g2 g4 g3 g4 g2 g3 
+g4 g2 g4 g3 g4 g3 g2 
+g4 g2 g4 g4 g2 g3 g3 
+g4 g2 g4 g4 g3 g2 g3 
+g4 g2 g4 g4 g3 g3 g2 
+g4 g3 g2 g2 g3 g4 g4 
+g4 g3 g2 g2 g4 g3 g4 
+g4 g3 g2 g2 g4 g4 g3 
+g4 g3 g2 g3 g2 g4 g4 
+g4 g3 g2 g3 g3 g3 g3 
+g4 g3 g2 g3 g4 g2 g4 
+g4 g3 g2 g3 g4 g4 g2 
+g4 g3 g2 g4 g2 g3 g4 
+g4 g3 g2 g4 g2 g4 g3 
+g4 g3 g2 g4 g3 g2 g4 
+g4 g3 g2 g4 g3 g4 g2 
+g4 g3 g2 g4 g4 g2 g3 
+g4 g3 g2 g4 g4 g3 g2 
+g4 g3 g3 g2 g2 g4 g4 
+g4 g3 g3 g2 g3 g3 g3 
+g4 g3 g3 g2 g4 g2 g4 
+g4 g3 g3 g2 g4 g4 g2 
+g4 g3 g3 g3 g2 g3 g3 
+g4 g3 g3 g3 g3 g2 g3 
+g4 g3 g3 g3 g3 g3 g2 
+g4 g3 g3 g4 g2 g2 g4 
+g4 g3 g3 g4 g2 g4 g2 
+g4 g3 g3 g4 g4 g2 g2 
+g4 g3 g4 g2 g2 g3 g4 
+g4 g3 g4 g2 g2 g4 g3 
+g4 g3 g4 g2 g3 g2 g4 
+g4 g3 g4 g2 g3 g4 g2 
+g4 g3 g4 g2 g4 g2 g3 
+g4 g3 g4 g2 g4 g3 g2 
+g4 g3 g4 g3 g2 g2 g4 
+g4 g3 g4 g3 g2 g4 g2 
+g4 g3 g4 g3 g4 g2 g2 
+g4 g3 g4 g4 g2 g2 g3 
+g4 g3 g4 g4 g2 g3 g2 
+g4 g3 g4 g4 g3 g2 g2 
+g4 g4 g2 g2 g3 g3 g4 
+g4 g4 g2 g2 g3 g4 g3 
+g4 g4 g2 g2 g4 g3 g3 
+g4 g4 g2 g3 g2 g3 g4 
+g4 g4 g2 g3 g2 g4 g3 
+g4 g4 g2 g3 g3 g2 g4 
+g4 g4 g2 g3 g3 g4 g2 
+g4 g4 g2 g3 g4 g2 g3 
+g4 g4 g2 g3 g4 g3 g2 
+g4 g4 g2 g4 g2 g3 g3 
+g4 g4 g2 g4 g3 g2 g3 
+g4 g4 g2 g4 g3 g3 g2 
+g4 g4 g3 g2 g2 g3 g4 
+g4 g4 g3 g2 g2 g4 g3 
+g4 g4 g3 g2 g3 g2 g4 
+g4 g4 g3 g2 g3 g4 g2 
+g4 g4 g3 g2 g4 g2 g3 
+g4 g4 g3 g2 g4 g3 g2 
+g4 g4 g3 g3 g2 g2 g4 
+g4 g4 g3 g3 g2 g4 g2 
+g4 g4 g3 g3 g4 g2 g2 
+g4 g4 g3 g4 g2 g2 g3 
+g4 g4 g3 g4 g2 g3 g2 
+g4 g4 g3 g4 g3 g2 g2 
+g4 g4 g4 g2 g2 g3 g3 
+g4 g4 g4 g2 g3 g2 g3 
+g4 g4 g4 g2 g3 g3 g2 
+g4 g4 g4 g3 g2 g2 g3 
+g4 g4 g4 g3 g2 g3 g2 
+g4 g4 g4 g3 g3 g2 g2 
+score: 89
+g1 g2 g4 g4 g4 g4 g4 
+g1 g3 g3 g3 g4 g4 g4 
+g1 g3 g3 g4 g3 g4 g4 
+g1 g3 g3 g4 g4 g3 g4 
+g1 g3 g3 g4 g4 g4 g3 
+g1 g3 g4 g3 g3 g4 g4 
+g1 g3 g4 g3 g4 g3 g4 
+g1 g3 g4 g3 g4 g4 g3 
+g1 g3 g4 g4 g3 g3 g4 
+g1 g3 g4 g4 g3 g4 g3 
+g1 g3 g4 g4 g4 g3 g3 
+g1 g4 g2 g4 g4 g4 g4 
+g1 g4 g3 g3 g3 g4 g4 
+g1 g4 g3 g3 g4 g3 g4 
+g1 g4 g3 g3 g4 g4 g3 
+g1 g4 g3 g4 g3 g3 g4 
+g1 g4 g3 g4 g3 g4 g3 
+g1 g4 g3 g4 g4 g3 g3 
+g1 g4 g4 g2 g4 g4 g4 
+g1 g4 g4 g3 g3 g3 g4 
+g1 g4 g4 g3 g3 g4 g3 
+g1 g4 g4 g3 g4 g3 g3 
+g1 g4 g4 g4 g2 g4 g4 
+g1 g4 g4 g4 g3 g3 g3 
+g1 g4 g4 g4 g4 g2 g4 
+g1 g4 g4 g4 g4 g4 g2 
+g2 g1 g4 g4 g4 g4 g4 
+g2 g4 g1 g4 g4 g4 g4 
+g2 g4 g4 g1 g4 g4 g4 
+g2 g4 g4 g4 g1 g4 g4 
+g2 g4 g4 g4 g4 g1 g4 
+g2 g4 g4 g4 g4 g4 g1 
+g3 g1 g3 g3 g4 g4 g4 
+g3 g1 g3 g4 g3 g4 g4 
+g3 g1 g3 g4 g4 g3 g4 
+g3 g1 g3 g4 g4 g4 g3 
+g3 g1 g4 g3 g3 g4 g4 
+g3 g1 g4 g3 g4 g3 g4 
+g3 g1 g4 g3 g4 g4 g3 
+g3 g1 g4 g4 g3 g3 g4 
+g3 g1 g4 g4 g3 g4 g3 
+g3 g1 g4 g4 g4 g3 g3 
+g3 g3 g1 g3 g4 g4 g4 
+g3 g3 g1 g4 g3 g4 g4 
+g3 g3 g1 g4 g4 g3 g4 
+g3 g3 g1 g4 g4 g4 g3 
+g3 g3 g3 g1 g4 g4 g4 
+g3 g3 g3 g4 g1 g4 g4 
+g3 g3 g3 g4 g4 g1 g4 
+g3 g3 g3 g4 g4 g4 g1 
+g3 g3 g4 g1 g3 g4 g4 
+g3 g3 g4 g1 g4 g3 g4 
+g3 g3 g4 g1 g4 g4 g3 
+g3 g3 g4 g3 g1 g4 g4 
+g3 g3 g4 g3 g4 g1 g4 
+g3 g3 g4 g3 g4 g4 g1 
+g3 g3 g4 g4 g1 g3 g4 
+g3 g3 g4 g4 g1 g4 g3 
+g3 g3 g4 g4 g3 g1 g4 
+g3 g3 g4 g4 g3 g4 g1 
+g3 g3 g4 g4 g4 g1 g3 
+g3 g3 g4 g4 g4 g3 g1 
+g3 g4 g1 g3 g3 g4 g4 
+g3 g4 g1 g3 g4 g3 g4 
+g3 g4 g1 g3 g4 g4 g3 
+g3 g4 g1 g4 g3 g3 g4 
+g3 g4 g1 g4 g3 g4 g3 
+g3 g4 g1 g4 g4 g3 g3 
+g3 g4 g3 g1 g3 g4 g4 
+g3 g4 g3 g1 g4 g3 g4 
+g3 g4 g3 g1 g4 g4 g3 
+g3 g4 g3 g3 g1 g4 g4 
+g3 g4 g3 g3 g4 g1 g4 
+g3 g4 g3 g3 g4 g4 g1 
+g3 g4 g3 g4 g1 g3 g4 
+g3 g4 g3 g4 g1 g4 g3 
+g3 g4 g3 g4 g3 g1 g4 
+g3 g4 g3 g4 g3 g4 g1 
+g3 g4 g3 g4 g4 g1 g3 
+g3 g4 g3 g4 g4 g3 g1 
+g3 g4 g4 g1 g3 g3 g4 
+g3 g4 g4 g1 g3 g4 g3 
+g3 g4 g4 g1 g4 g3 g3 
+g3 g4 g4 g3 g1 g3 g4 
+g3 g4 g4 g3 g1 g4 g3 
+g3 g4 g4 g3 g3 g1 g4 
+g3 g4 g4 g3 g3 g4 g1 
+g3 g4 g4 g3 g4 g1 g3 
+g3 g4 g4 g3 g4 g3 g1 
+g3 g4 g4 g4 g1 g3 g3 
+g3 g4 g4 g4 g3 g1 g3 
+g3 g4 g4 g4 g3 g3 g1 
+g4 g1 g2 g4 g4 g4 g4 
+g4 g1 g3 g3 g3 g4 g4 
+g4 g1 g3 g3 g4 g3 g4 
+g4 g1 g3 g3 g4 g4 g3 
+g4 g1 g3 g4 g3 g3 g4 
+g4 g1 g3 g4 g3 g4 g3 
+g4 g1 g3 g4 g4 g3 g3 
+g4 g1 g4 g2 g4 g4 g4 
+g4 g1 g4 g3 g3 g3 g4 
+g4 g1 g4 g3 g3 g4 g3 
+g4 g1 g4 g3 g4 g3 g3 
+g4 g1 g4 g4 g2 g4 g4 
+g4 g1 g4 g4 g3 g3 g3 
+g4 g1 g4 g4 g4 g2 g4 
+g4 g1 g4 g4 g4 g4 g2 
+g4 g2 g1 g4 g4 g4 g4 
+g4 g2 g4 g1 g4 g4 g4 
+g4 g2 g4 g4 g1 g4 g4 
+g4 g2 g4 g4 g4 g1 g4 
+g4 g2 g4 g4 g4 g4 g1 
+g4 g3 g1 g3 g3 g4 g4 
+g4 g3 g1 g3 g4 g3 g4 
+g4 g3 g1 g3 g4 g4 g3 
+g4 g3 g1 g4 g3 g3 g4 
+g4 g3 g1 g4 g3 g4 g3 
+g4 g3 g1 g4 g4 g3 g3 
+g4 g3 g3 g1 g3 g4 g4 
+g4 g3 g3 g1 g4 g3 g4 
+g4 g3 g3 g1 g4 g4 g3 
+g4 g3 g3 g3 g1 g4 g4 
+g4 g3 g3 g3 g4 g1 g4 
+g4 g3 g3 g3 g4 g4 g1 
+g4 g3 g3 g4 g1 g3 g4 
+g4 g3 g3 g4 g1 g4 g3 
+g4 g3 g3 g4 g3 g1 g4 
+g4 g3 g3 g4 g3 g4 g1 
+g4 g3 g3 g4 g4 g1 g3 
+g4 g3 g3 g4 g4 g3 g1 
+g4 g3 g4 g1 g3 g3 g4 
+g4 g3 g4 g1 g3 g4 g3 
+g4 g3 g4 g1 g4 g3 g3 
+g4 g3 g4 g3 g1 g3 g4 
+g4 g3 g4 g3 g1 g4 g3 
+g4 g3 g4 g3 g3 g1 g4 
+g4 g3 g4 g3 g3 g4 g1 
+g4 g3 g4 g3 g4 g1 g3 
+g4 g3 g4 g3 g4 g3 g1 
+g4 g3 g4 g4 g1 g3 g3 
+g4 g3 g4 g4 g3 g1 g3 
+g4 g3 g4 g4 g3 g3 g1 
+g4 g4 g1 g2 g4 g4 g4 
+g4 g4 g1 g3 g3 g3 g4 
+g4 g4 g1 g3 g3 g4 g3 
+g4 g4 g1 g3 g4 g3 g3 
+g4 g4 g1 g4 g2 g4 g4 
+g4 g4 g1 g4 g3 g3 g3 
+g4 g4 g1 g4 g4 g2 g4 
+g4 g4 g1 g4 g4 g4 g2 
+g4 g4 g2 g1 g4 g4 g4 
+g4 g4 g2 g4 g1 g4 g4 
+g4 g4 g2 g4 g4 g1 g4 
+g4 g4 g2 g4 g4 g4 g1 
+g4 g4 g3 g1 g3 g3 g4 
+g4 g4 g3 g1 g3 g4 g3 
+g4 g4 g3 g1 g4 g3 g3 
+g4 g4 g3 g3 g1 g3 g4 
+g4 g4 g3 g3 g1 g4 g3 
+g4 g4 g3 g3 g3 g1 g4 
+g4 g4 g3 g3 g3 g4 g1 
+g4 g4 g3 g3 g4 g1 g3 
+g4 g4 g3 g3 g4 g3 g1 
+g4 g4 g3 g4 g1 g3 g3 
+g4 g4 g3 g4 g3 g1 g3 
+g4 g4 g3 g4 g3 g3 g1 
+g4 g4 g4 g1 g2 g4 g4 
+g4 g4 g4 g1 g3 g3 g3 
+g4 g4 g4 g1 g4 g2 g4 
+g4 g4 g4 g1 g4 g4 g2 
+g4 g4 g4 g2 g1 g4 g4 
+g4 g4 g4 g2 g4 g1 g4 
+g4 g4 g4 g2 g4 g4 g1 
+g4 g4 g4 g3 g1 g3 g3 
+g4 g4 g4 g3 g3 g1 g3 
+g4 g4 g4 g3 g3 g3 g1 
+g4 g4 g4 g4 g1 g2 g4 
+g4 g4 g4 g4 g1 g4 g2 
+g4 g4 g4 g4 g2 g1 g4 
+g4 g4 g4 g4 g2 g4 g1 
+g4 g4 g4 g4 g4 g1 g2 
+g4 g4 g4 g4 g4 g2 g1 
+score: 90
+g3 g3 g4 g4 g4 g4 
+g3 g4 g3 g4 g4 g4 
+g3 g4 g4 g3 g4 g4 
+g3 g4 g4 g4 g3 g4 
+g3 g4 g4 g4 g4 g3 
+g4 g3 g3 g4 g4 g4 
+g4 g3 g4 g3 g4 g4 
+g4 g3 g4 g4 g3 g4 
+g4 g3 g4 g4 g4 g3 
+g4 g4 g3 g3 g4 g4 
+g4 g4 g3 g4 g3 g4 
+g4 g4 g3 g4 g4 g3 
+g4 g4 g4 g3 g3 g4 
+g4 g4 g4 g3 g4 g3 
+g4 g4 g4 g4 g3 g3 
+score: 91
+g2 g2 g3 g4 g4 g4 g4 
+g2 g2 g4 g3 g4 g4 g4 
+g2 g2 g4 g4 g3 g4 g4 
+g2 g2 g4 g4 g4 g3 g4 
+g2 g2 g4 g4 g4 g4 g3 
+g2 g3 g2 g4 g4 g4 g4 
+g2 g3 g3 g3 g3 g4 g4 
+g2 g3 g3 g3 g4 g3 g4 
+g2 g3 g3 g3 g4 g4 g3 
+g2 g3 g3 g4 g3 g3 g4 
+g2 g3 g3 g4 g3 g4 g3 
+g2 g3 g3 g4 g4 g3 g3 
+g2 g3 g4 g2 g4 g4 g4 
+g2 g3 g4 g3 g3 g3 g4 
+g2 g3 g4 g3 g3 g4 g3 
+g2 g3 g4 g3 g4 g3 g3 
+g2 g3 g4 g4 g2 g4 g4 
+g2 g3 g4 g4 g3 g3 g3 
+g2 g3 g4 g4 g4 g2 g4 
+g2 g3 g4 g4 g4 g4 g2 
+g2 g4 g2 g3 g4 g4 g4 
+g2 g4 g2 g4 g3 g4 g4 
+g2 g4 g2 g4 g4 g3 g4 
+g2 g4 g2 g4 g4 g4 g3 
+g2 g4 g3 g2 g4 g4 g4 
+g2 g4 g3 g3 g3 g3 g4 
+g2 g4 g3 g3 g3 g4 g3 
+g2 g4 g3 g3 g4 g3 g3 
+g2 g4 g3 g4 g2 g4 g4 
+g2 g4 g3 g4 g3 g3 g3 
+g2 g4 g3 g4 g4 g2 g4 
+g2 g4 g3 g4 g4 g4 g2 
+g2 g4 g4 g2 g3 g4 g4 
+g2 g4 g4 g2 g4 g3 g4 
+g2 g4 g4 g2 g4 g4 g3 
+g2 g4 g4 g3 g2 g4 g4 
+g2 g4 g4 g3 g3 g3 g3 
+g2 g4 g4 g3 g4 g2 g4 
+g2 g4 g4 g3 g4 g4 g2 
+g2 g4 g4 g4 g2 g3 g4 
+g2 g4 g4 g4 g2 g4 g3 
+g2 g4 g4 g4 g3 g2 g4 
+g2 g4 g4 g4 g3 g4 g2 
+g2 g4 g4 g4 g4 g2 g3 
+g2 g4 g4 g4 g4 g3 g2 
+g3 g2 g2 g4 g4 g4 g4 
+g3 g2 g3 g3 g3 g4 g4 
+g3 g2 g3 g3 g4 g3 g4 
+g3 g2 g3 g3 g4 g4 g3 
+g3 g2 g3 g4 g3 g3 g4 
+g3 g2 g3 g4 g3 g4 g3 
+g3 g2 g3 g4 g4 g3 g3 
+g3 g2 g4 g2 g4 g4 g4 
+g3 g2 g4 g3 g3 g3 g4 
+g3 g2 g4 g3 g3 g4 g3 
+g3 g2 g4 g3 g4 g3 g3 
+g3 g2 g4 g4 g2 g4 g4 
+g3 g2 g4 g4 g3 g3 g3 
+g3 g2 g4 g4 g4 g2 g4 
+g3 g2 g4 g4 g4 g4 g2 
+g3 g3 g2 g3 g3 g4 g4 
+g3 g3 g2 g3 g4 g3 g4 
+g3 g3 g2 g3 g4 g4 g3 
+g3 g3 g2 g4 g3 g3 g4 
+g3 g3 g2 g4 g3 g4 g3 
+g3 g3 g2 g4 g4 g3 g3 
+g3 g3 g3 g2 g3 g4 g4 
+g3 g3 g3 g2 g4 g3 g4 
+g3 g3 g3 g2 g4 g4 g3 
+g3 g3 g3 g3 g2 g4 g4 
+g3 g3 g3 g3 g3 g3 g3 
+g3 g3 g3 g3 g4 g2 g4 
+g3 g3 g3 g3 g4 g4 g2 
+g3 g3 g3 g4 g2 g3 g4 
+g3 g3 g3 g4 g2 g4 g3 
+g3 g3 g3 g4 g3 g2 g4 
+g3 g3 g3 g4 g3 g4 g2 
+g3 g3 g3 g4 g4 g2 g3 
+g3 g3 g3 g4 g4 g3 g2 
+g3 g3 g4 g2 g3 g3 g4 
+g3 g3 g4 g2 g3 g4 g3 
+g3 g3 g4 g2 g4 g3 g3 
+g3 g3 g4 g3 g2 g3 g4 
+g3 g3 g4 g3 g2 g4 g3 
+g3 g3 g4 g3 g3 g2 g4 
+g3 g3 g4 g3 g3 g4 g2 
+g3 g3 g4 g3 g4 g2 g3 
+g3 g3 g4 g3 g4 g3 g2 
+g3 g3 g4 g4 g2 g3 g3 
+g3 g3 g4 g4 g3 g2 g3 
+g3 g3 g4 g4 g3 g3 g2 
+g3 g4 g2 g2 g4 g4 g4 
+g3 g4 g2 g3 g3 g3 g4 
+g3 g4 g2 g3 g3 g4 g3 
+g3 g4 g2 g3 g4 g3 g3 
+g3 g4 g2 g4 g2 g4 g4 
+g3 g4 g2 g4 g3 g3 g3 
+g3 g4 g2 g4 g4 g2 g4 
+g3 g4 g2 g4 g4 g4 g2 
+g3 g4 g3 g2 g3 g3 g4 
+g3 g4 g3 g2 g3 g4 g3 
+g3 g4 g3 g2 g4 g3 g3 
+g3 g4 g3 g3 g2 g3 g4 
+g3 g4 g3 g3 g2 g4 g3 
+g3 g4 g3 g3 g3 g2 g4 
+g3 g4 g3 g3 g3 g4 g2 
+g3 g4 g3 g3 g4 g2 g3 
+g3 g4 g3 g3 g4 g3 g2 
+g3 g4 g3 g4 g2 g3 g3 
+g3 g4 g3 g4 g3 g2 g3 
+g3 g4 g3 g4 g3 g3 g2 
+g3 g4 g4 g2 g2 g4 g4 
+g3 g4 g4 g2 g3 g3 g3 
+g3 g4 g4 g2 g4 g2 g4 
+g3 g4 g4 g2 g4 g4 g2 
+g3 g4 g4 g3 g2 g3 g3 
+g3 g4 g4 g3 g3 g2 g3 
+g3 g4 g4 g3 g3 g3 g2 
+g3 g4 g4 g4 g2 g2 g4 
+g3 g4 g4 g4 g2 g4 g2 
+g3 g4 g4 g4 g4 g2 g2 
+g4 g2 g2 g3 g4 g4 g4 
+g4 g2 g2 g4 g3 g4 g4 
+g4 g2 g2 g4 g4 g3 g4 
+g4 g2 g2 g4 g4 g4 g3 
+g4 g2 g3 g2 g4 g4 g4 
+g4 g2 g3 g3 g3 g3 g4 
+g4 g2 g3 g3 g3 g4 g3 
+g4 g2 g3 g3 g4 g3 g3 
+g4 g2 g3 g4 g2 g4 g4 
+g4 g2 g3 g4 g3 g3 g3 
+g4 g2 g3 g4 g4 g2 g4 
+g4 g2 g3 g4 g4 g4 g2 
+g4 g2 g4 g2 g3 g4 g4 
+g4 g2 g4 g2 g4 g3 g4 
+g4 g2 g4 g2 g4 g4 g3 
+g4 g2 g4 g3 g2 g4 g4 
+g4 g2 g4 g3 g3 g3 g3 
+g4 g2 g4 g3 g4 g2 g4 
+g4 g2 g4 g3 g4 g4 g2 
+g4 g2 g4 g4 g2 g3 g4 
+g4 g2 g4 g4 g2 g4 g3 
+g4 g2 g4 g4 g3 g2 g4 
+g4 g2 g4 g4 g3 g4 g2 
+g4 g2 g4 g4 g4 g2 g3 
+g4 g2 g4 g4 g4 g3 g2 
+g4 g3 g2 g2 g4 g4 g4 
+g4 g3 g2 g3 g3 g3 g4 
+g4 g3 g2 g3 g3 g4 g3 
+g4 g3 g2 g3 g4 g3 g3 
+g4 g3 g2 g4 g2 g4 g4 
+g4 g3 g2 g4 g3 g3 g3 
+g4 g3 g2 g4 g4 g2 g4 
+g4 g3 g2 g4 g4 g4 g2 
+g4 g3 g3 g2 g3 g3 g4 
+g4 g3 g3 g2 g3 g4 g3 
+g4 g3 g3 g2 g4 g3 g3 
+g4 g3 g3 g3 g2 g3 g4 
+g4 g3 g3 g3 g2 g4 g3 
+g4 g3 g3 g3 g3 g2 g4 
+g4 g3 g3 g3 g3 g4 g2 
+g4 g3 g3 g3 g4 g2 g3 
+g4 g3 g3 g3 g4 g3 g2 
+g4 g3 g3 g4 g2 g3 g3 
+g4 g3 g3 g4 g3 g2 g3 
+g4 g3 g3 g4 g3 g3 g2 
+g4 g3 g4 g2 g2 g4 g4 
+g4 g3 g4 g2 g3 g3 g3 
+g4 g3 g4 g2 g4 g2 g4 
+g4 g3 g4 g2 g4 g4 g2 
+g4 g3 g4 g3 g2 g3 g3 
+g4 g3 g4 g3 g3 g2 g3 
+g4 g3 g4 g3 g3 g3 g2 
+g4 g3 g4 g4 g2 g2 g4 
+g4 g3 g4 g4 g2 g4 g2 
+g4 g3 g4 g4 g4 g2 g2 
+g4 g4 g2 g2 g3 g4 g4 
+g4 g4 g2 g2 g4 g3 g4 
+g4 g4 g2 g2 g4 g4 g3 
+g4 g4 g2 g3 g2 g4 g4 
+g4 g4 g2 g3 g3 g3 g3 
+g4 g4 g2 g3 g4 g2 g4 
+g4 g4 g2 g3 g4 g4 g2 
+g4 g4 g2 g4 g2 g3 g4 
+g4 g4 g2 g4 g2 g4 g3 
+g4 g4 g2 g4 g3 g2 g4 
+g4 g4 g2 g4 g3 g4 g2 
+g4 g4 g2 g4 g4 g2 g3 
+g4 g4 g2 g4 g4 g3 g2 
+g4 g4 g3 g2 g2 g4 g4 
+g4 g4 g3 g2 g3 g3 g3 
+g4 g4 g3 g2 g4 g2 g4 
+g4 g4 g3 g2 g4 g4 g2 
+g4 g4 g3 g3 g2 g3 g3 
+g4 g4 g3 g3 g3 g2 g3 
+g4 g4 g3 g3 g3 g3 g2 
+g4 g4 g3 g4 g2 g2 g4 
+g4 g4 g3 g4 g2 g4 g2 
+g4 g4 g3 g4 g4 g2 g2 
+g4 g4 g4 g2 g2 g3 g4 
+g4 g4 g4 g2 g2 g4 g3 
+g4 g4 g4 g2 g3 g2 g4 
+g4 g4 g4 g2 g3 g4 g2 
+g4 g4 g4 g2 g4 g2 g3 
+g4 g4 g4 g2 g4 g3 g2 
+g4 g4 g4 g3 g2 g2 g4 
+g4 g4 g4 g3 g2 g4 g2 
+g4 g4 g4 g3 g4 g2 g2 
+g4 g4 g4 g4 g2 g2 g3 
+g4 g4 g4 g4 g2 g3 g2 
+g4 g4 g4 g4 g3 g2 g2 
+score: 92
+g1 g3 g3 g4 g4 g4 g4 
+g1 g3 g4 g3 g4 g4 g4 
+g1 g3 g4 g4 g3 g4 g4 
+g1 g3 g4 g4 g4 g3 g4 
+g1 g3 g4 g4 g4 g4 g3 
+g1 g4 g3 g3 g4 g4 g4 
+g1 g4 g3 g4 g3 g4 g4 
+g1 g4 g3 g4 g4 g3 g4 
+g1 g4 g3 g4 g4 g4 g3 
+g1 g4 g4 g3 g3 g4 g4 
+g1 g4 g4 g3 g4 g3 g4 
+g1 g4 g4 g3 g4 g4 g3 
+g1 g4 g4 g4 g3 g3 g4 
+g1 g4 g4 g4 g3 g4 g3 
+g1 g4 g4 g4 g4 g3 g3 
+g3 g1 g3 g4 g4 g4 g4 
+g3 g1 g4 g3 g4 g4 g4 
+g3 g1 g4 g4 g3 g4 g4 
+g3 g1 g4 g4 g4 g3 g4 
+g3 g1 g4 g4 g4 g4 g3 
+g3 g3 g1 g4 g4 g4 g4 
+g3 g3 g4 g1 g4 g4 g4 
+g3 g3 g4 g4 g1 g4 g4 
+g3 g3 g4 g4 g4 g1 g4 
+g3 g3 g4 g4 g4 g4 g1 
+g3 g4 g1 g3 g4 g4 g4 
+g3 g4 g1 g4 g3 g4 g4 
+g3 g4 g1 g4 g4 g3 g4 
+g3 g4 g1 g4 g4 g4 g3 
+g3 g4 g3 g1 g4 g4 g4 
+g3 g4 g3 g4 g1 g4 g4 
+g3 g4 g3 g4 g4 g1 g4 
+g3 g4 g3 g4 g4 g4 g1 
+g3 g4 g4 g1 g3 g4 g4 
+g3 g4 g4 g1 g4 g3 g4 
+g3 g4 g4 g1 g4 g4 g3 
+g3 g4 g4 g3 g1 g4 g4 
+g3 g4 g4 g3 g4 g1 g4 
+g3 g4 g4 g3 g4 g4 g1 
+g3 g4 g4 g4 g1 g3 g4 
+g3 g4 g4 g4 g1 g4 g3 
+g3 g4 g4 g4 g3 g1 g4 
+g3 g4 g4 g4 g3 g4 g1 
+g3 g4 g4 g4 g4 g1 g3 
+g3 g4 g4 g4 g4 g3 g1 
+g4 g1 g3 g3 g4 g4 g4 
+g4 g1 g3 g4 g3 g4 g4 
+g4 g1 g3 g4 g4 g3 g4 
+g4 g1 g3 g4 g4 g4 g3 
+g4 g1 g4 g3 g3 g4 g4 
+g4 g1 g4 g3 g4 g3 g4 
+g4 g1 g4 g3 g4 g4 g3 
+g4 g1 g4 g4 g3 g3 g4 
+g4 g1 g4 g4 g3 g4 g3 
+g4 g1 g4 g4 g4 g3 g3 
+g4 g3 g1 g3 g4 g4 g4 
+g4 g3 g1 g4 g3 g4 g4 
+g4 g3 g1 g4 g4 g3 g4 
+g4 g3 g1 g4 g4 g4 g3 
+g4 g3 g3 g1 g4 g4 g4 
+g4 g3 g3 g4 g1 g4 g4 
+g4 g3 g3 g4 g4 g1 g4 
+g4 g3 g3 g4 g4 g4 g1 
+g4 g3 g4 g1 g3 g4 g4 
+g4 g3 g4 g1 g4 g3 g4 
+g4 g3 g4 g1 g4 g4 g3 
+g4 g3 g4 g3 g1 g4 g4 
+g4 g3 g4 g3 g4 g1 g4 
+g4 g3 g4 g3 g4 g4 g1 
+g4 g3 g4 g4 g1 g3 g4 
+g4 g3 g4 g4 g1 g4 g3 
+g4 g3 g4 g4 g3 g1 g4 
+g4 g3 g4 g4 g3 g4 g1 
+g4 g3 g4 g4 g4 g1 g3 
+g4 g3 g4 g4 g4 g3 g1 
+g4 g4 g1 g3 g3 g4 g4 
+g4 g4 g1 g3 g4 g3 g4 
+g4 g4 g1 g3 g4 g4 g3 
+g4 g4 g1 g4 g3 g3 g4 
+g4 g4 g1 g4 g3 g4 g3 
+g4 g4 g1 g4 g4 g3 g3 
+g4 g4 g3 g1 g3 g4 g4 
+g4 g4 g3 g1 g4 g3 g4 
+g4 g4 g3 g1 g4 g4 g3 
+g4 g4 g3 g3 g1 g4 g4 
+g4 g4 g3 g3 g4 g1 g4 
+g4 g4 g3 g3 g4 g4 g1 
+g4 g4 g3 g4 g1 g3 g4 
+g4 g4 g3 g4 g1 g4 g3 
+g4 g4 g3 g4 g3 g1 g4 
+g4 g4 g3 g4 g3 g4 g1 
+g4 g4 g3 g4 g4 g1 g3 
+g4 g4 g3 g4 g4 g3 g1 
+g4 g4 g4 g1 g3 g3 g4 
+g4 g4 g4 g1 g3 g4 g3 
+g4 g4 g4 g1 g4 g3 g3 
+g4 g4 g4 g3 g1 g3 g4 
+g4 g4 g4 g3 g1 g4 g3 
+g4 g4 g4 g3 g3 g1 g4 
+g4 g4 g4 g3 g3 g4 g1 
+g4 g4 g4 g3 g4 g1 g3 
+g4 g4 g4 g3 g4 g3 g1 
+g4 g4 g4 g4 g1 g3 g3 
+g4 g4 g4 g4 g3 g1 g3 
+g4 g4 g4 g4 g3 g3 g1 
+score: 93
+g3 g4 g4 g4 g4 g4 
+g4 g3 g4 g4 g4 g4 
+g4 g4 g3 g4 g4 g4 
+g4 g4 g4 g3 g4 g4 
+g4 g4 g4 g4 g3 g4 
+g4 g4 g4 g4 g4 g3 
+score: 94
+g2 g2 g4 g4 g4 g4 g4 
+g2 g3 g3 g3 g4 g4 g4 
+g2 g3 g3 g4 g3 g4 g4 
+g2 g3 g3 g4 g4 g3 g4 
+g2 g3 g3 g4 g4 g4 g3 
+g2 g3 g4 g3 g3 g4 g4 
+g2 g3 g4 g3 g4 g3 g4 
+g2 g3 g4 g3 g4 g4 g3 
+g2 g3 g4 g4 g3 g3 g4 
+g2 g3 g4 g4 g3 g4 g3 
+g2 g3 g4 g4 g4 g3 g3 
+g2 g4 g2 g4 g4 g4 g4 
+g2 g4 g3 g3 g3 g4 g4 
+g2 g4 g3 g3 g4 g3 g4 
+g2 g4 g3 g3 g4 g4 g3 
+g2 g4 g3 g4 g3 g3 g4 
+g2 g4 g3 g4 g3 g4 g3 
+g2 g4 g3 g4 g4 g3 g3 
+g2 g4 g4 g2 g4 g4 g4 
+g2 g4 g4 g3 g3 g3 g4 
+g2 g4 g4 g3 g3 g4 g3 
+g2 g4 g4 g3 g4 g3 g3 
+g2 g4 g4 g4 g2 g4 g4 
+g2 g4 g4 g4 g3 g3 g3 
+g2 g4 g4 g4 g4 g2 g4 
+g2 g4 g4 g4 g4 g4 g2 
+g3 g2 g3 g3 g4 g4 g4 
+g3 g2 g3 g4 g3 g4 g4 
+g3 g2 g3 g4 g4 g3 g4 
+g3 g2 g3 g4 g4 g4 g3 
+g3 g2 g4 g3 g3 g4 g4 
+g3 g2 g4 g3 g4 g3 g4 
+g3 g2 g4 g3 g4 g4 g3 
+g3 g2 g4 g4 g3 g3 g4 
+g3 g2 g4 g4 g3 g4 g3 
+g3 g2 g4 g4 g4 g3 g3 
+g3 g3 g2 g3 g4 g4 g4 
+g3 g3 g2 g4 g3 g4 g4 
+g3 g3 g2 g4 g4 g3 g4 
+g3 g3 g2 g4 g4 g4 g3 
+g3 g3 g3 g2 g4 g4 g4 
+g3 g3 g3 g3 g3 g3 g4 
+g3 g3 g3 g3 g3 g4 g3 
+g3 g3 g3 g3 g4 g3 g3 
+g3 g3 g3 g4 g2 g4 g4 
+g3 g3 g3 g4 g3 g3 g3 
+g3 g3 g3 g4 g4 g2 g4 
+g3 g3 g3 g4 g4 g4 g2 
+g3 g3 g4 g2 g3 g4 g4 
+g3 g3 g4 g2 g4 g3 g4 
+g3 g3 g4 g2 g4 g4 g3 
+g3 g3 g4 g3 g2 g4 g4 
+g3 g3 g4 g3 g3 g3 g3 
+g3 g3 g4 g3 g4 g2 g4 
+g3 g3 g4 g3 g4 g4 g2 
+g3 g3 g4 g4 g2 g3 g4 
+g3 g3 g4 g4 g2 g4 g3 
+g3 g3 g4 g4 g3 g2 g4 
+g3 g3 g4 g4 g3 g4 g2 
+g3 g3 g4 g4 g4 g2 g3 
+g3 g3 g4 g4 g4 g3 g2 
+g3 g4 g2 g3 g3 g4 g4 
+g3 g4 g2 g3 g4 g3 g4 
+g3 g4 g2 g3 g4 g4 g3 
+g3 g4 g2 g4 g3 g3 g4 
+g3 g4 g2 g4 g3 g4 g3 
+g3 g4 g2 g4 g4 g3 g3 
+g3 g4 g3 g2 g3 g4 g4 
+g3 g4 g3 g2 g4 g3 g4 
+g3 g4 g3 g2 g4 g4 g3 
+g3 g4 g3 g3 g2 g4 g4 
+g3 g4 g3 g3 g3 g3 g3 
+g3 g4 g3 g3 g4 g2 g4 
+g3 g4 g3 g3 g4 g4 g2 
+g3 g4 g3 g4 g2 g3 g4 
+g3 g4 g3 g4 g2 g4 g3 
+g3 g4 g3 g4 g3 g2 g4 
+g3 g4 g3 g4 g3 g4 g2 
+g3 g4 g3 g4 g4 g2 g3 
+g3 g4 g3 g4 g4 g3 g2 
+g3 g4 g4 g2 g3 g3 g4 
+g3 g4 g4 g2 g3 g4 g3 
+g3 g4 g4 g2 g4 g3 g3 
+g3 g4 g4 g3 g2 g3 g4 
+g3 g4 g4 g3 g2 g4 g3 
+g3 g4 g4 g3 g3 g2 g4 
+g3 g4 g4 g3 g3 g4 g2 
+g3 g4 g4 g3 g4 g2 g3 
+g3 g4 g4 g3 g4 g3 g2 
+g3 g4 g4 g4 g2 g3 g3 
+g3 g4 g4 g4 g3 g2 g3 
+g3 g4 g4 g4 g3 g3 g2 
+g4 g2 g2 g4 g4 g4 g4 
+g4 g2 g3 g3 g3 g4 g4 
+g4 g2 g3 g3 g4 g3 g4 
+g4 g2 g3 g3 g4 g4 g3 
+g4 g2 g3 g4 g3 g3 g4 
+g4 g2 g3 g4 g3 g4 g3 
+g4 g2 g3 g4 g4 g3 g3 
+g4 g2 g4 g2 g4 g4 g4 
+g4 g2 g4 g3 g3 g3 g4 
+g4 g2 g4 g3 g3 g4 g3 
+g4 g2 g4 g3 g4 g3 g3 
+g4 g2 g4 g4 g2 g4 g4 
+g4 g2 g4 g4 g3 g3 g3 
+g4 g2 g4 g4 g4 g2 g4 
+g4 g2 g4 g4 g4 g4 g2 
+g4 g3 g2 g3 g3 g4 g4 
+g4 g3 g2 g3 g4 g3 g4 
+g4 g3 g2 g3 g4 g4 g3 
+g4 g3 g2 g4 g3 g3 g4 
+g4 g3 g2 g4 g3 g4 g3 
+g4 g3 g2 g4 g4 g3 g3 
+g4 g3 g3 g2 g3 g4 g4 
+g4 g3 g3 g2 g4 g3 g4 
+g4 g3 g3 g2 g4 g4 g3 
+g4 g3 g3 g3 g2 g4 g4 
+g4 g3 g3 g3 g3 g3 g3 
+g4 g3 g3 g3 g4 g2 g4 
+g4 g3 g3 g3 g4 g4 g2 
+g4 g3 g3 g4 g2 g3 g4 
+g4 g3 g3 g4 g2 g4 g3 
+g4 g3 g3 g4 g3 g2 g4 
+g4 g3 g3 g4 g3 g4 g2 
+g4 g3 g3 g4 g4 g2 g3 
+g4 g3 g3 g4 g4 g3 g2 
+g4 g3 g4 g2 g3 g3 g4 
+g4 g3 g4 g2 g3 g4 g3 
+g4 g3 g4 g2 g4 g3 g3 
+g4 g3 g4 g3 g2 g3 g4 
+g4 g3 g4 g3 g2 g4 g3 
+g4 g3 g4 g3 g3 g2 g4 
+g4 g3 g4 g3 g3 g4 g2 
+g4 g3 g4 g3 g4 g2 g3 
+g4 g3 g4 g3 g4 g3 g2 
+g4 g3 g4 g4 g2 g3 g3 
+g4 g3 g4 g4 g3 g2 g3 
+g4 g3 g4 g4 g3 g3 g2 
+g4 g4 g2 g2 g4 g4 g4 
+g4 g4 g2 g3 g3 g3 g4 
+g4 g4 g2 g3 g3 g4 g3 
+g4 g4 g2 g3 g4 g3 g3 
+g4 g4 g2 g4 g2 g4 g4 
+g4 g4 g2 g4 g3 g3 g3 
+g4 g4 g2 g4 g4 g2 g4 
+g4 g4 g2 g4 g4 g4 g2 
+g4 g4 g3 g2 g3 g3 g4 
+g4 g4 g3 g2 g3 g4 g3 
+g4 g4 g3 g2 g4 g3 g3 
+g4 g4 g3 g3 g2 g3 g4 
+g4 g4 g3 g3 g2 g4 g3 
+g4 g4 g3 g3 g3 g2 g4 
+g4 g4 g3 g3 g3 g4 g2 
+g4 g4 g3 g3 g4 g2 g3 
+g4 g4 g3 g3 g4 g3 g2 
+g4 g4 g3 g4 g2 g3 g3 
+g4 g4 g3 g4 g3 g2 g3 
+g4 g4 g3 g4 g3 g3 g2 
+g4 g4 g4 g2 g2 g4 g4 
+g4 g4 g4 g2 g3 g3 g3 
+g4 g4 g4 g2 g4 g2 g4 
+g4 g4 g4 g2 g4 g4 g2 
+g4 g4 g4 g3 g2 g3 g3 
+g4 g4 g4 g3 g3 g2 g3 
+g4 g4 g4 g3 g3 g3 g2 
+g4 g4 g4 g4 g2 g2 g4 
+g4 g4 g4 g4 g2 g4 g2 
+g4 g4 g4 g4 g4 g2 g2 
+score: 95
+g1 g3 g4 g4 g4 g4 g4 
+g1 g4 g3 g4 g4 g4 g4 
+g1 g4 g4 g3 g4 g4 g4 
+g1 g4 g4 g4 g3 g4 g4 
+g1 g4 g4 g4 g4 g3 g4 
+g1 g4 g4 g4 g4 g4 g3 
+g3 g1 g4 g4 g4 g4 g4 
+g3 g4 g1 g4 g4 g4 g4 
+g3 g4 g4 g1 g4 g4 g4 
+g3 g4 g4 g4 g1 g4 g4 
+g3 g4 g4 g4 g4 g1 g4 
+g3 g4 g4 g4 g4 g4 g1 
+g4 g1 g3 g4 g4 g4 g4 
+g4 g1 g4 g3 g4 g4 g4 
+g4 g1 g4 g4 g3 g4 g4 
+g4 g1 g4 g4 g4 g3 g4 
+g4 g1 g4 g4 g4 g4 g3 
+g4 g3 g1 g4 g4 g4 g4 
+g4 g3 g4 g1 g4 g4 g4 
+g4 g3 g4 g4 g1 g4 g4 
+g4 g3 g4 g4 g4 g1 g4 
+g4 g3 g4 g4 g4 g4 g1 
+g4 g4 g1 g3 g4 g4 g4 
+g4 g4 g1 g4 g3 g4 g4 
+g4 g4 g1 g4 g4 g3 g4 
+g4 g4 g1 g4 g4 g4 g3 
+g4 g4 g3 g1 g4 g4 g4 
+g4 g4 g3 g4 g1 g4 g4 
+g4 g4 g3 g4 g4 g1 g4 
+g4 g4 g3 g4 g4 g4 g1 
+g4 g4 g4 g1 g3 g4 g4 
+g4 g4 g4 g1 g4 g3 g4 
+g4 g4 g4 g1 g4 g4 g3 
+g4 g4 g4 g3 g1 g4 g4 
+g4 g4 g4 g3 g4 g1 g4 
+g4 g4 g4 g3 g4 g4 g1 
+g4 g4 g4 g4 g1 g3 g4 
+g4 g4 g4 g4 g1 g4 g3 
+g4 g4 g4 g4 g3 g1 g4 
+g4 g4 g4 g4 g3 g4 g1 
+g4 g4 g4 g4 g4 g1 g3 
+g4 g4 g4 g4 g4 g3 g1 
+score: 96
+g4 g4 g4 g4 g4 g4 
+score: 97
+g2 g3 g3 g4 g4 g4 g4 
+g2 g3 g4 g3 g4 g4 g4 
+g2 g3 g4 g4 g3 g4 g4 
+g2 g3 g4 g4 g4 g3 g4 
+g2 g3 g4 g4 g4 g4 g3 
+g2 g4 g3 g3 g4 g4 g4 
+g2 g4 g3 g4 g3 g4 g4 
+g2 g4 g3 g4 g4 g3 g4 
+g2 g4 g3 g4 g4 g4 g3 
+g2 g4 g4 g3 g3 g4 g4 
+g2 g4 g4 g3 g4 g3 g4 
+g2 g4 g4 g3 g4 g4 g3 
+g2 g4 g4 g4 g3 g3 g4 
+g2 g4 g4 g4 g3 g4 g3 
+g2 g4 g4 g4 g4 g3 g3 
+g3 g2 g3 g4 g4 g4 g4 
+g3 g2 g4 g3 g4 g4 g4 
+g3 g2 g4 g4 g3 g4 g4 
+g3 g2 g4 g4 g4 g3 g4 
+g3 g2 g4 g4 g4 g4 g3 
+g3 g3 g2 g4 g4 g4 g4 
+g3 g3 g3 g3 g3 g4 g4 
+g3 g3 g3 g3 g4 g3 g4 
+g3 g3 g3 g3 g4 g4 g3 
+g3 g3 g3 g4 g3 g3 g4 
+g3 g3 g3 g4 g3 g4 g3 
+g3 g3 g3 g4 g4 g3 g3 
+g3 g3 g4 g2 g4 g4 g4 
+g3 g3 g4 g3 g3 g3 g4 
+g3 g3 g4 g3 g3 g4 g3 
+g3 g3 g4 g3 g4 g3 g3 
+g3 g3 g4 g4 g2 g4 g4 
+g3 g3 g4 g4 g3 g3 g3 
+g3 g3 g4 g4 g4 g2 g4 
+g3 g3 g4 g4 g4 g4 g2 
+g3 g4 g2 g3 g4 g4 g4 
+g3 g4 g2 g4 g3 g4 g4 
+g3 g4 g2 g4 g4 g3 g4 
+g3 g4 g2 g4 g4 g4 g3 
+g3 g4 g3 g2 g4 g4 g4 
+g3 g4 g3 g3 g3 g3 g4 
+g3 g4 g3 g3 g3 g4 g3 
+g3 g4 g3 g3 g4 g3 g3 
+g3 g4 g3 g4 g2 g4 g4 
+g3 g4 g3 g4 g3 g3 g3 
+g3 g4 g3 g4 g4 g2 g4 
+g3 g4 g3 g4 g4 g4 g2 
+g3 g4 g4 g2 g3 g4 g4 
+g3 g4 g4 g2 g4 g3 g4 
+g3 g4 g4 g2 g4 g4 g3 
+g3 g4 g4 g3 g2 g4 g4 
+g3 g4 g4 g3 g3 g3 g3 
+g3 g4 g4 g3 g4 g2 g4 
+g3 g4 g4 g3 g4 g4 g2 
+g3 g4 g4 g4 g2 g3 g4 
+g3 g4 g4 g4 g2 g4 g3 
+g3 g4 g4 g4 g3 g2 g4 
+g3 g4 g4 g4 g3 g4 g2 
+g3 g4 g4 g4 g4 g2 g3 
+g3 g4 g4 g4 g4 g3 g2 
+g4 g2 g3 g3 g4 g4 g4 
+g4 g2 g3 g4 g3 g4 g4 
+g4 g2 g3 g4 g4 g3 g4 
+g4 g2 g3 g4 g4 g4 g3 
+g4 g2 g4 g3 g3 g4 g4 
+g4 g2 g4 g3 g4 g3 g4 
+g4 g2 g4 g3 g4 g4 g3 
+g4 g2 g4 g4 g3 g3 g4 
+g4 g2 g4 g4 g3 g4 g3 
+g4 g2 g4 g4 g4 g3 g3 
+g4 g3 g2 g3 g4 g4 g4 
+g4 g3 g2 g4 g3 g4 g4 
+g4 g3 g2 g4 g4 g3 g4 
+g4 g3 g2 g4 g4 g4 g3 
+g4 g3 g3 g2 g4 g4 g4 
+g4 g3 g3 g3 g3 g3 g4 
+g4 g3 g3 g3 g3 g4 g3 
+g4 g3 g3 g3 g4 g3 g3 
+g4 g3 g3 g4 g2 g4 g4 
+g4 g3 g3 g4 g3 g3 g3 
+g4 g3 g3 g4 g4 g2 g4 
+g4 g3 g3 g4 g4 g4 g2 
+g4 g3 g4 g2 g3 g4 g4 
+g4 g3 g4 g2 g4 g3 g4 
+g4 g3 g4 g2 g4 g4 g3 
+g4 g3 g4 g3 g2 g4 g4 
+g4 g3 g4 g3 g3 g3 g3 
+g4 g3 g4 g3 g4 g2 g4 
+g4 g3 g4 g3 g4 g4 g2 
+g4 g3 g4 g4 g2 g3 g4 
+g4 g3 g4 g4 g2 g4 g3 
+g4 g3 g4 g4 g3 g2 g4 
+g4 g3 g4 g4 g3 g4 g2 
+g4 g3 g4 g4 g4 g2 g3 
+g4 g3 g4 g4 g4 g3 g2 
+g4 g4 g2 g3 g3 g4 g4 
+g4 g4 g2 g3 g4 g3 g4 
+g4 g4 g2 g3 g4 g4 g3 
+g4 g4 g2 g4 g3 g3 g4 
+g4 g4 g2 g4 g3 g4 g3 
+g4 g4 g2 g4 g4 g3 g3 
+g4 g4 g3 g2 g3 g4 g4 
+g4 g4 g3 g2 g4 g3 g4 
+g4 g4 g3 g2 g4 g4 g3 
+g4 g4 g3 g3 g2 g4 g4 
+g4 g4 g3 g3 g3 g3 g3 
+g4 g4 g3 g3 g4 g2 g4 
+g4 g4 g3 g3 g4 g4 g2 
+g4 g4 g3 g4 g2 g3 g4 
+g4 g4 g3 g4 g2 g4 g3 
+g4 g4 g3 g4 g3 g2 g4 
+g4 g4 g3 g4 g3 g4 g2 
+g4 g4 g3 g4 g4 g2 g3 
+g4 g4 g3 g4 g4 g3 g2 
+g4 g4 g4 g2 g3 g3 g4 
+g4 g4 g4 g2 g3 g4 g3 
+g4 g4 g4 g2 g4 g3 g3 
+g4 g4 g4 g3 g2 g3 g4 
+g4 g4 g4 g3 g2 g4 g3 
+g4 g4 g4 g3 g3 g2 g4 
+g4 g4 g4 g3 g3 g4 g2 
+g4 g4 g4 g3 g4 g2 g3 
+g4 g4 g4 g3 g4 g3 g2 
+g4 g4 g4 g4 g2 g3 g3 
+g4 g4 g4 g4 g3 g2 g3 
+g4 g4 g4 g4 g3 g3 g2 
+score: 98
+g1 g4 g4 g4 g4 g4 g4 
+g4 g1 g4 g4 g4 g4 g4 
+g4 g4 g1 g4 g4 g4 g4 
+g4 g4 g4 g1 g4 g4 g4 
+g4 g4 g4 g4 g1 g4 g4 
+g4 g4 g4 g4 g4 g1 g4 
+g4 g4 g4 g4 g4 g4 g1 
+score: 99
+g1 g2 g3 g3 g4 g4 g4 g4 
+g1 g2 g3 g4 g3 g4 g4 g4 
+g1 g2 g3 g4 g4 g3 g4 g4 
+g1 g2 g3 g4 g4 g4 g3 g4 
+g1 g2 g3 g4 g4 g4 g4 g3 
+g1 g2 g4 g3 g3 g4 g4 g4 
+g1 g2 g4 g3 g4 g3 g4 g4 
+g1 g2 g4 g3 g4 g4 g3 g4 
+g1 g2 g4 g3 g4 g4 g4 g3 
+g1 g2 g4 g4 g3 g3 g4 g4 
+g1 g2 g4 g4 g3 g4 g3 g4 
+g1 g2 g4 g4 g3 g4 g4 g3 
+g1 g2 g4 g4 g4 g3 g3 g4 
+g1 g2 g4 g4 g4 g3 g4 g3 
+g1 g2 g4 g4 g4 g4 g3 g3 
+g1 g3 g2 g3 g4 g4 g4 g4 
+g1 g3 g2 g4 g3 g4 g4 g4 
+g1 g3 g2 g4 g4 g3 g4 g4 
+g1 g3 g2 g4 g4 g4 g3 g4 
+g1 g3 g2 g4 g4 g4 g4 g3 
+g1 g3 g3 g2 g4 g4 g4 g4 
+g1 g3 g3 g3 g3 g3 g4 g4 
+g1 g3 g3 g3 g3 g4 g3 g4 
+g1 g3 g3 g3 g3 g4 g4 g3 
+g1 g3 g3 g3 g4 g3 g3 g4 
+g1 g3 g3 g3 g4 g3 g4 g3 
+g1 g3 g3 g3 g4 g4 g3 g3 
+g1 g3 g3 g4 g2 g4 g4 g4 
+g1 g3 g3 g4 g3 g3 g3 g4 
+g1 g3 g3 g4 g3 g3 g4 g3 
+g1 g3 g3 g4 g3 g4 g3 g3 
+g1 g3 g3 g4 g4 g2 g4 g4 
+g1 g3 g3 g4 g4 g3 g3 g3 
+g1 g3 g3 g4 g4 g4 g2 g4 
+g1 g3 g3 g4 g4 g4 g4 g2 
+g1 g3 g4 g2 g3 g4 g4 g4 
+g1 g3 g4 g2 g4 g3 g4 g4 
+g1 g3 g4 g2 g4 g4 g3 g4 
+g1 g3 g4 g2 g4 g4 g4 g3 
+g1 g3 g4 g3 g2 g4 g4 g4 
+g1 g3 g4 g3 g3 g3 g3 g4 
+g1 g3 g4 g3 g3 g3 g4 g3 
+g1 g3 g4 g3 g3 g4 g3 g3 
+g1 g3 g4 g3 g4 g2 g4 g4 
+g1 g3 g4 g3 g4 g3 g3 g3 
+g1 g3 g4 g3 g4 g4 g2 g4 
+g1 g3 g4 g3 g4 g4 g4 g2 
+g1 g3 g4 g4 g2 g3 g4 g4 
+g1 g3 g4 g4 g2 g4 g3 g4 
+g1 g3 g4 g4 g2 g4 g4 g3 
+g1 g3 g4 g4 g3 g2 g4 g4 
+g1 g3 g4 g4 g3 g3 g3 g3 
+g1 g3 g4 g4 g3 g4 g2 g4 
+g1 g3 g4 g4 g3 g4 g4 g2 
+g1 g3 g4 g4 g4 g2 g3 g4 
+g1 g3 g4 g4 g4 g2 g4 g3 
+g1 g3 g4 g4 g4 g3 g2 g4 
+g1 g3 g4 g4 g4 g3 g4 g2 
+g1 g3 g4 g4 g4 g4 g2 g3 
+g1 g3 g4 g4 g4 g4 g3 g2 
+g1 g4 g2 g3 g3 g4 g4 g4 
+g1 g4 g2 g3 g4 g3 g4 g4 
+g1 g4 g2 g3 g4 g4 g3 g4 
+g1 g4 g2 g3 g4 g4 g4 g3 
+g1 g4 g2 g4 g3 g3 g4 g4 
+g1 g4 g2 g4 g3 g4 g3 g4 
+g1 g4 g2 g4 g3 g4 g4 g3 
+g1 g4 g2 g4 g4 g3 g3 g4 
+g1 g4 g2 g4 g4 g3 g4 g3 
+g1 g4 g2 g4 g4 g4 g3 g3 
+g1 g4 g3 g2 g3 g4 g4 g4 
+g1 g4 g3 g2 g4 g3 g4 g4 
+g1 g4 g3 g2 g4 g4 g3 g4 
+g1 g4 g3 g2 g4 g4 g4 g3 
+g1 g4 g3 g3 g2 g4 g4 g4 
+g1 g4 g3 g3 g3 g3 g3 g4 
+g1 g4 g3 g3 g3 g3 g4 g3 
+g1 g4 g3 g3 g3 g4 g3 g3 
+g1 g4 g3 g3 g4 g2 g4 g4 
+g1 g4 g3 g3 g4 g3 g3 g3 
+g1 g4 g3 g3 g4 g4 g2 g4 
+g1 g4 g3 g3 g4 g4 g4 g2 
+g1 g4 g3 g4 g2 g3 g4 g4 
+g1 g4 g3 g4 g2 g4 g3 g4 
+g1 g4 g3 g4 g2 g4 g4 g3 
+g1 g4 g3 g4 g3 g2 g4 g4 
+g1 g4 g3 g4 g3 g3 g3 g3 
+g1 g4 g3 g4 g3 g4 g2 g4 
+g1 g4 g3 g4 g3 g4 g4 g2 
+g1 g4 g3 g4 g4 g2 g3 g4 
+g1 g4 g3 g4 g4 g2 g4 g3 
+g1 g4 g3 g4 g4 g3 g2 g4 
+g1 g4 g3 g4 g4 g3 g4 g2 
+g1 g4 g3 g4 g4 g4 g2 g3 
+g1 g4 g3 g4 g4 g4 g3 g2 
+g1 g4 g4 g2 g3 g3 g4 g4 
+g1 g4 g4 g2 g3 g4 g3 g4 
+g1 g4 g4 g2 g3 g4 g4 g3 
+g1 g4 g4 g2 g4 g3 g3 g4 
+g1 g4 g4 g2 g4 g3 g4 g3 
+g1 g4 g4 g2 g4 g4 g3 g3 
+g1 g4 g4 g3 g2 g3 g4 g4 
+g1 g4 g4 g3 g2 g4 g3 g4 
+g1 g4 g4 g3 g2 g4 g4 g3 
+g1 g4 g4 g3 g3 g2 g4 g4 
+g1 g4 g4 g3 g3 g3 g3 g3 
+g1 g4 g4 g3 g3 g4 g2 g4 
+g1 g4 g4 g3 g3 g4 g4 g2 
+g1 g4 g4 g3 g4 g2 g3 g4 
+g1 g4 g4 g3 g4 g2 g4 g3 
+g1 g4 g4 g3 g4 g3 g2 g4 
+g1 g4 g4 g3 g4 g3 g4 g2 
+g1 g4 g4 g3 g4 g4 g2 g3 
+g1 g4 g4 g3 g4 g4 g3 g2 
+g1 g4 g4 g4 g2 g3 g3 g4 
+g1 g4 g4 g4 g2 g3 g4 g3 
+g1 g4 g4 g4 g2 g4 g3 g3 
+g1 g4 g4 g4 g3 g2 g3 g4 
+g1 g4 g4 g4 g3 g2 g4 g3 
+g1 g4 g4 g4 g3 g3 g2 g4 
+g1 g4 g4 g4 g3 g3 g4 g2 
+g1 g4 g4 g4 g3 g4 g2 g3 
+g1 g4 g4 g4 g3 g4 g3 g2 
+g1 g4 g4 g4 g4 g2 g3 g3 
+g1 g4 g4 g4 g4 g3 g2 g3 
+g1 g4 g4 g4 g4 g3 g3 g2 
+g2 g1 g3 g3 g4 g4 g4 g4 
+g2 g1 g3 g4 g3 g4 g4 g4 
+g2 g1 g3 g4 g4 g3 g4 g4 
+g2 g1 g3 g4 g4 g4 g3 g4 
+g2 g1 g3 g4 g4 g4 g4 g3 
+g2 g1 g4 g3 g3 g4 g4 g4 
+g2 g1 g4 g3 g4 g3 g4 g4 
+g2 g1 g4 g3 g4 g4 g3 g4 
+g2 g1 g4 g3 g4 g4 g4 g3 
+g2 g1 g4 g4 g3 g3 g4 g4 
+g2 g1 g4 g4 g3 g4 g3 g4 
+g2 g1 g4 g4 g3 g4 g4 g3 
+g2 g1 g4 g4 g4 g3 g3 g4 
+g2 g1 g4 g4 g4 g3 g4 g3 
+g2 g1 g4 g4 g4 g4 g3 g3 
+g2 g3 g1 g3 g4 g4 g4 g4 
+g2 g3 g1 g4 g3 g4 g4 g4 
+g2 g3 g1 g4 g4 g3 g4 g4 
+g2 g3 g1 g4 g4 g4 g3 g4 
+g2 g3 g1 g4 g4 g4 g4 g3 
+g2 g3 g3 g1 g4 g4 g4 g4 
+g2 g3 g3 g4 g1 g4 g4 g4 
+g2 g3 g3 g4 g4 g1 g4 g4 
+g2 g3 g3 g4 g4 g4 g1 g4 
+g2 g3 g3 g4 g4 g4 g4 g1 
+g2 g3 g4 g1 g3 g4 g4 g4 
+g2 g3 g4 g1 g4 g3 g4 g4 
+g2 g3 g4 g1 g4 g4 g3 g4 
+g2 g3 g4 g1 g4 g4 g4 g3 
+g2 g3 g4 g3 g1 g4 g4 g4 
+g2 g3 g4 g3 g4 g1 g4 g4 
+g2 g3 g4 g3 g4 g4 g1 g4 
+g2 g3 g4 g3 g4 g4 g4 g1 
+g2 g3 g4 g4 g1 g3 g4 g4 
+g2 g3 g4 g4 g1 g4 g3 g4 
+g2 g3 g4 g4 g1 g4 g4 g3 
+g2 g3 g4 g4 g3 g1 g4 g4 
+g2 g3 g4 g4 g3 g4 g1 g4 
+g2 g3 g4 g4 g3 g4 g4 g1 
+g2 g3 g4 g4 g4 g1 g3 g4 
+g2 g3 g4 g4 g4 g1 g4 g3 
+g2 g3 g4 g4 g4 g3 g1 g4 
+g2 g3 g4 g4 g4 g3 g4 g1 
+g2 g3 g4 g4 g4 g4 g1 g3 
+g2 g3 g4 g4 g4 g4 g3 g1 
+g2 g4 g1 g3 g3 g4 g4 g4 
+g2 g4 g1 g3 g4 g3 g4 g4 
+g2 g4 g1 g3 g4 g4 g3 g4 
+g2 g4 g1 g3 g4 g4 g4 g3 
+g2 g4 g1 g4 g3 g3 g4 g4 
+g2 g4 g1 g4 g3 g4 g3 g4 
+g2 g4 g1 g4 g3 g4 g4 g3 
+g2 g4 g1 g4 g4 g3 g3 g4 
+g2 g4 g1 g4 g4 g3 g4 g3 
+g2 g4 g1 g4 g4 g4 g3 g3 
+g2 g4 g3 g1 g3 g4 g4 g4 
+g2 g4 g3 g1 g4 g3 g4 g4 
+g2 g4 g3 g1 g4 g4 g3 g4 
+g2 g4 g3 g1 g4 g4 g4 g3 
+g2 g4 g3 g3 g1 g4 g4 g4 
+g2 g4 g3 g3 g4 g1 g4 g4 
+g2 g4 g3 g3 g4 g4 g1 g4 
+g2 g4 g3 g3 g4 g4 g4 g1 
+g2 g4 g3 g4 g1 g3 g4 g4 
+g2 g4 g3 g4 g1 g4 g3 g4 
+g2 g4 g3 g4 g1 g4 g4 g3 
+g2 g4 g3 g4 g3 g1 g4 g4 
+g2 g4 g3 g4 g3 g4 g1 g4 
+g2 g4 g3 g4 g3 g4 g4 g1 
+g2 g4 g3 g4 g4 g1 g3 g4 
+g2 g4 g3 g4 g4 g1 g4 g3 
+g2 g4 g3 g4 g4 g3 g1 g4 
+g2 g4 g3 g4 g4 g3 g4 g1 
+g2 g4 g3 g4 g4 g4 g1 g3 
+g2 g4 g3 g4 g4 g4 g3 g1 
+g2 g4 g4 g1 g3 g3 g4 g4 
+g2 g4 g4 g1 g3 g4 g3 g4 
+g2 g4 g4 g1 g3 g4 g4 g3 
+g2 g4 g4 g1 g4 g3 g3 g4 
+g2 g4 g4 g1 g4 g3 g4 g3 
+g2 g4 g4 g1 g4 g4 g3 g3 
+g2 g4 g4 g3 g1 g3 g4 g4 
+g2 g4 g4 g3 g1 g4 g3 g4 
+g2 g4 g4 g3 g1 g4 g4 g3 
+g2 g4 g4 g3 g3 g1 g4 g4 
+g2 g4 g4 g3 g3 g4 g1 g4 
+g2 g4 g4 g3 g3 g4 g4 g1 
+g2 g4 g4 g3 g4 g1 g3 g4 
+g2 g4 g4 g3 g4 g1 g4 g3 
+g2 g4 g4 g3 g4 g3 g1 g4 
+g2 g4 g4 g3 g4 g3 g4 g1 
+g2 g4 g4 g3 g4 g4 g1 g3 
+g2 g4 g4 g3 g4 g4 g3 g1 
+g2 g4 g4 g4 g1 g3 g3 g4 
+g2 g4 g4 g4 g1 g3 g4 g3 
+g2 g4 g4 g4 g1 g4 g3 g3 
+g2 g4 g4 g4 g3 g1 g3 g4 
+g2 g4 g4 g4 g3 g1 g4 g3 
+g2 g4 g4 g4 g3 g3 g1 g4 
+g2 g4 g4 g4 g3 g3 g4 g1 
+g2 g4 g4 g4 g3 g4 g1 g3 
+g2 g4 g4 g4 g3 g4 g3 g1 
+g2 g4 g4 g4 g4 g1 g3 g3 
+g2 g4 g4 g4 g4 g3 g1 g3 
+g2 g4 g4 g4 g4 g3 g3 g1 
+g3 g1 g2 g3 g4 g4 g4 g4 
+g3 g1 g2 g4 g3 g4 g4 g4 
+g3 g1 g2 g4 g4 g3 g4 g4 
+g3 g1 g2 g4 g4 g4 g3 g4 
+g3 g1 g2 g4 g4 g4 g4 g3 
+g3 g1 g3 g2 g4 g4 g4 g4 
+g3 g1 g3 g3 g3 g3 g4 g4 
+g3 g1 g3 g3 g3 g4 g3 g4 
+g3 g1 g3 g3 g3 g4 g4 g3 
+g3 g1 g3 g3 g4 g3 g3 g4 
+g3 g1 g3 g3 g4 g3 g4 g3 
+g3 g1 g3 g3 g4 g4 g3 g3 
+g3 g1 g3 g4 g2 g4 g4 g4 
+g3 g1 g3 g4 g3 g3 g3 g4 
+g3 g1 g3 g4 g3 g3 g4 g3 
+g3 g1 g3 g4 g3 g4 g3 g3 
+g3 g1 g3 g4 g4 g2 g4 g4 
+g3 g1 g3 g4 g4 g3 g3 g3 
+g3 g1 g3 g4 g4 g4 g2 g4 
+g3 g1 g3 g4 g4 g4 g4 g2 
+g3 g1 g4 g2 g3 g4 g4 g4 
+g3 g1 g4 g2 g4 g3 g4 g4 
+g3 g1 g4 g2 g4 g4 g3 g4 
+g3 g1 g4 g2 g4 g4 g4 g3 
+g3 g1 g4 g3 g2 g4 g4 g4 
+g3 g1 g4 g3 g3 g3 g3 g4 
+g3 g1 g4 g3 g3 g3 g4 g3 
+g3 g1 g4 g3 g3 g4 g3 g3 
+g3 g1 g4 g3 g4 g2 g4 g4 
+g3 g1 g4 g3 g4 g3 g3 g3 
+g3 g1 g4 g3 g4 g4 g2 g4 
+g3 g1 g4 g3 g4 g4 g4 g2 
+g3 g1 g4 g4 g2 g3 g4 g4 
+g3 g1 g4 g4 g2 g4 g3 g4 
+g3 g1 g4 g4 g2 g4 g4 g3 
+g3 g1 g4 g4 g3 g2 g4 g4 
+g3 g1 g4 g4 g3 g3 g3 g3 
+g3 g1 g4 g4 g3 g4 g2 g4 
+g3 g1 g4 g4 g3 g4 g4 g2 
+g3 g1 g4 g4 g4 g2 g3 g4 
+g3 g1 g4 g4 g4 g2 g4 g3 
+g3 g1 g4 g4 g4 g3 g2 g4 
+g3 g1 g4 g4 g4 g3 g4 g2 
+g3 g1 g4 g4 g4 g4 g2 g3 
+g3 g1 g4 g4 g4 g4 g3 g2 
+g3 g2 g1 g3 g4 g4 g4 g4 
+g3 g2 g1 g4 g3 g4 g4 g4 
+g3 g2 g1 g4 g4 g3 g4 g4 
+g3 g2 g1 g4 g4 g4 g3 g4 
+g3 g2 g1 g4 g4 g4 g4 g3 
+g3 g2 g3 g1 g4 g4 g4 g4 
+g3 g2 g3 g4 g1 g4 g4 g4 
+g3 g2 g3 g4 g4 g1 g4 g4 
+g3 g2 g3 g4 g4 g4 g1 g4 
+g3 g2 g3 g4 g4 g4 g4 g1 
+g3 g2 g4 g1 g3 g4 g4 g4 
+g3 g2 g4 g1 g4 g3 g4 g4 
+g3 g2 g4 g1 g4 g4 g3 g4 
+g3 g2 g4 g1 g4 g4 g4 g3 
+g3 g2 g4 g3 g1 g4 g4 g4 
+g3 g2 g4 g3 g4 g1 g4 g4 
+g3 g2 g4 g3 g4 g4 g1 g4 
+g3 g2 g4 g3 g4 g4 g4 g1 
+g3 g2 g4 g4 g1 g3 g4 g4 
+g3 g2 g4 g4 g1 g4 g3 g4 
+g3 g2 g4 g4 g1 g4 g4 g3 
+g3 g2 g4 g4 g3 g1 g4 g4 
+g3 g2 g4 g4 g3 g4 g1 g4 
+g3 g2 g4 g4 g3 g4 g4 g1 
+g3 g2 g4 g4 g4 g1 g3 g4 
+g3 g2 g4 g4 g4 g1 g4 g3 
+g3 g2 g4 g4 g4 g3 g1 g4 
+g3 g2 g4 g4 g4 g3 g4 g1 
+g3 g2 g4 g4 g4 g4 g1 g3 
+g3 g2 g4 g4 g4 g4 g3 g1 
+g3 g3 g1 g2 g4 g4 g4 g4 
+g3 g3 g1 g3 g3 g3 g4 g4 
+g3 g3 g1 g3 g3 g4 g3 g4 
+g3 g3 g1 g3 g3 g4 g4 g3 
+g3 g3 g1 g3 g4 g3 g3 g4 
+g3 g3 g1 g3 g4 g3 g4 g3 
+g3 g3 g1 g3 g4 g4 g3 g3 
+g3 g3 g1 g4 g2 g4 g4 g4 
+g3 g3 g1 g4 g3 g3 g3 g4 
+g3 g3 g1 g4 g3 g3 g4 g3 
+g3 g3 g1 g4 g3 g4 g3 g3 
+g3 g3 g1 g4 g4 g2 g4 g4 
+g3 g3 g1 g4 g4 g3 g3 g3 
+g3 g3 g1 g4 g4 g4 g2 g4 
+g3 g3 g1 g4 g4 g4 g4 g2 
+g3 g3 g2 g1 g4 g4 g4 g4 
+g3 g3 g2 g4 g1 g4 g4 g4 
+g3 g3 g2 g4 g4 g1 g4 g4 
+g3 g3 g2 g4 g4 g4 g1 g4 
+g3 g3 g2 g4 g4 g4 g4 g1 
+g3 g3 g3 g1 g3 g3 g4 g4 
+g3 g3 g3 g1 g3 g4 g3 g4 
+g3 g3 g3 g1 g3 g4 g4 g3 
+g3 g3 g3 g1 g4 g3 g3 g4 
+g3 g3 g3 g1 g4 g3 g4 g3 
+g3 g3 g3 g1 g4 g4 g3 g3 
+g3 g3 g3 g3 g1 g3 g4 g4 
+g3 g3 g3 g3 g1 g4 g3 g4 
+g3 g3 g3 g3 g1 g4 g4 g3 
+g3 g3 g3 g3 g3 g1 g4 g4 
+g3 g3 g3 g3 g3 g4 g1 g4 
+g3 g3 g3 g3 g3 g4 g4 g1 
+g3 g3 g3 g3 g4 g1 g3 g4 
+g3 g3 g3 g3 g4 g1 g4 g3 
+g3 g3 g3 g3 g4 g3 g1 g4 
+g3 g3 g3 g3 g4 g3 g4 g1 
+g3 g3 g3 g3 g4 g4 g1 g3 
+g3 g3 g3 g3 g4 g4 g3 g1 
+g3 g3 g3 g4 g1 g3 g3 g4 
+g3 g3 g3 g4 g1 g3 g4 g3 
+g3 g3 g3 g4 g1 g4 g3 g3 
+g3 g3 g3 g4 g3 g1 g3 g4 
+g3 g3 g3 g4 g3 g1 g4 g3 
+g3 g3 g3 g4 g3 g3 g1 g4 
+g3 g3 g3 g4 g3 g3 g4 g1 
+g3 g3 g3 g4 g3 g4 g1 g3 
+g3 g3 g3 g4 g3 g4 g3 g1 
+g3 g3 g3 g4 g4 g1 g3 g3 
+g3 g3 g3 g4 g4 g3 g1 g3 
+g3 g3 g3 g4 g4 g3 g3 g1 
+g3 g3 g4 g1 g2 g4 g4 g4 
+g3 g3 g4 g1 g3 g3 g3 g4 
+g3 g3 g4 g1 g3 g3 g4 g3 
+g3 g3 g4 g1 g3 g4 g3 g3 
+g3 g3 g4 g1 g4 g2 g4 g4 
+g3 g3 g4 g1 g4 g3 g3 g3 
+g3 g3 g4 g1 g4 g4 g2 g4 
+g3 g3 g4 g1 g4 g4 g4 g2 
+g3 g3 g4 g2 g1 g4 g4 g4 
+g3 g3 g4 g2 g4 g1 g4 g4 
+g3 g3 g4 g2 g4 g4 g1 g4 
+g3 g3 g4 g2 g4 g4 g4 g1 
+g3 g3 g4 g3 g1 g3 g3 g4 
+g3 g3 g4 g3 g1 g3 g4 g3 
+g3 g3 g4 g3 g1 g4 g3 g3 
+g3 g3 g4 g3 g3 g1 g3 g4 
+g3 g3 g4 g3 g3 g1 g4 g3 
+g3 g3 g4 g3 g3 g3 g1 g4 
+g3 g3 g4 g3 g3 g3 g4 g1 
+g3 g3 g4 g3 g3 g4 g1 g3 
+g3 g3 g4 g3 g3 g4 g3 g1 
+g3 g3 g4 g3 g4 g1 g3 g3 
+g3 g3 g4 g3 g4 g3 g1 g3 
+g3 g3 g4 g3 g4 g3 g3 g1 
+g3 g3 g4 g4 g1 g2 g4 g4 
+g3 g3 g4 g4 g1 g3 g3 g3 
+g3 g3 g4 g4 g1 g4 g2 g4 
+g3 g3 g4 g4 g1 g4 g4 g2 
+g3 g3 g4 g4 g2 g1 g4 g4 
+g3 g3 g4 g4 g2 g4 g1 g4 
+g3 g3 g4 g4 g2 g4 g4 g1 
+g3 g3 g4 g4 g3 g1 g3 g3 
+g3 g3 g4 g4 g3 g3 g1 g3 
+g3 g3 g4 g4 g3 g3 g3 g1 
+g3 g3 g4 g4 g4 g1 g2 g4 
+g3 g3 g4 g4 g4 g1 g4 g2 
+g3 g3 g4 g4 g4 g2 g1 g4 
+g3 g3 g4 g4 g4 g2 g4 g1 
+g3 g3 g4 g4 g4 g4 g1 g2 
+g3 g3 g4 g4 g4 g4 g2 g1 
+g3 g4 g1 g2 g3 g4 g4 g4 
+g3 g4 g1 g2 g4 g3 g4 g4 
+g3 g4 g1 g2 g4 g4 g3 g4 
+g3 g4 g1 g2 g4 g4 g4 g3 
+g3 g4 g1 g3 g2 g4 g4 g4 
+g3 g4 g1 g3 g3 g3 g3 g4 
+g3 g4 g1 g3 g3 g3 g4 g3 
+g3 g4 g1 g3 g3 g4 g3 g3 
+g3 g4 g1 g3 g4 g2 g4 g4 
+g3 g4 g1 g3 g4 g3 g3 g3 
+g3 g4 g1 g3 g4 g4 g2 g4 
+g3 g4 g1 g3 g4 g4 g4 g2 
+g3 g4 g1 g4 g2 g3 g4 g4 
+g3 g4 g1 g4 g2 g4 g3 g4 
+g3 g4 g1 g4 g2 g4 g4 g3 
+g3 g4 g1 g4 g3 g2 g4 g4 
+g3 g4 g1 g4 g3 g3 g3 g3 
+g3 g4 g1 g4 g3 g4 g2 g4 
+g3 g4 g1 g4 g3 g4 g4 g2 
+g3 g4 g1 g4 g4 g2 g3 g4 
+g3 g4 g1 g4 g4 g2 g4 g3 
+g3 g4 g1 g4 g4 g3 g2 g4 
+g3 g4 g1 g4 g4 g3 g4 g2 
+g3 g4 g1 g4 g4 g4 g2 g3 
+g3 g4 g1 g4 g4 g4 g3 g2 
+g3 g4 g2 g1 g3 g4 g4 g4 
+g3 g4 g2 g1 g4 g3 g4 g4 
+g3 g4 g2 g1 g4 g4 g3 g4 
+g3 g4 g2 g1 g4 g4 g4 g3 
+g3 g4 g2 g3 g1 g4 g4 g4 
+g3 g4 g2 g3 g4 g1 g4 g4 
+g3 g4 g2 g3 g4 g4 g1 g4 
+g3 g4 g2 g3 g4 g4 g4 g1 
+g3 g4 g2 g4 g1 g3 g4 g4 
+g3 g4 g2 g4 g1 g4 g3 g4 
+g3 g4 g2 g4 g1 g4 g4 g3 
+g3 g4 g2 g4 g3 g1 g4 g4 
+g3 g4 g2 g4 g3 g4 g1 g4 
+g3 g4 g2 g4 g3 g4 g4 g1 
+g3 g4 g2 g4 g4 g1 g3 g4 
+g3 g4 g2 g4 g4 g1 g4 g3 
+g3 g4 g2 g4 g4 g3 g1 g4 
+g3 g4 g2 g4 g4 g3 g4 g1 
+g3 g4 g2 g4 g4 g4 g1 g3 
+g3 g4 g2 g4 g4 g4 g3 g1 
+g3 g4 g3 g1 g2 g4 g4 g4 
+g3 g4 g3 g1 g3 g3 g3 g4 
+g3 g4 g3 g1 g3 g3 g4 g3 
+g3 g4 g3 g1 g3 g4 g3 g3 
+g3 g4 g3 g1 g4 g2 g4 g4 
+g3 g4 g3 g1 g4 g3 g3 g3 
+g3 g4 g3 g1 g4 g4 g2 g4 
+g3 g4 g3 g1 g4 g4 g4 g2 
+g3 g4 g3 g2 g1 g4 g4 g4 
+g3 g4 g3 g2 g4 g1 g4 g4 
+g3 g4 g3 g2 g4 g4 g1 g4 
+g3 g4 g3 g2 g4 g4 g4 g1 
+g3 g4 g3 g3 g1 g3 g3 g4 
+g3 g4 g3 g3 g1 g3 g4 g3 
+g3 g4 g3 g3 g1 g4 g3 g3 
+g3 g4 g3 g3 g3 g1 g3 g4 
+g3 g4 g3 g3 g3 g1 g4 g3 
+g3 g4 g3 g3 g3 g3 g1 g4 
+g3 g4 g3 g3 g3 g3 g4 g1 
+g3 g4 g3 g3 g3 g4 g1 g3 
+g3 g4 g3 g3 g3 g4 g3 g1 
+g3 g4 g3 g3 g4 g1 g3 g3 
+g3 g4 g3 g3 g4 g3 g1 g3 
+g3 g4 g3 g3 g4 g3 g3 g1 
+g3 g4 g3 g4 g1 g2 g4 g4 
+g3 g4 g3 g4 g1 g3 g3 g3 
+g3 g4 g3 g4 g1 g4 g2 g4 
+g3 g4 g3 g4 g1 g4 g4 g2 
+g3 g4 g3 g4 g2 g1 g4 g4 
+g3 g4 g3 g4 g2 g4 g1 g4 
+g3 g4 g3 g4 g2 g4 g4 g1 
+g3 g4 g3 g4 g3 g1 g3 g3 
+g3 g4 g3 g4 g3 g3 g1 g3 
+g3 g4 g3 g4 g3 g3 g3 g1 
+g3 g4 g3 g4 g4 g1 g2 g4 
+g3 g4 g3 g4 g4 g1 g4 g2 
+g3 g4 g3 g4 g4 g2 g1 g4 
+g3 g4 g3 g4 g4 g2 g4 g1 
+g3 g4 g3 g4 g4 g4 g1 g2 
+g3 g4 g3 g4 g4 g4 g2 g1 
+g3 g4 g4 g1 g2 g3 g4 g4 
+g3 g4 g4 g1 g2 g4 g3 g4 
+g3 g4 g4 g1 g2 g4 g4 g3 
+g3 g4 g4 g1 g3 g2 g4 g4 
+g3 g4 g4 g1 g3 g3 g3 g3 
+g3 g4 g4 g1 g3 g4 g2 g4 
+g3 g4 g4 g1 g3 g4 g4 g2 
+g3 g4 g4 g1 g4 g2 g3 g4 
+g3 g4 g4 g1 g4 g2 g4 g3 
+g3 g4 g4 g1 g4 g3 g2 g4 
+g3 g4 g4 g1 g4 g3 g4 g2 
+g3 g4 g4 g1 g4 g4 g2 g3 
+g3 g4 g4 g1 g4 g4 g3 g2 
+g3 g4 g4 g2 g1 g3 g4 g4 
+g3 g4 g4 g2 g1 g4 g3 g4 
+g3 g4 g4 g2 g1 g4 g4 g3 
+g3 g4 g4 g2 g3 g1 g4 g4 
+g3 g4 g4 g2 g3 g4 g1 g4 
+g3 g4 g4 g2 g3 g4 g4 g1 
+g3 g4 g4 g2 g4 g1 g3 g4 
+g3 g4 g4 g2 g4 g1 g4 g3 
+g3 g4 g4 g2 g4 g3 g1 g4 
+g3 g4 g4 g2 g4 g3 g4 g1 
+g3 g4 g4 g2 g4 g4 g1 g3 
+g3 g4 g4 g2 g4 g4 g3 g1 
+g3 g4 g4 g3 g1 g2 g4 g4 
+g3 g4 g4 g3 g1 g3 g3 g3 
+g3 g4 g4 g3 g1 g4 g2 g4 
+g3 g4 g4 g3 g1 g4 g4 g2 
+g3 g4 g4 g3 g2 g1 g4 g4 
+g3 g4 g4 g3 g2 g4 g1 g4 
+g3 g4 g4 g3 g2 g4 g4 g1 
+g3 g4 g4 g3 g3 g1 g3 g3 
+g3 g4 g4 g3 g3 g3 g1 g3 
+g3 g4 g4 g3 g3 g3 g3 g1 
+g3 g4 g4 g3 g4 g1 g2 g4 
+g3 g4 g4 g3 g4 g1 g4 g2 
+g3 g4 g4 g3 g4 g2 g1 g4 
+g3 g4 g4 g3 g4 g2 g4 g1 
+g3 g4 g4 g3 g4 g4 g1 g2 
+g3 g4 g4 g3 g4 g4 g2 g1 
+g3 g4 g4 g4 g1 g2 g3 g4 
+g3 g4 g4 g4 g1 g2 g4 g3 
+g3 g4 g4 g4 g1 g3 g2 g4 
+g3 g4 g4 g4 g1 g3 g4 g2 
+g3 g4 g4 g4 g1 g4 g2 g3 
+g3 g4 g4 g4 g1 g4 g3 g2 
+g3 g4 g4 g4 g2 g1 g3 g4 
+g3 g4 g4 g4 g2 g1 g4 g3 
+g3 g4 g4 g4 g2 g3 g1 g4 
+g3 g4 g4 g4 g2 g3 g4 g1 
+g3 g4 g4 g4 g2 g4 g1 g3 
+g3 g4 g4 g4 g2 g4 g3 g1 
+g3 g4 g4 g4 g3 g1 g2 g4 
+g3 g4 g4 g4 g3 g1 g4 g2 
+g3 g4 g4 g4 g3 g2 g1 g4 
+g3 g4 g4 g4 g3 g2 g4 g1 
+g3 g4 g4 g4 g3 g4 g1 g2 
+g3 g4 g4 g4 g3 g4 g2 g1 
+g3 g4 g4 g4 g4 g1 g2 g3 
+g3 g4 g4 g4 g4 g1 g3 g2 
+g3 g4 g4 g4 g4 g2 g1 g3 
+g3 g4 g4 g4 g4 g2 g3 g1 
+g3 g4 g4 g4 g4 g3 g1 g2 
+g3 g4 g4 g4 g4 g3 g2 g1 
+g4 g1 g2 g3 g3 g4 g4 g4 
+g4 g1 g2 g3 g4 g3 g4 g4 
+g4 g1 g2 g3 g4 g4 g3 g4 
+g4 g1 g2 g3 g4 g4 g4 g3 
+g4 g1 g2 g4 g3 g3 g4 g4 
+g4 g1 g2 g4 g3 g4 g3 g4 
+g4 g1 g2 g4 g3 g4 g4 g3 
+g4 g1 g2 g4 g4 g3 g3 g4 
+g4 g1 g2 g4 g4 g3 g4 g3 
+g4 g1 g2 g4 g4 g4 g3 g3 
+g4 g1 g3 g2 g3 g4 g4 g4 
+g4 g1 g3 g2 g4 g3 g4 g4 
+g4 g1 g3 g2 g4 g4 g3 g4 
+g4 g1 g3 g2 g4 g4 g4 g3 
+g4 g1 g3 g3 g2 g4 g4 g4 
+g4 g1 g3 g3 g3 g3 g3 g4 
+g4 g1 g3 g3 g3 g3 g4 g3 
+g4 g1 g3 g3 g3 g4 g3 g3 
+g4 g1 g3 g3 g4 g2 g4 g4 
+g4 g1 g3 g3 g4 g3 g3 g3 
+g4 g1 g3 g3 g4 g4 g2 g4 
+g4 g1 g3 g3 g4 g4 g4 g2 
+g4 g1 g3 g4 g2 g3 g4 g4 
+g4 g1 g3 g4 g2 g4 g3 g4 
+g4 g1 g3 g4 g2 g4 g4 g3 
+g4 g1 g3 g4 g3 g2 g4 g4 
+g4 g1 g3 g4 g3 g3 g3 g3 
+g4 g1 g3 g4 g3 g4 g2 g4 
+g4 g1 g3 g4 g3 g4 g4 g2 
+g4 g1 g3 g4 g4 g2 g3 g4 
+g4 g1 g3 g4 g4 g2 g4 g3 
+g4 g1 g3 g4 g4 g3 g2 g4 
+g4 g1 g3 g4 g4 g3 g4 g2 
+g4 g1 g3 g4 g4 g4 g2 g3 
+g4 g1 g3 g4 g4 g4 g3 g2 
+g4 g1 g4 g2 g3 g3 g4 g4 
+g4 g1 g4 g2 g3 g4 g3 g4 
+g4 g1 g4 g2 g3 g4 g4 g3 
+g4 g1 g4 g2 g4 g3 g3 g4 
+g4 g1 g4 g2 g4 g3 g4 g3 
+g4 g1 g4 g2 g4 g4 g3 g3 
+g4 g1 g4 g3 g2 g3 g4 g4 
+g4 g1 g4 g3 g2 g4 g3 g4 
+g4 g1 g4 g3 g2 g4 g4 g3 
+g4 g1 g4 g3 g3 g2 g4 g4 
+g4 g1 g4 g3 g3 g3 g3 g3 
+g4 g1 g4 g3 g3 g4 g2 g4 
+g4 g1 g4 g3 g3 g4 g4 g2 
+g4 g1 g4 g3 g4 g2 g3 g4 
+g4 g1 g4 g3 g4 g2 g4 g3 
+g4 g1 g4 g3 g4 g3 g2 g4 
+g4 g1 g4 g3 g4 g3 g4 g2 
+g4 g1 g4 g3 g4 g4 g2 g3 
+g4 g1 g4 g3 g4 g4 g3 g2 
+g4 g1 g4 g4 g2 g3 g3 g4 
+g4 g1 g4 g4 g2 g3 g4 g3 
+g4 g1 g4 g4 g2 g4 g3 g3 
+g4 g1 g4 g4 g3 g2 g3 g4 
+g4 g1 g4 g4 g3 g2 g4 g3 
+g4 g1 g4 g4 g3 g3 g2 g4 
+g4 g1 g4 g4 g3 g3 g4 g2 
+g4 g1 g4 g4 g3 g4 g2 g3 
+g4 g1 g4 g4 g3 g4 g3 g2 
+g4 g1 g4 g4 g4 g2 g3 g3 
+g4 g1 g4 g4 g4 g3 g2 g3 
+g4 g1 g4 g4 g4 g3 g3 g2 
+g4 g2 g1 g3 g3 g4 g4 g4 
+g4 g2 g1 g3 g4 g3 g4 g4 
+g4 g2 g1 g3 g4 g4 g3 g4 
+g4 g2 g1 g3 g4 g4 g4 g3 
+g4 g2 g1 g4 g3 g3 g4 g4 
+g4 g2 g1 g4 g3 g4 g3 g4 
+g4 g2 g1 g4 g3 g4 g4 g3 
+g4 g2 g1 g4 g4 g3 g3 g4 
+g4 g2 g1 g4 g4 g3 g4 g3 
+g4 g2 g1 g4 g4 g4 g3 g3 
+g4 g2 g3 g1 g3 g4 g4 g4 
+g4 g2 g3 g1 g4 g3 g4 g4 
+g4 g2 g3 g1 g4 g4 g3 g4 
+g4 g2 g3 g1 g4 g4 g4 g3 
+g4 g2 g3 g3 g1 g4 g4 g4 
+g4 g2 g3 g3 g4 g1 g4 g4 
+g4 g2 g3 g3 g4 g4 g1 g4 
+g4 g2 g3 g3 g4 g4 g4 g1 
+g4 g2 g3 g4 g1 g3 g4 g4 
+g4 g2 g3 g4 g1 g4 g3 g4 
+g4 g2 g3 g4 g1 g4 g4 g3 
+g4 g2 g3 g4 g3 g1 g4 g4 
+g4 g2 g3 g4 g3 g4 g1 g4 
+g4 g2 g3 g4 g3 g4 g4 g1 
+g4 g2 g3 g4 g4 g1 g3 g4 
+g4 g2 g3 g4 g4 g1 g4 g3 
+g4 g2 g3 g4 g4 g3 g1 g4 
+g4 g2 g3 g4 g4 g3 g4 g1 
+g4 g2 g3 g4 g4 g4 g1 g3 
+g4 g2 g3 g4 g4 g4 g3 g1 
+g4 g2 g4 g1 g3 g3 g4 g4 
+g4 g2 g4 g1 g3 g4 g3 g4 
+g4 g2 g4 g1 g3 g4 g4 g3 
+g4 g2 g4 g1 g4 g3 g3 g4 
+g4 g2 g4 g1 g4 g3 g4 g3 
+g4 g2 g4 g1 g4 g4 g3 g3 
+g4 g2 g4 g3 g1 g3 g4 g4 
+g4 g2 g4 g3 g1 g4 g3 g4 
+g4 g2 g4 g3 g1 g4 g4 g3 
+g4 g2 g4 g3 g3 g1 g4 g4 
+g4 g2 g4 g3 g3 g4 g1 g4 
+g4 g2 g4 g3 g3 g4 g4 g1 
+g4 g2 g4 g3 g4 g1 g3 g4 
+g4 g2 g4 g3 g4 g1 g4 g3 
+g4 g2 g4 g3 g4 g3 g1 g4 
+g4 g2 g4 g3 g4 g3 g4 g1 
+g4 g2 g4 g3 g4 g4 g1 g3 
+g4 g2 g4 g3 g4 g4 g3 g1 
+g4 g2 g4 g4 g1 g3 g3 g4 
+g4 g2 g4 g4 g1 g3 g4 g3 
+g4 g2 g4 g4 g1 g4 g3 g3 
+g4 g2 g4 g4 g3 g1 g3 g4 
+g4 g2 g4 g4 g3 g1 g4 g3 
+g4 g2 g4 g4 g3 g3 g1 g4 
+g4 g2 g4 g4 g3 g3 g4 g1 
+g4 g2 g4 g4 g3 g4 g1 g3 
+g4 g2 g4 g4 g3 g4 g3 g1 
+g4 g2 g4 g4 g4 g1 g3 g3 
+g4 g2 g4 g4 g4 g3 g1 g3 
+g4 g2 g4 g4 g4 g3 g3 g1 
+g4 g3 g1 g2 g3 g4 g4 g4 
+g4 g3 g1 g2 g4 g3 g4 g4 
+g4 g3 g1 g2 g4 g4 g3 g4 
+g4 g3 g1 g2 g4 g4 g4 g3 
+g4 g3 g1 g3 g2 g4 g4 g4 
+g4 g3 g1 g3 g3 g3 g3 g4 
+g4 g3 g1 g3 g3 g3 g4 g3 
+g4 g3 g1 g3 g3 g4 g3 g3 
+g4 g3 g1 g3 g4 g2 g4 g4 
+g4 g3 g1 g3 g4 g3 g3 g3 
+g4 g3 g1 g3 g4 g4 g2 g4 
+g4 g3 g1 g3 g4 g4 g4 g2 
+g4 g3 g1 g4 g2 g3 g4 g4 
+g4 g3 g1 g4 g2 g4 g3 g4 
+g4 g3 g1 g4 g2 g4 g4 g3 
+g4 g3 g1 g4 g3 g2 g4 g4 
+g4 g3 g1 g4 g3 g3 g3 g3 
+g4 g3 g1 g4 g3 g4 g2 g4 
+g4 g3 g1 g4 g3 g4 g4 g2 
+g4 g3 g1 g4 g4 g2 g3 g4 
+g4 g3 g1 g4 g4 g2 g4 g3 
+g4 g3 g1 g4 g4 g3 g2 g4 
+g4 g3 g1 g4 g4 g3 g4 g2 
+g4 g3 g1 g4 g4 g4 g2 g3 
+g4 g3 g1 g4 g4 g4 g3 g2 
+g4 g3 g2 g1 g3 g4 g4 g4 
+g4 g3 g2 g1 g4 g3 g4 g4 
+g4 g3 g2 g1 g4 g4 g3 g4 
+g4 g3 g2 g1 g4 g4 g4 g3 
+g4 g3 g2 g3 g1 g4 g4 g4 
+g4 g3 g2 g3 g4 g1 g4 g4 
+g4 g3 g2 g3 g4 g4 g1 g4 
+g4 g3 g2 g3 g4 g4 g4 g1 
+g4 g3 g2 g4 g1 g3 g4 g4 
+g4 g3 g2 g4 g1 g4 g3 g4 
+g4 g3 g2 g4 g1 g4 g4 g3 
+g4 g3 g2 g4 g3 g1 g4 g4 
+g4 g3 g2 g4 g3 g4 g1 g4 
+g4 g3 g2 g4 g3 g4 g4 g1 
+g4 g3 g2 g4 g4 g1 g3 g4 
+g4 g3 g2 g4 g4 g1 g4 g3 
+g4 g3 g2 g4 g4 g3 g1 g4 
+g4 g3 g2 g4 g4 g3 g4 g1 
+g4 g3 g2 g4 g4 g4 g1 g3 
+g4 g3 g2 g4 g4 g4 g3 g1 
+g4 g3 g3 g1 g2 g4 g4 g4 
+g4 g3 g3 g1 g3 g3 g3 g4 
+g4 g3 g3 g1 g3 g3 g4 g3 
+g4 g3 g3 g1 g3 g4 g3 g3 
+g4 g3 g3 g1 g4 g2 g4 g4 
+g4 g3 g3 g1 g4 g3 g3 g3 
+g4 g3 g3 g1 g4 g4 g2 g4 
+g4 g3 g3 g1 g4 g4 g4 g2 
+g4 g3 g3 g2 g1 g4 g4 g4 
+g4 g3 g3 g2 g4 g1 g4 g4 
+g4 g3 g3 g2 g4 g4 g1 g4 
+g4 g3 g3 g2 g4 g4 g4 g1 
+g4 g3 g3 g3 g1 g3 g3 g4 
+g4 g3 g3 g3 g1 g3 g4 g3 
+g4 g3 g3 g3 g1 g4 g3 g3 
+g4 g3 g3 g3 g3 g1 g3 g4 
+g4 g3 g3 g3 g3 g1 g4 g3 
+g4 g3 g3 g3 g3 g3 g1 g4 
+g4 g3 g3 g3 g3 g3 g4 g1 
+g4 g3 g3 g3 g3 g4 g1 g3 
+g4 g3 g3 g3 g3 g4 g3 g1 
+g4 g3 g3 g3 g4 g1 g3 g3 
+g4 g3 g3 g3 g4 g3 g1 g3 
+g4 g3 g3 g3 g4 g3 g3 g1 
+g4 g3 g3 g4 g1 g2 g4 g4 
+g4 g3 g3 g4 g1 g3 g3 g3 
+g4 g3 g3 g4 g1 g4 g2 g4 
+g4 g3 g3 g4 g1 g4 g4 g2 
+g4 g3 g3 g4 g2 g1 g4 g4 
+g4 g3 g3 g4 g2 g4 g1 g4 
+g4 g3 g3 g4 g2 g4 g4 g1 
+g4 g3 g3 g4 g3 g1 g3 g3 
+g4 g3 g3 g4 g3 g3 g1 g3 
+g4 g3 g3 g4 g3 g3 g3 g1 
+g4 g3 g3 g4 g4 g1 g2 g4 
+g4 g3 g3 g4 g4 g1 g4 g2 
+g4 g3 g3 g4 g4 g2 g1 g4 
+g4 g3 g3 g4 g4 g2 g4 g1 
+g4 g3 g3 g4 g4 g4 g1 g2 
+g4 g3 g3 g4 g4 g4 g2 g1 
+g4 g3 g4 g1 g2 g3 g4 g4 
+g4 g3 g4 g1 g2 g4 g3 g4 
+g4 g3 g4 g1 g2 g4 g4 g3 
+g4 g3 g4 g1 g3 g2 g4 g4 
+g4 g3 g4 g1 g3 g3 g3 g3 
+g4 g3 g4 g1 g3 g4 g2 g4 
+g4 g3 g4 g1 g3 g4 g4 g2 
+g4 g3 g4 g1 g4 g2 g3 g4 
+g4 g3 g4 g1 g4 g2 g4 g3 
+g4 g3 g4 g1 g4 g3 g2 g4 
+g4 g3 g4 g1 g4 g3 g4 g2 
+g4 g3 g4 g1 g4 g4 g2 g3 
+g4 g3 g4 g1 g4 g4 g3 g2 
+g4 g3 g4 g2 g1 g3 g4 g4 
+g4 g3 g4 g2 g1 g4 g3 g4 
+g4 g3 g4 g2 g1 g4 g4 g3 
+g4 g3 g4 g2 g3 g1 g4 g4 
+g4 g3 g4 g2 g3 g4 g1 g4 
+g4 g3 g4 g2 g3 g4 g4 g1 
+g4 g3 g4 g2 g4 g1 g3 g4 
+g4 g3 g4 g2 g4 g1 g4 g3 
+g4 g3 g4 g2 g4 g3 g1 g4 
+g4 g3 g4 g2 g4 g3 g4 g1 
+g4 g3 g4 g2 g4 g4 g1 g3 
+g4 g3 g4 g2 g4 g4 g3 g1 
+g4 g3 g4 g3 g1 g2 g4 g4 
+g4 g3 g4 g3 g1 g3 g3 g3 
+g4 g3 g4 g3 g1 g4 g2 g4 
+g4 g3 g4 g3 g1 g4 g4 g2 
+g4 g3 g4 g3 g2 g1 g4 g4 
+g4 g3 g4 g3 g2 g4 g1 g4 
+g4 g3 g4 g3 g2 g4 g4 g1 
+g4 g3 g4 g3 g3 g1 g3 g3 
+g4 g3 g4 g3 g3 g3 g1 g3 
+g4 g3 g4 g3 g3 g3 g3 g1 
+g4 g3 g4 g3 g4 g1 g2 g4 
+g4 g3 g4 g3 g4 g1 g4 g2 
+g4 g3 g4 g3 g4 g2 g1 g4 
+g4 g3 g4 g3 g4 g2 g4 g1 
+g4 g3 g4 g3 g4 g4 g1 g2 
+g4 g3 g4 g3 g4 g4 g2 g1 
+g4 g3 g4 g4 g1 g2 g3 g4 
+g4 g3 g4 g4 g1 g2 g4 g3 
+g4 g3 g4 g4 g1 g3 g2 g4 
+g4 g3 g4 g4 g1 g3 g4 g2 
+g4 g3 g4 g4 g1 g4 g2 g3 
+g4 g3 g4 g4 g1 g4 g3 g2 
+g4 g3 g4 g4 g2 g1 g3 g4 
+g4 g3 g4 g4 g2 g1 g4 g3 
+g4 g3 g4 g4 g2 g3 g1 g4 
+g4 g3 g4 g4 g2 g3 g4 g1 
+g4 g3 g4 g4 g2 g4 g1 g3 
+g4 g3 g4 g4 g2 g4 g3 g1 
+g4 g3 g4 g4 g3 g1 g2 g4 
+g4 g3 g4 g4 g3 g1 g4 g2 
+g4 g3 g4 g4 g3 g2 g1 g4 
+g4 g3 g4 g4 g3 g2 g4 g1 
+g4 g3 g4 g4 g3 g4 g1 g2 
+g4 g3 g4 g4 g3 g4 g2 g1 
+g4 g3 g4 g4 g4 g1 g2 g3 
+g4 g3 g4 g4 g4 g1 g3 g2 
+g4 g3 g4 g4 g4 g2 g1 g3 
+g4 g3 g4 g4 g4 g2 g3 g1 
+g4 g3 g4 g4 g4 g3 g1 g2 
+g4 g3 g4 g4 g4 g3 g2 g1 
+g4 g4 g1 g2 g3 g3 g4 g4 
+g4 g4 g1 g2 g3 g4 g3 g4 
+g4 g4 g1 g2 g3 g4 g4 g3 
+g4 g4 g1 g2 g4 g3 g3 g4 
+g4 g4 g1 g2 g4 g3 g4 g3 
+g4 g4 g1 g2 g4 g4 g3 g3 
+g4 g4 g1 g3 g2 g3 g4 g4 
+g4 g4 g1 g3 g2 g4 g3 g4 
+g4 g4 g1 g3 g2 g4 g4 g3 
+g4 g4 g1 g3 g3 g2 g4 g4 
+g4 g4 g1 g3 g3 g3 g3 g3 
+g4 g4 g1 g3 g3 g4 g2 g4 
+g4 g4 g1 g3 g3 g4 g4 g2 
+g4 g4 g1 g3 g4 g2 g3 g4 
+g4 g4 g1 g3 g4 g2 g4 g3 
+g4 g4 g1 g3 g4 g3 g2 g4 
+g4 g4 g1 g3 g4 g3 g4 g2 
+g4 g4 g1 g3 g4 g4 g2 g3 
+g4 g4 g1 g3 g4 g4 g3 g2 
+g4 g4 g1 g4 g2 g3 g3 g4 
+g4 g4 g1 g4 g2 g3 g4 g3 
+g4 g4 g1 g4 g2 g4 g3 g3 
+g4 g4 g1 g4 g3 g2 g3 g4 
+g4 g4 g1 g4 g3 g2 g4 g3 
+g4 g4 g1 g4 g3 g3 g2 g4 
+g4 g4 g1 g4 g3 g3 g4 g2 
+g4 g4 g1 g4 g3 g4 g2 g3 
+g4 g4 g1 g4 g3 g4 g3 g2 
+g4 g4 g1 g4 g4 g2 g3 g3 
+g4 g4 g1 g4 g4 g3 g2 g3 
+g4 g4 g1 g4 g4 g3 g3 g2 
+g4 g4 g2 g1 g3 g3 g4 g4 
+g4 g4 g2 g1 g3 g4 g3 g4 
+g4 g4 g2 g1 g3 g4 g4 g3 
+g4 g4 g2 g1 g4 g3 g3 g4 
+g4 g4 g2 g1 g4 g3 g4 g3 
+g4 g4 g2 g1 g4 g4 g3 g3 
+g4 g4 g2 g3 g1 g3 g4 g4 
+g4 g4 g2 g3 g1 g4 g3 g4 
+g4 g4 g2 g3 g1 g4 g4 g3 
+g4 g4 g2 g3 g3 g1 g4 g4 
+g4 g4 g2 g3 g3 g4 g1 g4 
+g4 g4 g2 g3 g3 g4 g4 g1 
+g4 g4 g2 g3 g4 g1 g3 g4 
+g4 g4 g2 g3 g4 g1 g4 g3 
+g4 g4 g2 g3 g4 g3 g1 g4 
+g4 g4 g2 g3 g4 g3 g4 g1 
+g4 g4 g2 g3 g4 g4 g1 g3 
+g4 g4 g2 g3 g4 g4 g3 g1 
+g4 g4 g2 g4 g1 g3 g3 g4 
+g4 g4 g2 g4 g1 g3 g4 g3 
+g4 g4 g2 g4 g1 g4 g3 g3 
+g4 g4 g2 g4 g3 g1 g3 g4 
+g4 g4 g2 g4 g3 g1 g4 g3 
+g4 g4 g2 g4 g3 g3 g1 g4 
+g4 g4 g2 g4 g3 g3 g4 g1 
+g4 g4 g2 g4 g3 g4 g1 g3 
+g4 g4 g2 g4 g3 g4 g3 g1 
+g4 g4 g2 g4 g4 g1 g3 g3 
+g4 g4 g2 g4 g4 g3 g1 g3 
+g4 g4 g2 g4 g4 g3 g3 g1 
+g4 g4 g3 g1 g2 g3 g4 g4 
+g4 g4 g3 g1 g2 g4 g3 g4 
+g4 g4 g3 g1 g2 g4 g4 g3 
+g4 g4 g3 g1 g3 g2 g4 g4 
+g4 g4 g3 g1 g3 g3 g3 g3 
+g4 g4 g3 g1 g3 g4 g2 g4 
+g4 g4 g3 g1 g3 g4 g4 g2 
+g4 g4 g3 g1 g4 g2 g3 g4 
+g4 g4 g3 g1 g4 g2 g4 g3 
+g4 g4 g3 g1 g4 g3 g2 g4 
+g4 g4 g3 g1 g4 g3 g4 g2 
+g4 g4 g3 g1 g4 g4 g2 g3 
+g4 g4 g3 g1 g4 g4 g3 g2 
+g4 g4 g3 g2 g1 g3 g4 g4 
+g4 g4 g3 g2 g1 g4 g3 g4 
+g4 g4 g3 g2 g1 g4 g4 g3 
+g4 g4 g3 g2 g3 g1 g4 g4 
+g4 g4 g3 g2 g3 g4 g1 g4 
+g4 g4 g3 g2 g3 g4 g4 g1 
+g4 g4 g3 g2 g4 g1 g3 g4 
+g4 g4 g3 g2 g4 g1 g4 g3 
+g4 g4 g3 g2 g4 g3 g1 g4 
+g4 g4 g3 g2 g4 g3 g4 g1 
+g4 g4 g3 g2 g4 g4 g1 g3 
+g4 g4 g3 g2 g4 g4 g3 g1 
+g4 g4 g3 g3 g1 g2 g4 g4 
+g4 g4 g3 g3 g1 g3 g3 g3 
+g4 g4 g3 g3 g1 g4 g2 g4 
+g4 g4 g3 g3 g1 g4 g4 g2 
+g4 g4 g3 g3 g2 g1 g4 g4 
+g4 g4 g3 g3 g2 g4 g1 g4 
+g4 g4 g3 g3 g2 g4 g4 g1 
+g4 g4 g3 g3 g3 g1 g3 g3 
+g4 g4 g3 g3 g3 g3 g1 g3 
+g4 g4 g3 g3 g3 g3 g3 g1 
+g4 g4 g3 g3 g4 g1 g2 g4 
+g4 g4 g3 g3 g4 g1 g4 g2 
+g4 g4 g3 g3 g4 g2 g1 g4 
+g4 g4 g3 g3 g4 g2 g4 g1 
+g4 g4 g3 g3 g4 g4 g1 g2 
+g4 g4 g3 g3 g4 g4 g2 g1 
+g4 g4 g3 g4 g1 g2 g3 g4 
+g4 g4 g3 g4 g1 g2 g4 g3 
+g4 g4 g3 g4 g1 g3 g2 g4 
+g4 g4 g3 g4 g1 g3 g4 g2 
+g4 g4 g3 g4 g1 g4 g2 g3 
+g4 g4 g3 g4 g1 g4 g3 g2 
+g4 g4 g3 g4 g2 g1 g3 g4 
+g4 g4 g3 g4 g2 g1 g4 g3 
+g4 g4 g3 g4 g2 g3 g1 g4 
+g4 g4 g3 g4 g2 g3 g4 g1 
+g4 g4 g3 g4 g2 g4 g1 g3 
+g4 g4 g3 g4 g2 g4 g3 g1 
+g4 g4 g3 g4 g3 g1 g2 g4 
+g4 g4 g3 g4 g3 g1 g4 g2 
+g4 g4 g3 g4 g3 g2 g1 g4 
+g4 g4 g3 g4 g3 g2 g4 g1 
+g4 g4 g3 g4 g3 g4 g1 g2 
+g4 g4 g3 g4 g3 g4 g2 g1 
+g4 g4 g3 g4 g4 g1 g2 g3 
+g4 g4 g3 g4 g4 g1 g3 g2 
+g4 g4 g3 g4 g4 g2 g1 g3 
+g4 g4 g3 g4 g4 g2 g3 g1 
+g4 g4 g3 g4 g4 g3 g1 g2 
+g4 g4 g3 g4 g4 g3 g2 g1 
+g4 g4 g4 g1 g2 g3 g3 g4 
+g4 g4 g4 g1 g2 g3 g4 g3 
+g4 g4 g4 g1 g2 g4 g3 g3 
+g4 g4 g4 g1 g3 g2 g3 g4 
+g4 g4 g4 g1 g3 g2 g4 g3 
+g4 g4 g4 g1 g3 g3 g2 g4 
+g4 g4 g4 g1 g3 g3 g4 g2 
+g4 g4 g4 g1 g3 g4 g2 g3 
+g4 g4 g4 g1 g3 g4 g3 g2 
+g4 g4 g4 g1 g4 g2 g3 g3 
+g4 g4 g4 g1 g4 g3 g2 g3 
+g4 g4 g4 g1 g4 g3 g3 g2 
+g4 g4 g4 g2 g1 g3 g3 g4 
+g4 g4 g4 g2 g1 g3 g4 g3 
+g4 g4 g4 g2 g1 g4 g3 g3 
+g4 g4 g4 g2 g3 g1 g3 g4 
+g4 g4 g4 g2 g3 g1 g4 g3 
+g4 g4 g4 g2 g3 g3 g1 g4 
+g4 g4 g4 g2 g3 g3 g4 g1 
+g4 g4 g4 g2 g3 g4 g1 g3 
+g4 g4 g4 g2 g3 g4 g3 g1 
+g4 g4 g4 g2 g4 g1 g3 g3 
+g4 g4 g4 g2 g4 g3 g1 g3 
+g4 g4 g4 g2 g4 g3 g3 g1 
+g4 g4 g4 g3 g1 g2 g3 g4 
+g4 g4 g4 g3 g1 g2 g4 g3 
+g4 g4 g4 g3 g1 g3 g2 g4 
+g4 g4 g4 g3 g1 g3 g4 g2 
+g4 g4 g4 g3 g1 g4 g2 g3 
+g4 g4 g4 g3 g1 g4 g3 g2 
+g4 g4 g4 g3 g2 g1 g3 g4 
+g4 g4 g4 g3 g2 g1 g4 g3 
+g4 g4 g4 g3 g2 g3 g1 g4 
+g4 g4 g4 g3 g2 g3 g4 g1 
+g4 g4 g4 g3 g2 g4 g1 g3 
+g4 g4 g4 g3 g2 g4 g3 g1 
+g4 g4 g4 g3 g3 g1 g2 g4 
+g4 g4 g4 g3 g3 g1 g4 g2 
+g4 g4 g4 g3 g3 g2 g1 g4 
+g4 g4 g4 g3 g3 g2 g4 g1 
+g4 g4 g4 g3 g3 g4 g1 g2 
+g4 g4 g4 g3 g3 g4 g2 g1 
+g4 g4 g4 g3 g4 g1 g2 g3 
+g4 g4 g4 g3 g4 g1 g3 g2 
+g4 g4 g4 g3 g4 g2 g1 g3 
+g4 g4 g4 g3 g4 g2 g3 g1 
+g4 g4 g4 g3 g4 g3 g1 g2 
+g4 g4 g4 g3 g4 g3 g2 g1 
+g4 g4 g4 g4 g1 g2 g3 g3 
+g4 g4 g4 g4 g1 g3 g2 g3 
+g4 g4 g4 g4 g1 g3 g3 g2 
+g4 g4 g4 g4 g2 g1 g3 g3 
+g4 g4 g4 g4 g2 g3 g1 g3 
+g4 g4 g4 g4 g2 g3 g3 g1 
+g4 g4 g4 g4 g3 g1 g2 g3 
+g4 g4 g4 g4 g3 g1 g3 g2 
+g4 g4 g4 g4 g3 g2 g1 g3 
+g4 g4 g4 g4 g3 g2 g3 g1 
+g4 g4 g4 g4 g3 g3 g1 g2 
+g4 g4 g4 g4 g3 g3 g2 g1 
