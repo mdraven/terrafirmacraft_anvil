@@ -2,6 +2,7 @@
 #include "MainWindow.hpp"
 
 #include "AnvilChainsGetter.hpp"
+#include "png.hpp"
 
 #include <FL/Fl.h>
 #include <FL/Fl_Box.h>
@@ -46,13 +47,13 @@ struct MainWindow::Private {
 };
 
 MainWindow::Private::Private() {
-    m_rule_imgs[static_cast<std::size_t>(RuleType::any)].reset(new Fl_PNG_Image("any.png"));
-    m_rule_imgs[static_cast<std::size_t>(RuleType::hit)].reset(new Fl_PNG_Image("hit.png"));
-    m_rule_imgs[static_cast<std::size_t>(RuleType::draw)].reset(new Fl_PNG_Image("draw.png"));
-    m_rule_imgs[static_cast<std::size_t>(RuleType::punch)].reset(new Fl_PNG_Image("punch.png"));
-    m_rule_imgs[static_cast<std::size_t>(RuleType::shrink)].reset(new Fl_PNG_Image("shrink.png"));
-    m_rule_imgs[static_cast<std::size_t>(RuleType::upset)].reset(new Fl_PNG_Image("upset.png"));
-    m_rule_imgs[static_cast<std::size_t>(RuleType::bend)].reset(new Fl_PNG_Image("bend.png"));
+    m_rule_imgs[static_cast<std::size_t>(RuleType::any)].reset(new Fl_PNG_Image("any.png", g_any_png.data(), g_any_png.size()));
+    m_rule_imgs[static_cast<std::size_t>(RuleType::hit)].reset(new Fl_PNG_Image("hit.png", g_hit_png.data(), g_hit_png.size()));
+    m_rule_imgs[static_cast<std::size_t>(RuleType::draw)].reset(new Fl_PNG_Image("draw.png", g_draw_png.data(), g_draw_png.size()));
+    m_rule_imgs[static_cast<std::size_t>(RuleType::punch)].reset(new Fl_PNG_Image("punch.png", g_punch_png.data(), g_punch_png.size()));
+    m_rule_imgs[static_cast<std::size_t>(RuleType::shrink)].reset(new Fl_PNG_Image("shrink.png", g_shrink_png.data(), g_shrink_png.size()));
+    m_rule_imgs[static_cast<std::size_t>(RuleType::upset)].reset(new Fl_PNG_Image("upset.png", g_upset_png.data(), g_upset_png.size()));
+    m_rule_imgs[static_cast<std::size_t>(RuleType::bend)].reset(new Fl_PNG_Image("bend.png", g_bend_png.data(), g_bend_png.size()));
 
     m_styles = {
          // FONT COLOR      FONT FACE   FONT SIZE
@@ -161,6 +162,7 @@ void MainWindow::Private::searchCallback(Fl_Widget*, void* private_) {
     int rule2 = p->m_rule2->value();
     int rule3 = p->m_rule3->value();
 
+    // экранные координаты в очки
     unsigned char score = distance / 2;
 
     auto chain = AnvilChainsGetter::get({rule1, rule2, rule3}, score);

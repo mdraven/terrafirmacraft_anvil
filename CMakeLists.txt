@@ -50,6 +50,7 @@ set(SOURCES_ANVIL
   ${SOURCE_DIR}/Technique.cpp
   ${SOURCE_DIR}/anvil_chains.cpp
   ${SOURCE_DIR}/main.cpp
+  ${SOURCE_DIR}/png.cpp
   )
 
 add_executable(${EXEC_ANVIL} ${SOURCES_ANVIL})
