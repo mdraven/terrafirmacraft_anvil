@@ -1,0 +1,38 @@
+﻿---
+BasedOnStyle: LLVM
+AccessModifierOffset: '-4'
+AlignAfterOpenBracket: Align
+AlignOperands: 'true'
+AlignTrailingComments: 'true'
+AllowShortBlocksOnASingleLine: 'false'
+AllowShortCaseLabelsOnASingleLine: 'false'
+AllowShortFunctionsOnASingleLine: Empty
+AllowShortIfStatementsOnASingleLine: 'false'
+AllowShortLoopsOnASingleLine: 'false'
+AlwaysBreakAfterReturnType: None
+AlwaysBreakTemplateDeclarations: 'true'
+BreakBeforeBinaryOperators: NonAssignment
+BreakBeforeBraces: Stroustrup
+BreakConstructorInitializersBeforeComma: 'true'
+ColumnLimit: '100'
+DerivePointerAlignment: 'false'
+IndentCaseLabels: 'true'
+IndentWidth: '4'
+KeepEmptyLinesAtTheStartOfBlocks: 'false'
+Language: Cpp
+NamespaceIndentation: None
+PointerAlignment: Left
+SortIncludes: 'true'
+# нет в старой версии SpaceAfterTemplateKeyword: 'true'
+SpaceBeforeAssignmentOperators: 'true'
+SpaceBeforeParens: Never
+SpaceInEmptyParentheses: 'false'
+SpacesInAngles: 'false'
+SpacesInCStyleCastParentheses: 'false'
+SpacesInParentheses: 'false'
+SpacesInSquareBrackets: 'false'
+Standard: Cpp11
+TabWidth: '4'
+UseTab: Never
+
+...

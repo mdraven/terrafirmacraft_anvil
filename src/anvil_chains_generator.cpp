@@ -1,43 +1,16 @@
 
+#include "Technique.hpp"
+
 #include <iostream>
 #include <map>
 #include <set>
 #include <vector>
 
 // максимальная глубина поиска
-const std::size_t g_max_depth = 15;
+static const std::size_t g_max_depth = 15;
 
 // максимальное число очков; при переполнении этого значения заготовка исчезает
-const std::size_t g_max_score = 150;
-
-enum class TechniqueType {
-    hit_light,
-    hit_medium,
-    hit_heavy,
-    draw,
-    punch,
-    bend,
-    upset,
-    shrink
-};
-
-struct Technique final {
-    TechniqueType m_type;
-    int m_score = 0;
-    std::string m_name;
-};
-
-const std::vector<Technique> g_techniques{
-    {TechniqueType::hit_light, -3, "r1"},
-    {TechniqueType::hit_medium, -6, "r2"},
-    {TechniqueType::hit_heavy, -9, "r3"},
-    {TechniqueType::draw, -15, "r4"},
-
-    {TechniqueType::punch, 2, "g1"},
-    {TechniqueType::bend, 7, "g2"},
-    {TechniqueType::upset, 13, "g3"},
-    {TechniqueType::shrink, 16, "g4"},
-};
+static const std::size_t g_max_score = 150;
 
 void print_chain(const std::vector<std::size_t>& chain) {
     for(std::size_t idx : chain)
@@ -148,7 +121,7 @@ void print_for_clang(const std::map<std::size_t, std::vector<std::vector<std::si
     std::cout << "#include <cstdint>\n"
               << "#include <vector>\n"
               << "\n"
-              << "const std::vector<std::vector<std::vector<std::uint8_t>>> anvil_chains{";
+              << "const std::vector<std::vector<std::vector<std::uint8_t>>> g_anvil_chains{";
 
     for(const auto& pair : chains_for_scores) {
         std::cout << "{";
