@@ -58,23 +58,33 @@ Rule::Rule(const std::string& name, RuleType type, unsigned int min, unsigned in
 
 bool Rule::check(const std::array<TechniqueType, 3>& techniques) const {
     for(std::size_t i = m_min; i <= m_max; ++i) {
-        switch(m_type) {
-        case RuleType::any:
+        if(m_type == RuleType::any)
             return true;
-        case RuleType::hit:
-            return techniques[i] == TechniqueType::hit_light
-                || techniques[i] == TechniqueType::hit_medium
-                || techniques[i] == TechniqueType::hit_heavy;
-        case RuleType::punch:
-            return techniques[i] == TechniqueType::punch;
-        case RuleType::shrink:
-            return techniques[i] == TechniqueType::shrink;
-        case RuleType::draw:
-            return techniques[i] == TechniqueType::draw;
-        case RuleType::upset:
-            return techniques[i] == TechniqueType::upset;
-        case RuleType::bend:
-            return techniques[i] == TechniqueType::bend;
+        if(m_type == RuleType::hit) {
+            if(techniques[i] == TechniqueType::hit_light
+               || techniques[i] == TechniqueType::hit_medium
+               || techniques[i] == TechniqueType::hit_heavy)
+                return true;
+        }
+        if(m_type == RuleType::punch) {
+            if(techniques[i] == TechniqueType::punch)
+                return true;
+        }
+        if(m_type == RuleType::shrink) {
+            if(techniques[i] == TechniqueType::shrink)
+                return true;
+        }
+        if(m_type == RuleType::draw) {
+            if(techniques[i] == TechniqueType::draw)
+                return true;
+        }
+        if(m_type == RuleType::upset) {
+            if(techniques[i] == TechniqueType::upset)
+                return true;
+        }
+        if(m_type == RuleType::bend) {
+            if(techniques[i] == TechniqueType::bend)
+                return true;
         }
     }
 
