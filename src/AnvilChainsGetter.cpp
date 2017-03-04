@@ -46,6 +46,38 @@ std::size_t AnvilChainsGetter::countChanges(const std::vector<std::uint8_t>& cha
     return changes;
 }
 
+std::vector<std::vector<std::uint8_t>> AnvilChainsGetter::
+getShorts(const std::vector<std::vector<std::uint8_t>>& chains) {
+    std::vector<std::vector<std::uint8_t>> short_chains;
+    std::size_t min_length = 9999;
+
+    for(const auto& chain : chains)
+        min_length = std::min(chain.size(), min_length);
+
+    for(const auto& chain : chains) {
+        if(chain.size() == min_length)
+            short_chains.push_back(chain);
+    }
+
+    return short_chains;
+}
+
+std::vector<std::vector<std::uint8_t>> AnvilChainsGetter::
+getLessChanges(const std::vector<std::vector<std::uint8_t>>& chains) {
+    std::vector<std::vector<std::uint8_t>> less_change_chains;
+
+    std::size_t num_changes = 9999;
+    for(const auto& chain : chains)
+        num_changes = std::min(countChanges(chain), num_changes);
+
+    for(const auto& chain : chains) {
+        if(countChanges(chain) == num_changes)
+            less_change_chains.push_back(chain);
+    }
+
+    return less_change_chains;
+}
+
 std::vector<std::uint8_t> AnvilChainsGetter::
 get(const std::array<std::size_t, 3>& pattern, unsigned char score) {
     if(score > g_max_score)
@@ -73,16 +105,10 @@ get(const std::array<std::size_t, 3>& pattern, unsigned char score) {
         chains.insert(chains.begin(), tmp_chains.begin(), tmp_chains.end());
     }
 
-    std::size_t num_changes = 9999;
-    for(const auto& chain : chains)
-        num_changes = std::min(countChanges(chain), num_changes);
+    if(chains.empty())
+        return std::vector<std::uint8_t>();
 
     // так как я не придумал как выбрать из оставшихся цепей лучшую,
     // то выбиру первую
-    for(const auto& chain : chains) {
-        if(countChanges(chain) == num_changes)
-            return chain;
-    }
-
-    return chains.empty() ? std::vector<std::uint8_t>() : chains.front();
+    return getLessChanges(getShorts(chains)).front();
 }
