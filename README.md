@@ -1,5 +1,5 @@
 
-[[file:screens.png]]
+![screen](https://github.com/mdraven/terrafirmacraft_anvil/blob/master/screen.png)
 
 Введение
 --------
