@@ -6,7 +6,7 @@
 #include <string>
 #include <vector>
 
-enum class RuleType {
+enum class RuleType : std::uint8_t {
     any,
     hit,
     punch,

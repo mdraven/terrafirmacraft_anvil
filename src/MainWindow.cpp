@@ -3,6 +3,7 @@
 
 #include "AnvilChainsGetter.hpp"
 #include "png.hpp"
+#include "utils.hpp"
 
 #include <FL/Fl.h>
 #include <FL/Fl_Box.h>
@@ -47,23 +48,24 @@ struct MainWindow::Private {
 };
 
 MainWindow::Private::Private() {
-    m_rule_imgs[static_cast<std::size_t>(RuleType::any)].reset(new Fl_PNG_Image("any.png", g_any_png.data(), g_any_png.size()));
-    m_rule_imgs[static_cast<std::size_t>(RuleType::hit)].reset(new Fl_PNG_Image("hit.png", g_hit_png.data(), g_hit_png.size()));
-    m_rule_imgs[static_cast<std::size_t>(RuleType::draw)].reset(new Fl_PNG_Image("draw.png", g_draw_png.data(), g_draw_png.size()));
-    m_rule_imgs[static_cast<std::size_t>(RuleType::punch)].reset(new Fl_PNG_Image("punch.png", g_punch_png.data(), g_punch_png.size()));
-    m_rule_imgs[static_cast<std::size_t>(RuleType::shrink)].reset(new Fl_PNG_Image("shrink.png", g_shrink_png.data(), g_shrink_png.size()));
-    m_rule_imgs[static_cast<std::size_t>(RuleType::upset)].reset(new Fl_PNG_Image("upset.png", g_upset_png.data(), g_upset_png.size()));
-    m_rule_imgs[static_cast<std::size_t>(RuleType::bend)].reset(new Fl_PNG_Image("bend.png", g_bend_png.data(), g_bend_png.size()));
+    m_rule_imgs[to_under(RuleType::any)].reset(new Fl_PNG_Image("any.png", g_any_png.data(), g_any_png.size()));
+    m_rule_imgs[to_under(RuleType::hit)].reset(new Fl_PNG_Image("hit.png", g_hit_png.data(), g_hit_png.size()));
+    m_rule_imgs[to_under(RuleType::draw)].reset(new Fl_PNG_Image("draw.png", g_draw_png.data(), g_draw_png.size()));
+    m_rule_imgs[to_under(RuleType::punch)].reset(new Fl_PNG_Image("punch.png", g_punch_png.data(), g_punch_png.size()));
+    m_rule_imgs[to_under(RuleType::shrink)].reset(new Fl_PNG_Image("shrink.png", g_shrink_png.data(), g_shrink_png.size()));
+    m_rule_imgs[to_under(RuleType::upset)].reset(new Fl_PNG_Image("upset.png", g_upset_png.data(), g_upset_png.size()));
+    m_rule_imgs[to_under(RuleType::bend)].reset(new Fl_PNG_Image("bend.png", g_bend_png.data(), g_bend_png.size()));
 
     m_styles = {
          // FONT COLOR      FONT FACE   FONT SIZE
          // --------------- ----------- --------------
-         {  FL_RED,         FL_SCREEN, 18 }, // A - Red
-         {  FL_DARK_GREEN,  FL_SCREEN, 18 }, // B - Green
+         {  FL_RED,         FL_SCREEN, 18, 0 }, // A - Red
+         {  FL_DARK_GREEN,  FL_SCREEN, 18, 0 }, // B - Green
      };
 
     m_window.reset(new Fl_Window(348,140));
     m_window->label("Anvil calcualtor");
+    m_window->icon(m_rule_imgs[to_under(RuleType::hit)].get());
     m_window->callback(&windowCallback);
 
     m_rule_items.reserve(g_rules.size());
@@ -75,7 +77,7 @@ MainWindow::Private::Private() {
 
         Fl_Menu_Item* item = &m_rule_items.back();
         Fl_Multi_Label* label = &m_rule_labels.back();
-        Fl_PNG_Image* image = m_rule_imgs[static_cast<std::size_t>(rule.getType())].get();
+        Fl_PNG_Image* image = m_rule_imgs[to_under(rule.getType())].get();
 
         label->labela = reinterpret_cast<const char*>(image);
         label->typea = _FL_IMAGE_LABEL;
@@ -102,8 +104,10 @@ MainWindow::Private::Private() {
     m_rule3->callback(&ruleCallback, this);
 
     m_distance.reset(new Fl_Int_Input(304, 4, 40, 30, "Distance:"));
+    m_distance->tooltip("The distance between a green and a red arrow in pixels");
     m_distance->maximum_size(3);
     m_distance->value("0");
+    m_distance->when(FL_WHEN_CHANGED);
     m_last_distance_value = 0;
     m_distance->callback(&distanceCallback, this);
 
@@ -158,9 +162,9 @@ void MainWindow::Private::searchCallback(Fl_Widget*, void* private_) {
     p->clearChain();
 
     long distance = strtol(p->m_distance->value(), nullptr, 10);
-    int rule1 = p->m_rule1->value();
-    int rule2 = p->m_rule2->value();
-    int rule3 = p->m_rule3->value();
+    std::uint8_t rule1 = p->m_rule1->value();
+    std::uint8_t rule2 = p->m_rule2->value();
+    std::uint8_t rule3 = p->m_rule3->value();
 
     // экранные координаты в очки
     unsigned char score = distance / 2;
@@ -171,7 +175,7 @@ void MainWindow::Private::searchCallback(Fl_Widget*, void* private_) {
         return;
     }
 
-    std::uint8_t last_technique = static_cast<std::uint8_t>(TechniqueType::last);
+    std::uint8_t last_technique = to_under(TechniqueType::last);
     std::size_t last_technique_counter = 0;
 
     auto flush_last_technique = [p, &last_technique, &last_technique_counter]() {

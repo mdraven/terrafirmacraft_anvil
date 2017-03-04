@@ -1,7 +1,7 @@
 
 #include "Technique.hpp"
 
-const std::array<Technique, (std::size_t)TechniqueType::last> g_techniques{{
+const std::array<Technique, to_under(TechniqueType::last)> g_techniques{{
     {TechniqueType::hit_light, -3, "r1", true},
     {TechniqueType::hit_medium, -6, "r2", true},
     {TechniqueType::hit_heavy, -9, "r3", true},

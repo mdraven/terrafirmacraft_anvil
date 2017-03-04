@@ -1,8 +1,10 @@
 #pragma once
 
+#include "utils.hpp"
+
 #include <array>
 
-enum class TechniqueType {
+enum class TechniqueType : std::uint8_t {
     hit_light = 0,
     hit_medium,
     hit_heavy,
@@ -22,4 +24,4 @@ struct Technique final {
     bool m_red;
 };
 
-extern const std::array<Technique, static_cast<std::size_t>(TechniqueType::last)> g_techniques;
+extern const std::array<Technique, to_under(TechniqueType::last)> g_techniques;
