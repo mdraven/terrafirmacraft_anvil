@@ -6,7 +6,10 @@ project(tfc_anvil)
 
 list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_LIST_DIR}/3rdparty")
 
-find_package(FLTK REQUIRED FLTK_SKIP_OPENGL FLTK_SKIP_FORMS)
+set(FLTK_SKIP_OPENGL true)
+set(FLTK_SKIP_FORMS true)
+set(FLTK_SKIP_FLUID true)
+find_package(FLTK REQUIRED)
 include_directories(${FLTK_INCLUDE_DIR})
 
 #### Configure ----------------------------

@@ -56,6 +56,10 @@ MainWindow::Private::Private() {
     m_rule_imgs[to_under(RuleType::upset)].reset(new Fl_PNG_Image("upset.png", g_upset_png.data(), g_upset_png.size()));
     m_rule_imgs[to_under(RuleType::bend)].reset(new Fl_PNG_Image("bend.png", g_bend_png.data(), g_bend_png.size()));
 
+#if defined(_WIN32) || defined(_WIN64)
+    Fl::set_font(FL_SCREEN, "Courier New");
+#endif
+
     m_styles = {
          // FONT COLOR      FONT FACE   FONT SIZE
          // --------------- ----------- --------------
@@ -64,7 +68,7 @@ MainWindow::Private::Private() {
      };
 
     m_window.reset(new Fl_Window(348,140));
-    m_window->label("Anvil calcualtor");
+    m_window->label("Anvil calculator");
     m_window->icon(m_rule_imgs[to_under(RuleType::hit)].get());
     m_window->callback(&windowCallback);
 
@@ -187,7 +191,7 @@ void MainWindow::Private::searchCallback(Fl_Widget*, void* private_) {
         std::string delim(p->m_chain_text->length() > 0, ' ');
         std::string text = delim + technique.m_name;
         if(last_technique_counter > 1)
-            text += u8"×" + std::to_string(last_technique_counter);
+            text += "×" + std::to_string(last_technique_counter);
 
         std::string style(text.size(), technique.m_red ? 'A' : 'B');
 

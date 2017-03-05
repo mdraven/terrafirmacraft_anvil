@@ -22,6 +22,8 @@ struct Technique final {
     int m_score = 0;
     std::string m_name;
     bool m_red;
+
+    Technique(TechniqueType type, int score, const std::string& name, bool red);
 };
 
 extern const std::array<Technique, to_under(TechniqueType::last)> g_techniques;
