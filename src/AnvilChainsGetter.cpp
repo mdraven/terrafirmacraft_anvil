@@ -5,7 +5,7 @@
 #include "Rule.hpp"
 
 // максимальное число очков; при переполнении этого значения заготовка исчезает
-static const std::size_t g_max_score = 150;
+static const int g_max_score = 150;
 
 std::vector<std::array<TechniqueType, 3>> AnvilChainsGetter::
 getTechniques(const std::array<std::size_t, 3>& pattern) {
@@ -78,9 +78,37 @@ getLessChanges(const std::vector<std::vector<std::uint8_t>>& chains) {
     return less_change_chains;
 }
 
+std::vector<std::vector<std::uint8_t>> AnvilChainsGetter::
+getIntoScaleLimits(int end_score, const std::vector<std::vector<std::uint8_t>>& chains) {
+    std::vector<std::vector<std::uint8_t>> result;
+
+    for(auto& chain : chains) {
+        int tmp_score = end_score;
+
+        for(auto& technique : chain) {
+            tmp_score -= g_techniques.at(static_cast<std::size_t>(technique)).m_score;
+            if(!checkScaleLimits(tmp_score))
+                goto next_chain;
+        }
+
+        result.push_back(chain);
+
+    next_chain:;
+    }
+
+    return result;
+}
+
+bool AnvilChainsGetter::checkScaleLimits(int score) {
+    return (score >= 0 && score <= g_max_score);
+}
+
 std::vector<std::uint8_t> AnvilChainsGetter::
-get(const std::array<std::size_t, 3>& pattern, unsigned char score) {
-    if(score > g_max_score)
+get(const std::array<std::size_t, 3>& pattern, int begin_score, int end_score) {
+    if(!checkScaleLimits(begin_score))
+        return std::vector<std::uint8_t>();
+
+    if(!checkScaleLimits(end_score))
         return std::vector<std::uint8_t>();
 
     const std::vector<std::array<TechniqueType, 3>> techniques = getTechniques(pattern);
@@ -91,11 +119,23 @@ get(const std::array<std::size_t, 3>& pattern, unsigned char score) {
         int score2 = g_techniques.at(static_cast<std::size_t>(technique[1])).m_score;
         int score3 = g_techniques.at(static_cast<std::size_t>(technique[2])).m_score;
 
-        int tmp_score = score - score1 - score2 - score3;
-        if(tmp_score < 0 || tmp_score > g_max_score)
+        int tmp_score = end_score;
+
+        tmp_score -= score1;
+        if(!checkScaleLimits(tmp_score))
             continue;
 
-        std::vector<std::vector<std::uint8_t>> tmp_chains = g_anvil_chains.at(tmp_score);
+        tmp_score -= score2;
+        if(!checkScaleLimits(tmp_score))
+            continue;
+
+        tmp_score -= score3;
+        if(!checkScaleLimits(tmp_score))
+            continue;
+
+        std::vector<std::vector<std::uint8_t>> tmp_chains =
+            getIntoScaleLimits(tmp_score, g_anvil_chains.at(g_max_score + tmp_score - begin_score));
+
         for(auto& chain : tmp_chains) {
             chain.push_back(static_cast<std::uint8_t>(technique[2]));
             chain.push_back(static_cast<std::uint8_t>(technique[1]));

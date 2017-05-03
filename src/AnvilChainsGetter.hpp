@@ -18,6 +18,12 @@ class AnvilChainsGetter final {
 
     // Возвращает наименее меняющиеся цепочки
     static std::vector<std::vector<std::uint8_t>> getLessChanges(const std::vector<std::vector<std::uint8_t>>& chains);
+
+    // Возвращает цепочки которые не выходят за границы шкалы
+    static std::vector<std::vector<std::uint8_t>> getIntoScaleLimits(int begin_score, const std::vector<std::vector<std::uint8_t>>& chains);
+
+    // Проверить на вхождение в границы шкалы
+    static bool checkScaleLimits(int score);
 public:
-    static std::vector<std::uint8_t> get(const std::array<std::size_t, 3>& pattern, unsigned char score);
+    static std::vector<std::uint8_t> get(const std::array<std::size_t, 3>& pattern, int begin_score, int end_score);
 };
