@@ -2,29 +2,33 @@
 #include "AnvilChainsGetter.hpp"
 
 #include "anvil_chains.hpp"
+#include "increment.hpp"
 #include "Rule.hpp"
+
+#include <numeric>
 
 // максимальное число очков; при переполнении этого значения заготовка исчезает
 static const int g_max_score = 150;
 
-std::vector<std::array<TechniqueType, 3>> AnvilChainsGetter::
+std::vector<std::vector<TechniqueType>> AnvilChainsGetter::
 getTechniques(const std::array<std::size_t, 3>& pattern) {
-    std::vector<std::array<TechniqueType, 3>> result;
+    std::vector<std::vector<TechniqueType>> result;
 
-    for(std::size_t i = 0; i < static_cast<std::size_t>(TechniqueType::last); ++i) {
-        for(std::size_t j = 0; j < static_cast<std::size_t>(TechniqueType::last); ++j)
-            for(std::size_t k = 0; k < static_cast<std::size_t>(TechniqueType::last); ++k) {
-                std::array<TechniqueType, 3> techniques{
-                    static_cast<TechniqueType>(i),
-                    static_cast<TechniqueType>(j),
-                    static_cast<TechniqueType>(k)
-                };
+    std::vector<std::size_t> chain;
 
-                if(g_rules.at(pattern[0]).check(techniques) &&
-                   g_rules.at(pattern[1]).check(techniques) &&
-                   g_rules.at(pattern[2]).check(techniques))
-                    result.push_back(techniques);
-            }
+    while(true) {
+        increment(chain, g_techniques.size());
+        if(chain.size() > 3)
+            break;
+
+        std::vector<TechniqueType> techniques;
+        for(std::size_t elem : chain)
+            techniques.push_back(static_cast<TechniqueType>(elem));
+
+        if(g_rules.at(pattern[0]).check(techniques) &&
+           g_rules.at(pattern[1]).check(techniques) &&
+           g_rules.at(pattern[2]).check(techniques))
+               result.push_back(techniques);
     }
 
     return result;
@@ -103,6 +107,19 @@ bool AnvilChainsGetter::checkScaleLimits(int score) {
     return (score >= 0 && score <= g_max_score);
 }
 
+int AnvilChainsGetter::getScoreBefore(int end_score, const std::vector<TechniqueType>& techniques) {
+    for(auto& technique : techniques) {
+        int score = g_techniques.at(static_cast<std::size_t>(technique)).m_score;
+
+        end_score -= score;
+
+        if(!checkScaleLimits(end_score))
+            return -1;
+    }
+
+    return end_score;
+}
+
 std::vector<std::uint8_t> AnvilChainsGetter::
 get(const std::array<std::size_t, 3>& pattern, int begin_score, int end_score) {
     if(!checkScaleLimits(begin_score))
@@ -111,36 +128,23 @@ get(const std::array<std::size_t, 3>& pattern, int begin_score, int end_score) {
     if(!checkScaleLimits(end_score))
         return std::vector<std::uint8_t>();
 
-    const std::vector<std::array<TechniqueType, 3>> techniques = getTechniques(pattern);
+    const std::vector<std::vector<TechniqueType>> techniques = getTechniques(pattern);
 
     std::vector<std::vector<std::uint8_t>> chains;
     for(auto& technique : techniques) {
-        int score1 = g_techniques.at(static_cast<std::size_t>(technique[0])).m_score;
-        int score2 = g_techniques.at(static_cast<std::size_t>(technique[1])).m_score;
-        int score3 = g_techniques.at(static_cast<std::size_t>(technique[2])).m_score;
-
-        int tmp_score = end_score;
-
-        tmp_score -= score1;
-        if(!checkScaleLimits(tmp_score))
-            continue;
-
-        tmp_score -= score2;
-        if(!checkScaleLimits(tmp_score))
-            continue;
-
-        tmp_score -= score3;
-        if(!checkScaleLimits(tmp_score))
+        int score_before = getScoreBefore(end_score, technique);
+        if(score_before == -1)
             continue;
 
         std::vector<std::vector<std::uint8_t>> tmp_chains =
-            getIntoScaleLimits(tmp_score, g_anvil_chains.at(g_max_score + tmp_score - begin_score));
+            getIntoScaleLimits(score_before, g_anvil_chains.at(g_max_score + score_before - begin_score));
 
-        for(auto& chain : tmp_chains) {
-            chain.push_back(static_cast<std::uint8_t>(technique[2]));
-            chain.push_back(static_cast<std::uint8_t>(technique[1]));
-            chain.push_back(static_cast<std::uint8_t>(technique[0]));
-        }
+        std::vector<std::uint8_t> reverse_technique;
+        for(auto it = technique.rbegin(), itend = technique.rend(); it != itend; ++it)
+            reverse_technique.push_back(static_cast<std::uint8_t>(*it));
+
+        for(auto& chain : tmp_chains)
+            chain.insert(chain.end(), reverse_technique.begin(), reverse_technique.end());
 
         chains.insert(chains.begin(), tmp_chains.begin(), tmp_chains.end());
     }

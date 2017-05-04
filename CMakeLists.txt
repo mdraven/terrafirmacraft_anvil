@@ -36,6 +36,7 @@ set(EXEC_GENERATOR "anvil_chains_generator")
 set(SOURCES_GENERATOR
   ${SOURCE_DIR}/Technique.cpp
   ${SOURCE_DIR}/anvil_chains_generator.cpp
+  ${SOURCE_DIR}/increment.cpp
   )
 
 add_executable(${EXEC_GENERATOR} ${SOURCES_GENERATOR})
@@ -52,6 +53,7 @@ set(SOURCES_ANVIL
   ${SOURCE_DIR}/Rule.cpp
   ${SOURCE_DIR}/Technique.cpp
   ${SOURCE_DIR}/anvil_chains.cpp
+  ${SOURCE_DIR}/increment.cpp
   ${SOURCE_DIR}/main.cpp
   ${SOURCE_DIR}/png.cpp
   )

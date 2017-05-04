@@ -1,6 +1,8 @@
 
 #include "Technique.hpp"
 
+#include "increment.hpp"
+
 #include <iostream>
 #include <map>
 #include <numeric>
@@ -36,25 +38,6 @@ std::size_t count_changes(const std::vector<std::size_t>& chain) {
     }
 
     return changes;
-}
-
-// 0, 1, 00, 01, 10, 11, 000, ...
-// Возвращает все комбинации от самой короткой к самой длинной. Реализует обход
-// дерева в ширину.
-void increment(std::vector<std::size_t>& vec, std::size_t mod) {
-    if(vec.empty()) {
-        vec.push_back(0);
-        return;
-    }
-
-    for(auto it = vec.rbegin(); it != vec.rend(); ++it) {
-        *it += 1;
-        if (*it < mod)
-            return;
-        *it = 0;
-    }
-
-    vec.push_back(0);
 }
 
 // Суммирует очки цепочки

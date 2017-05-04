@@ -1,6 +1,8 @@
 
 #include "Rule.hpp"
 
+#include <cassert>
+
 static const std::size_t g_max_value = 2;
 
 const std::vector<Rule> g_rules{{
@@ -56,10 +58,16 @@ Rule::Rule(const std::string& name, RuleType type, unsigned int min, unsigned in
     , m_max(max)
 {}
 
-bool Rule::check(const std::array<TechniqueType, 3>& techniques) const {
-    for(std::size_t i = m_min; i <= m_max; ++i) {
-        if(m_type == RuleType::any)
-            return true;
+bool Rule::check(const std::vector<TechniqueType>& techniques) const {
+    assert(techniques.size() <= 3);
+
+    if(m_type == RuleType::any)
+        return true;
+
+    if(techniques.size() == 0)
+        return false;
+
+    for(std::size_t i = m_min; i <= std::min<std::size_t>(m_max, techniques.size() - 1); ++i) {
         if(m_type == RuleType::hit) {
             if(techniques[i] == TechniqueType::hit_light
                || techniques[i] == TechniqueType::hit_medium
@@ -97,4 +105,8 @@ RuleType Rule::getType() const {
 
 const std::string& Rule::getName() const {
     return m_name;
+}
+
+unsigned int Rule::getMax() const {
+    return m_max;
 }

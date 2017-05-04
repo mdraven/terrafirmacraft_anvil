@@ -29,10 +29,11 @@ public:
     Rule() = default;
     Rule(const std::string& name, RuleType type, unsigned int min, unsigned int max);
 
-    bool check(const std::array<TechniqueType, 3>& techniques) const;
+    bool check(const std::vector<TechniqueType>& techniques) const;
 
     RuleType getType() const;
     const std::string& getName() const;
+    unsigned int getMax() const;
 };
 
 extern const std::vector<Rule> g_rules;
