@@ -51,6 +51,7 @@ set(SOURCES_ANVIL
   ${SOURCE_DIR}/AnvilChainsGetter.cpp
   ${SOURCE_DIR}/MainWindow.cpp
   ${SOURCE_DIR}/Rule.cpp
+  ${SOURCE_DIR}/ScanImage.cpp
   ${SOURCE_DIR}/Technique.cpp
   ${SOURCE_DIR}/anvil_chains.cpp
   ${SOURCE_DIR}/increment.cpp
