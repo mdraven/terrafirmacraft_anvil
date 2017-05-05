@@ -2,21 +2,27 @@
 #include "MainWindow.hpp"
 
 #include "AnvilChainsGetter.hpp"
+#include "Config.hpp"
+#include "Rule.hpp"
+#include "ScanImage.hpp"
+#include "get_last_file.hpp"
 #include "png.hpp"
 #include "utils.hpp"
 
-#include <FL/Fl.h>
-#include <FL/Fl_Box.h>
-#include <FL/Fl_Choice.h>
-#include <FL/Fl_Int_Input.h>
-#include <FL/Fl_Multi_Label.h>
-#include <FL/Fl_PNG_Image.h>
-#include <FL/Fl_Return_Button.h>
-#include <FL/Fl_Text_Display.h>
-#include <FL/Fl_Window.h>
+#include <FL/Fl.H>
+#include <FL/Fl_Box.H>
+#include <FL/Fl_Choice.H>
+#include <FL/Fl_Int_Input.H>
+#include <FL/Fl_Multi_Label.H>
+#include <FL/Fl_PNG_Image.H>
+#include <FL/Fl_Return_Button.H>
+#include <FL/Fl_Text_Display.H>
+#include <FL/Fl_Window.H>
 
 #include <array>
 #include <vector>
+
+#undef Status // чёртов Xlib содержит макрос Status
 
 // Максимальная длина шкалы в пикселях
 static const std::size_t g_max_bar = 150 * 2;
@@ -33,6 +39,8 @@ struct MainWindow::Private {
     std::unique_ptr<Fl_Input> m_distance;
     Fl_Text_Buffer* m_chain_text;
     Fl_Text_Buffer* m_chain_style;
+
+    Config m_config;
 
     // Прошлое правильное значение поля Distance. Нужно чтобы делать undo.
     int m_last_distance_value;
@@ -165,15 +173,38 @@ void MainWindow::Private::searchCallback(Fl_Widget*, void* private_) {
 
     p->clearChain();
 
-    long distance = strtol(p->m_distance->value(), nullptr, 10);
     std::uint8_t rule1 = p->m_rule1->value();
     std::uint8_t rule2 = p->m_rule2->value();
     std::uint8_t rule3 = p->m_rule3->value();
 
-    // экранные координаты в очки
-    unsigned char score = distance / 2;
+    std::string screenshot;
+    if(!get_last_file(p->m_config.getScreenshotsDir(), screenshot)) {
+        p->m_chain_text->append("Can't find screenshot");
+        return;
+    }
 
-    auto chain = AnvilChainsGetter::get({rule1, rule2, rule3}, score);
+    ScanImage si;
+    si.setScale(p->m_config.getScale());
+    si.openImage(screenshot);
+
+    if(si.getStatus() != ScanImage::Status::ok) {
+        switch(si.getStatus()) {
+        case ScanImage::Status::cannot_open:
+            p->m_chain_text->append("Can't open screenshot");
+            return;
+        case ScanImage::Status::is_not_anvil:
+            p->m_chain_text->append("Can't parse screenshot");
+            return;
+        }
+        p->m_chain_text->append("Error");
+        return;
+    }
+
+    int red_score;
+    int green_score;
+    si.getScores(red_score, green_score);
+
+    auto chain = AnvilChainsGetter::get({rule1, rule2, rule3}, green_score, red_score);
     if(chain.empty()) {
         p->m_chain_text->append("Nothing");
         return;

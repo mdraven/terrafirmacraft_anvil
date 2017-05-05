@@ -52,6 +52,7 @@ set(EXEC_ANVIL "tfc_anvil")
 
 set(SOURCES_ANVIL
   ${SOURCE_DIR}/AnvilChainsGetter.cpp
+  ${SOURCE_DIR}/Config.cpp
   ${SOURCE_DIR}/MainWindow.cpp
   ${SOURCE_DIR}/Rule.cpp
   ${SOURCE_DIR}/ScanImage.cpp

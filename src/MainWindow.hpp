@@ -1,7 +1,5 @@
 #pragma once
 
-#include "Rule.hpp"
-
 #include <memory>
 
 class MainWindow final {
