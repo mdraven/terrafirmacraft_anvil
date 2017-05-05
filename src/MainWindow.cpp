@@ -24,9 +24,6 @@
 
 #undef Status // чёртов Xlib содержит макрос Status
 
-// Максимальная длина шкалы в пикселях
-static const std::size_t g_max_bar = 150 * 2;
-
 struct MainWindow::Private {
     std::array<std::unique_ptr<Fl_PNG_Image>, static_cast<std::size_t>(RuleType::last)> m_rule_imgs;
     std::unique_ptr<Fl_Window> m_window;
@@ -36,17 +33,12 @@ struct MainWindow::Private {
     std::unique_ptr<Fl_Choice> m_rule1;
     std::unique_ptr<Fl_Choice> m_rule2;
     std::unique_ptr<Fl_Choice> m_rule3;
-    std::unique_ptr<Fl_Input> m_distance;
     Fl_Text_Buffer* m_chain_text;
     Fl_Text_Buffer* m_chain_style;
 
     Config m_config;
 
-    // Прошлое правильное значение поля Distance. Нужно чтобы делать undo.
-    int m_last_distance_value;
-
     static void windowCallback(Fl_Widget*, void*);
-    static void distanceCallback(Fl_Widget*, void*);
     static void ruleCallback(Fl_Widget*, void*);
     static void searchCallback(Fl_Widget*, void*);
 
@@ -115,14 +107,6 @@ MainWindow::Private::Private() {
     m_rule3->copy(m_rule_items.data());
     m_rule3->callback(&ruleCallback, this);
 
-    m_distance.reset(new Fl_Int_Input(304, 4, 40, 30, "Distance:"));
-    m_distance->tooltip("The distance between a green and a red arrow in pixels");
-    m_distance->maximum_size(3);
-    m_distance->value("0");
-    m_distance->when(FL_WHEN_CHANGED);
-    m_last_distance_value = 0;
-    m_distance->callback(&distanceCallback, this);
-
     Fl_Return_Button* search = new Fl_Return_Button(234, 72, 110, 30, "Search");
     search->callback(&searchCallback, this);
 
@@ -143,26 +127,6 @@ void MainWindow::Private::windowCallback(Fl_Widget*, void*) {
     exit(0);
 }
 
-void MainWindow::Private::distanceCallback(Fl_Widget* distance_, void* private_) {
-    auto* p = static_cast<Private*>(private_);
-    auto* distance = static_cast<Fl_Input*>(distance_);
-    const char* text = distance->value();
-
-    long value = strtol(text, nullptr, 10);
-    if(value < 0 || value > g_max_bar) {
-        char buf[10];
-        sprintf(buf, "%d", p->m_last_distance_value);
-        distance->value(buf);
-        return;
-    }
-
-    if(value == p->m_last_distance_value)
-        return;
-
-    p->m_last_distance_value = value;
-    p->clearChain();
-}
-
 void MainWindow::Private::ruleCallback(Fl_Widget*, void* private_) {
     auto* p = static_cast<Private*>(private_);
     p->clearChain();
@@ -172,10 +136,6 @@ void MainWindow::Private::searchCallback(Fl_Widget*, void* private_) {
     auto* p = static_cast<Private*>(private_);
 
     p->clearChain();
-
-    std::uint8_t rule1 = p->m_rule1->value();
-    std::uint8_t rule2 = p->m_rule2->value();
-    std::uint8_t rule3 = p->m_rule3->value();
 
     std::string screenshot;
     if(!get_last_file(p->m_config.getScreenshotsDir(), screenshot)) {
@@ -203,6 +163,10 @@ void MainWindow::Private::searchCallback(Fl_Widget*, void* private_) {
     int red_score;
     int green_score;
     si.getScores(red_score, green_score);
+
+    std::uint8_t rule1 = p->m_rule1->value();
+    std::uint8_t rule2 = p->m_rule2->value();
+    std::uint8_t rule3 = p->m_rule3->value();
 
     auto chain = AnvilChainsGetter::get({rule1, rule2, rule3}, green_score, red_score);
     if(chain.empty()) {
