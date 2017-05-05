@@ -12,6 +12,9 @@ set(FLTK_SKIP_FLUID true)
 find_package(FLTK REQUIRED)
 include_directories(${FLTK_INCLUDE_DIR})
 
+find_package(Boost COMPONENTS system filesystem REQUIRED)
+include_directories(${Boost_INCLUDE_DIRS})
+
 #### Configure ----------------------------
 
 function(add_sanitize TARGET)
@@ -54,6 +57,7 @@ set(SOURCES_ANVIL
   ${SOURCE_DIR}/ScanImage.cpp
   ${SOURCE_DIR}/Technique.cpp
   ${SOURCE_DIR}/anvil_chains.cpp
+  ${SOURCE_DIR}/get_last_file.cpp
   ${SOURCE_DIR}/increment.cpp
   ${SOURCE_DIR}/main.cpp
   ${SOURCE_DIR}/png.cpp
@@ -61,5 +65,9 @@ set(SOURCES_ANVIL
 
 add_executable(${EXEC_ANVIL} ${SOURCES_ANVIL})
 set_property(TARGET ${EXEC_ANVIL} PROPERTY CXX_STANDARD 14)
-target_link_libraries(${EXEC_ANVIL} ${FLTK_LIBRARIES})
+target_link_libraries(
+  ${EXEC_ANVIL}
+  ${FLTK_LIBRARIES}
+  ${Boost_SYSTEM_LIBRARY}
+  ${Boost_FILESYSTEM_LIBRARY})
 add_sanitize(${EXEC_ANVIL})
