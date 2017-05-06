@@ -1,170 +1,170 @@
-{
+[
     {
         "item" : "Ingot",
         "rule1" : "Hit last",
         "rule2" : "Hit second from last",
-        "rule3" : "Hit third from last",
+        "rule3" : "Hit third from last"
     },
     {
         "item" : "Sheet",
         "rule1" : "Hit last",
         "rule2" : "Hit second from last",
-        "rule3" : "Hit third from last",
+        "rule3" : "Hit third from last"
     },
     {
         "item" : "Pickaxe",
         "rule1" : "Punch last",
         "rule2" : "Bend not last",
-        "rule3" : "Draw not last",
+        "rule3" : "Draw not last"
     },
     {
         "item" : "Shovel",
         "rule1" : "Punch last",
         "rule2" : "Hit not last",
-        "rule3" : "Any",
+        "rule3" : "Any"
     },
     {
         "item" : "Axe",
         "rule1" : "Punch last",
         "rule2" : "Hit second from last",
-        "rule3" : "Upset third from last",
+        "rule3" : "Upset third from last"
     },
     {
         "item" : "Hoe",
         "rule1" : "Punch last",
         "rule2" : "Hit not last",
-        "rule3" : "Bend not last",
+        "rule3" : "Bend not last"
     },
     {
         "item" : "Hammer",
         "rule1" : "Punch last",
         "rule2" : "Any",
-        "rule3" : "Shrink not last",
+        "rule3" : "Shrink not last"
     },
     {
         "item" : "Chisel",
         "rule1" : "Hit last",
         "rule2" : "Hit not last",
-        "rule3" : "Draw not last",
+        "rule3" : "Draw not last"
     },
     {
         "item" : "Propick",
         "rule1" : "Punch last",
         "rule2" : "Draw not last",
-        "rule3" : "Bend not last",
+        "rule3" : "Bend not last"
     },
     {
         "item" : "Saw",
         "rule1" : "Hit last",
         "rule2" : "Hit second from last",
-        "rule3" : "Any",
+        "rule3" : "Any"
     },
     {
         "item" : "Sword",
         "rule1" : "Hit last",
         "rule2" : "Bend second from last",
-        "rule3" : "Bend third from last",
+        "rule3" : "Bend third from last"
     },
     {
         "item" : "Mace",
         "rule1" : "Hit last",
         "rule2" : "Shrink not last",
-        "rule3" : "Bend not last",
+        "rule3" : "Bend not last"
     },
     {
         "item" : "Scythe",
         "rule1" : "Hit last",
         "rule2" : "Draw second from last",
-        "rule3" : "Bend third from last",
+        "rule3" : "Bend third from last"
     },
     {
         "item" : "Knife",
         "rule1" : "Hit last",
         "rule2" : "Draw second from last",
-        "rule3" : "Draw third from last",
+        "rule3" : "Draw third from last"
     },
     {
         "item" : "Javelin",
         "rule1" : "Hit last",
         "rule2" : "Hit second from last",
-        "rule3" : "Draw third from last",
+        "rule3" : "Draw third from last"
     },
     {
         "item" : "Helmplate",
         "rule1" : "Hit last",
         "rule2" : "Bend second from last",
-        "rule3" : "Bend third from last",
+        "rule3" : "Bend third from last"
     },
     {
         "item" : "Chestplate",
         "rule1" : "Hit last",
         "rule2" : "Hit second from last",
-        "rule3" : "Upset third from last",
+        "rule3" : "Upset third from last"
     },
     {
         "item" : "Legsplate",
         "rule1" : "Bend any",
         "rule2" : "Draw any",
-        "rule3" : "Hit any",
+        "rule3" : "Hit any"
     },
     {
         "item" : "Bootsplate",
         "rule1" : "Bend last",
         "rule2" : "Bend second from last",
-        "rule3" : "Shrink third from last",
+        "rule3" : "Shrink third from last"
     },
     {
         "item" : "Bucket",
         "rule1" : "Bend last",
         "rule2" : "Bend second from last",
-        "rule3" : "Bend third from last",
+        "rule3" : "Bend third from last"
     },
     {
         "item" : "Refinebloom",
         "rule1" : "Hit last",
         "rule2" : "Hit second from last",
-        "rule3" : "Hit third from last",
+        "rule3" : "Hit third from last"
     },
     {
         "item" : "Splitbloom",
         "rule1" : "Punch last",
         "rule2" : "Any",
-        "rule3" : "Any",
+        "rule3" : "Any"
     },
     {
         "item" : "Tuyere",
         "rule1" : "Bend last",
         "rule2" : "Bend second from last",
-        "rule3" : "Any",
+        "rule3" : "Any"
     },
     {
         "item" : "Trapdoor",
         "rule1" : "Hit last",
         "rule2" : "Shrink not last",
-        "rule3" : "Upset not last",
+        "rule3" : "Upset not last"
     },
     {
         "item" : "Grill",
         "rule1" : "Bend last",
         "rule2" : "Draw second from last",
-        "rule3" : "Draw third from last",
+        "rule3" : "Draw third from last"
     },
     {
         "item" : "Shears",
         "rule1" : "Hit last",
         "rule2" : "Hit second from last",
-        "rule3" : "Hit third from last",
+        "rule3" : "Hit third from last"
     },
     {
         "item" : "Oillamp",
         "rule1" : "Bend last",
         "rule2" : "Bend second from last",
-        "rule3" : "Draw third from last",
+        "rule3" : "Draw third from last"
     },
     {
         "item" : "Hopper",
         "rule1" : "Upset last",
         "rule2" : "Hit second from last",
-        "rule3" : "Bend third from last",
+        "rule3" : "Bend third from last"
     }
-}
+]
