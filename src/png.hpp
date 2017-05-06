@@ -9,3 +9,4 @@ extern const std::array<unsigned char, 224> g_hit_png;
 extern const std::array<unsigned char, 261> g_punch_png;
 extern const std::array<unsigned char, 277> g_shrink_png;
 extern const std::array<unsigned char, 283> g_upset_png;
+extern const std::array<unsigned char, 154> g_markers_png;

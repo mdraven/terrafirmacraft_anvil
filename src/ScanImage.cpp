@@ -1,6 +1,8 @@
 
 #include "ScanImage.hpp"
 
+#include "png.hpp"
+
 #include <FL/Fl.H>
 #include <FL/Fl_PNG_Image.H>
 
@@ -43,7 +45,7 @@ struct ScanImage::Private {
 
 ScanImage::Private::Private() {
     clear();
-    m_markers.reset(new Fl_PNG_Image("markers.png"));
+    m_markers.reset(new Fl_PNG_Image("markers.png", g_markers_png.data(), g_markers_png.size()));
 }
 
 bool ScanImage::Private::matchImage(const Fl_PNG_Image* image, int left, int top, int scale, bool is_green) {
