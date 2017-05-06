@@ -3,6 +3,7 @@
 
 #include "AnvilChainsGetter.hpp"
 #include "Config.hpp"
+#include "Plans.hpp"
 #include "Rule.hpp"
 #include "ScanImage.hpp"
 #include "get_last_file.hpp"
@@ -11,9 +12,7 @@
 
 #include <FL/Fl.H>
 #include <FL/Fl_Box.H>
-#include <FL/Fl_Choice.H>
-#include <FL/Fl_Int_Input.H>
-#include <FL/Fl_Multi_Label.H>
+#include <FL/Fl_Hold_Browser.H>
 #include <FL/Fl_PNG_Image.H>
 #include <FL/Fl_Return_Button.H>
 #include <FL/Fl_Text_Display.H>
@@ -27,21 +26,22 @@
 struct MainWindow::Private {
     std::array<std::unique_ptr<Fl_PNG_Image>, static_cast<std::size_t>(RuleType::last)> m_rule_imgs;
     std::unique_ptr<Fl_Window> m_window;
-    std::vector<Fl_Menu_Item> m_rule_items;
-    std::vector<Fl_Multi_Label> m_rule_labels;
     std::vector<Fl_Text_Display::Style_Table_Entry> m_styles;
-    std::unique_ptr<Fl_Choice> m_rule1;
-    std::unique_ptr<Fl_Choice> m_rule2;
-    std::unique_ptr<Fl_Choice> m_rule3;
+    std::unique_ptr<Fl_Hold_Browser> m_plans_browser;
+    std::unique_ptr<Fl_Box> m_rule1;
+    std::unique_ptr<Fl_Box> m_rule2;
+    std::unique_ptr<Fl_Box> m_rule3;
     Fl_Text_Buffer* m_chain_text;
     Fl_Text_Buffer* m_chain_style;
 
     Config m_config;
+    Plans m_plans;
 
     static void windowCallback(Fl_Widget*, void*);
-    static void ruleCallback(Fl_Widget*, void*);
+    static void planCallback(Fl_Widget*, void*);
     static void searchCallback(Fl_Widget*, void*);
 
+    void changeRulesImagesAndTooltips(std::uint8_t rule1_index, std::uint8_t rule2_index, std::uint8_t rule3_index);
     void clearChain();
 
     Private();
@@ -67,47 +67,27 @@ MainWindow::Private::Private() {
          {  FL_DARK_GREEN,  FL_SCREEN, 18, 0 }, // B - Green
      };
 
-    m_window.reset(new Fl_Window(348,140));
+    m_window.reset(new Fl_Window(348, 108));
     m_window->label("Anvil calculator");
     m_window->icon(m_rule_imgs[to_under(RuleType::hit)].get());
     m_window->callback(&windowCallback);
 
-    m_rule_items.reserve(g_rules.size());
-    m_rule_labels.reserve(g_rules.size());
-
-    for(const auto& rule : g_rules) {
-        m_rule_labels.emplace_back();
-        m_rule_items.emplace_back();
-
-        Fl_Menu_Item* item = &m_rule_items.back();
-        Fl_Multi_Label* label = &m_rule_labels.back();
-        Fl_PNG_Image* image = m_rule_imgs[to_under(rule.getType())].get();
-
-        label->labela = reinterpret_cast<const char*>(image);
-        label->typea = _FL_IMAGE_LABEL;
-        label->labelb = rule.getName().c_str();
-        label->typeb = FL_NORMAL_LABEL;
-
-        item->image(image);
-        label->label(item);
+    m_plans_browser.reset(new Fl_Hold_Browser(4, 4, 220, 68));
+    m_plans_browser->callback(&planCallback, this);
+    for(std::size_t i = 0; i < m_plans.getNumPlans(); ++i) {
+        const Plan& plan = m_plans.getPlan(i);
+        m_plans_browser->add(plan.m_item.c_str(), const_cast<Plan*>(&plan));
     }
 
-    // terminator
-    m_rule_items.emplace_back();
+    m_rule1.reset(new Fl_Box(239, 8, 26, 26));
+    m_rule1->box(Fl_Boxtype::FL_THIN_DOWN_BOX);
+    m_rule2.reset(new Fl_Box(276, 8, 26, 26));
+    m_rule2->box(Fl_Boxtype::FL_THIN_DOWN_BOX);
+    m_rule3.reset(new Fl_Box(313, 8, 26, 26));
+    m_rule3->box(Fl_Boxtype::FL_THIN_DOWN_BOX);
+    changeRulesImagesAndTooltips(g_rule_any, g_rule_any, g_rule_any);
 
-    m_rule1.reset(new Fl_Choice(4, 4, 220, 30));
-    m_rule1->copy(m_rule_items.data());
-    m_rule1->callback(&ruleCallback, this);
-
-    m_rule2.reset(new Fl_Choice(4, 38, 220, 30));
-    m_rule2->copy(m_rule_items.data());
-    m_rule2->callback(&ruleCallback, this);
-
-    m_rule3.reset(new Fl_Choice(4, 72, 220, 30));
-    m_rule3->copy(m_rule_items.data());
-    m_rule3->callback(&ruleCallback, this);
-
-    Fl_Return_Button* search = new Fl_Return_Button(234, 72, 110, 30, "Search");
+    Fl_Return_Button* search = new Fl_Return_Button(234, 40, 110, 30, "Search");
     search->callback(&searchCallback, this);
 
     m_chain_text = new Fl_Text_Buffer();
@@ -115,24 +95,61 @@ MainWindow::Private::Private() {
     m_chain_style = new Fl_Text_Buffer();
     m_chain_style->canUndo(0);
 
-    Fl_Text_Display* chain = new Fl_Text_Display(4, 106, 340, 30);
+    Fl_Text_Display* chain = new Fl_Text_Display(4, 74, 340, 30);
     chain->buffer(m_chain_text);
     chain->highlight_data(m_chain_style, m_styles.data(), m_styles.size(), 'A', 0, 0);
 
     if(m_config.getFail())
-        m_chain_text->append("Can't load config file");
+        m_chain_text->append("Can't load the config file");
+
+    switch(m_plans.getStatus()) {
+    case Plans::Status::cannot_open:
+        m_chain_text->append("Can't load the file with plans");
+        break;
+    case Plans::Status::cannot_parse:
+        m_chain_text->append("Can't parse the file with plans");
+        break;
+    }
+}
+
+void MainWindow::Private::changeRulesImagesAndTooltips(std::uint8_t rule1_index, std::uint8_t rule2_index, std::uint8_t rule3_index) {
+    const Rule& rule1 = g_rules.at(rule1_index);
+    const Rule& rule2 = g_rules.at(rule2_index);
+    const Rule& rule3 = g_rules.at(rule3_index);
+
+    m_rule1->image(m_rule_imgs[to_under(rule1.getType())].get());
+    m_rule1->redraw();
+    m_rule1->tooltip(rule1.getName().c_str());
+
+    m_rule2->image(m_rule_imgs[to_under(rule2.getType())].get());
+    m_rule2->redraw();
+    m_rule2->tooltip(rule2.getName().c_str());
+
+    m_rule3->image(m_rule_imgs[to_under(rule3.getType())].get());
+    m_rule3->redraw();
+    m_rule3->tooltip(rule3.getName().c_str());
 }
 
 void MainWindow::Private::windowCallback(Fl_Widget*, void*) {
-    if (Fl::event() == FL_SHORTCUT && Fl::event_key() == FL_Escape)
+    if(Fl::event() == FL_SHORTCUT && Fl::event_key() == FL_Escape)
         return;
 
     exit(0);
 }
 
-void MainWindow::Private::ruleCallback(Fl_Widget*, void* private_) {
+void MainWindow::Private::planCallback(Fl_Widget*, void* private_) {
     auto* p = static_cast<Private*>(private_);
     p->clearChain();
+
+    int value = p->m_plans_browser->value();
+
+    if(value == 0) {
+        p->changeRulesImagesAndTooltips(g_rule_any, g_rule_any, g_rule_any);
+        return;
+    }
+
+    const auto& plan = *reinterpret_cast<const Plan*>(p->m_plans_browser->data(value));
+    p->changeRulesImagesAndTooltips(plan.m_rule1_index, plan.m_rule2_index, plan.m_rule3_index);
 }
 
 void MainWindow::Private::searchCallback(Fl_Widget*, void* private_) {
@@ -167,9 +184,14 @@ void MainWindow::Private::searchCallback(Fl_Widget*, void* private_) {
     int green_score;
     si.getScores(red_score, green_score);
 
-    std::uint8_t rule1 = p->m_rule1->value();
-    std::uint8_t rule2 = p->m_rule2->value();
-    std::uint8_t rule3 = p->m_rule3->value();
+    int plan_row = p->m_plans_browser->value();
+    if (plan_row == 0)
+        return;
+
+    const auto& plan = *reinterpret_cast<const Plan*>(p->m_plans_browser->data(plan_row));
+    std::uint8_t rule1 = plan.m_rule1_index;
+    std::uint8_t rule2 = plan.m_rule2_index;
+    std::uint8_t rule3 = plan.m_rule3_index;
 
     auto chain = AnvilChainsGetter::get({rule1, rule2, rule3}, green_score, red_score);
     if(chain.empty()) {

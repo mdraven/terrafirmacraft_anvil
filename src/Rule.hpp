@@ -37,3 +37,4 @@ public:
 };
 
 extern const std::vector<Rule> g_rules;
+extern const std::uint8_t g_rule_any; // индекс правила "Any"

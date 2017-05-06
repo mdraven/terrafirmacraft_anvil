@@ -5,6 +5,8 @@
 
 static const std::size_t g_max_value = 2;
 
+const std::uint8_t g_rule_any = 0;
+
 const std::vector<Rule> g_rules{{
     {"Any", RuleType::any, 0, 2},
 
