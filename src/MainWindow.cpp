@@ -118,6 +118,9 @@ MainWindow::Private::Private() {
     Fl_Text_Display* chain = new Fl_Text_Display(4, 106, 340, 30);
     chain->buffer(m_chain_text);
     chain->highlight_data(m_chain_style, m_styles.data(), m_styles.size(), 'A', 0, 0);
+
+    if(m_config.getFail())
+        m_chain_text->append("Can't load config file");
 }
 
 void MainWindow::Private::windowCallback(Fl_Widget*, void*) {

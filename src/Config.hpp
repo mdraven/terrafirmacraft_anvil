@@ -12,4 +12,5 @@ public:
 
     int getScale() const;
     const std::string& getScreenshotsDir() const;
+    bool getFail() const;
 };
